@@ -1,0 +1,31 @@
+{
+  "unversionedId": "glossary/glossary",
+  "id": "version-v12.0.0/glossary/glossary",
+  "isDocsHomePage": false,
+  "title": "Glossary",
+  "description": "Relay terms glossary",
+  "source": "@site/versioned_docs/version-v12.0.0/glossary/glossary.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/",
+  "permalink": "/docs/v12.0.0/glossary/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/glossary/glossary.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary",
+    "slug": "/glossary/",
+    "description": "Relay terms glossary",
+    "keywords": [
+      "glossary"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "Community Learning Resources",
+    "permalink": "/docs/v12.0.0/community-learning-resources/"
+  }
+}

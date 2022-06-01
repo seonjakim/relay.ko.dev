@@ -1,0 +1,31 @@
+{
+  "unversionedId": "api-reference/legacy-apis/legacy-apis",
+  "id": "version-v11.0.0/api-reference/legacy-apis/legacy-apis",
+  "isDocsHomePage": false,
+  "title": "Legacy APIs",
+  "description": "API references for our previous legacy APIs are available in our previous docs website:",
+  "source": "@site/versioned_docs/version-v11.0.0/api-reference/legacy-apis/legacy-apis.md",
+  "sourceDirName": "api-reference/legacy-apis",
+  "slug": "/api-reference/legacy-apis/",
+  "permalink": "/docs/v11.0.0/api-reference/legacy-apis/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/api-reference/legacy-apis/legacy-apis.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "legacy-apis",
+    "title": "Legacy APIs",
+    "slug": "/api-reference/legacy-apis/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "GraphQL Directives",
+    "permalink": "/docs/v11.0.0/api-reference/graphql-and-directives/"
+  },
+  "next": {
+    "title": "GraphQL Server Specification",
+    "permalink": "/docs/v11.0.0/guides/graphql-server-specification/"
+  }
+}

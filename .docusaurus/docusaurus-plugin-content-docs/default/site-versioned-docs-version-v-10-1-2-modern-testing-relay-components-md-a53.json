@@ -1,0 +1,31 @@
+{
+  "unversionedId": "testing-relay-components",
+  "id": "version-v10.1.2/testing-relay-components",
+  "isDocsHomePage": false,
+  "title": "Testing Relay Components",
+  "description": "The purpose of this document is to cover the Relay APIs for testing Relay components.",
+  "source": "@site/versioned_docs/version-v10.1.2/Modern-TestingRelayComponents.md",
+  "sourceDirName": ".",
+  "slug": "/testing-relay-components",
+  "permalink": "/docs/v10.1.2/testing-relay-components",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v10.1.2/Modern-TestingRelayComponents.md",
+  "tags": [],
+  "version": "v10.1.2",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "testing-relay-components",
+    "title": "Testing Relay Components",
+    "original_id": "testing-relay-components"
+  },
+  "sidebar": "version-v10.1.2/docs",
+  "previous": {
+    "title": "Type Emission",
+    "permalink": "/docs/v10.1.2/type-emission"
+  },
+  "next": {
+    "title": "Local State Management",
+    "permalink": "/docs/v10.1.2/local-state-management"
+  }
+}

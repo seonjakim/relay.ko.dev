@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guided-tour/workflow",
+  "id": "guided-tour/workflow",
+  "isDocsHomePage": false,
+  "title": "Workflow",
+  "description": "Relay guide to workflow",
+  "source": "@site/docs/guided-tour/workflow.md",
+  "sourceDirName": "guided-tour",
+  "slug": "/guided-tour/workflow/",
+  "permalink": "/docs/next/guided-tour/workflow/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/workflow.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "workflow",
+    "title": "Workflow",
+    "slug": "/guided-tour/workflow/",
+    "description": "Relay guide to workflow",
+    "keywords": [
+      "workflow",
+      "compiler"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/next/guided-tour/"
+  },
+  "next": {
+    "title": "Queries",
+    "permalink": "/docs/next/guided-tour/rendering/queries/"
+  }
+}

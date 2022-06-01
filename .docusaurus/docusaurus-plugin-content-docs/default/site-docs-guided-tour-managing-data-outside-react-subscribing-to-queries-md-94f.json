@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guided-tour/managing-data-outside-react/subscribing-to-queries",
+  "id": "guided-tour/managing-data-outside-react/subscribing-to-queries",
+  "isDocsHomePage": false,
+  "title": "Subscribing to Queries",
+  "description": "",
+  "source": "@site/docs/guided-tour/managing-data-outside-react/subscribing-to-queries.md",
+  "sourceDirName": "guided-tour/managing-data-outside-react",
+  "slug": "/guided-tour/accessing-data-without-react/subscribing-to-queries/",
+  "permalink": "/docs/next/guided-tour/accessing-data-without-react/subscribing-to-queries/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/managing-data-outside-react/subscribing-to-queries.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "subscribing-to-queries",
+    "title": "Subscribing to Queries",
+    "slug": "/guided-tour/accessing-data-without-react/subscribing-to-queries/"
+  }
+}

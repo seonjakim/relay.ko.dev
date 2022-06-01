@@ -1,0 +1,35 @@
+{
+  "unversionedId": "guided-tour/updating-data/graphql-mutations",
+  "id": "guided-tour/updating-data/graphql-mutations",
+  "isDocsHomePage": false,
+  "title": "GraphQL mutations",
+  "description": "Relay guide to GraphQL mutations",
+  "source": "@site/docs/guided-tour/updating-data/graphql-mutations.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/graphql-mutations/",
+  "permalink": "/docs/next/guided-tour/updating-data/graphql-mutations/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/graphql-mutations.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "graphql-mutations",
+    "title": "GraphQL mutations",
+    "slug": "/guided-tour/updating-data/graphql-mutations/",
+    "description": "Relay guide to GraphQL mutations",
+    "keywords": [
+      "mutation"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/next/guided-tour/updating-data/"
+  },
+  "next": {
+    "title": "GraphQL subscriptions",
+    "permalink": "/docs/next/guided-tour/updating-data/graphql-subscriptions/"
+  }
+}

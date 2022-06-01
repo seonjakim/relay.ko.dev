@@ -1,0 +1,37 @@
+{
+  "unversionedId": "guided-tour/rendering/fragments",
+  "id": "version-v13.0.0/guided-tour/rendering/fragments",
+  "isDocsHomePage": false,
+  "title": "Fragments",
+  "description": "Relay guide to rendering fragments",
+  "source": "@site/versioned_docs/version-v13.0.0/guided-tour/rendering/fragments.md",
+  "sourceDirName": "guided-tour/rendering",
+  "slug": "/guided-tour/rendering/fragments/",
+  "permalink": "/docs/guided-tour/rendering/fragments/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/guided-tour/rendering/fragments.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "fragments",
+    "title": "Fragments",
+    "slug": "/guided-tour/rendering/fragments/",
+    "description": "Relay guide to rendering fragments",
+    "keywords": [
+      "useFragment",
+      "rendering",
+      "fragment"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "Queries",
+    "permalink": "/docs/guided-tour/rendering/queries/"
+  },
+  "next": {
+    "title": "Variables",
+    "permalink": "/docs/guided-tour/rendering/variables/"
+  }
+}

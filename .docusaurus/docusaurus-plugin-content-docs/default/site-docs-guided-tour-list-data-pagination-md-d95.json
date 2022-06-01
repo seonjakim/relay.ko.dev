@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guided-tour/list-data/pagination",
+  "id": "guided-tour/list-data/pagination",
+  "isDocsHomePage": false,
+  "title": "Pagination",
+  "description": "Relay guide to pagination",
+  "source": "@site/docs/guided-tour/list-data/pagination.md",
+  "sourceDirName": "guided-tour/list-data",
+  "slug": "/guided-tour/list-data/pagination/",
+  "permalink": "/docs/next/guided-tour/list-data/pagination/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/list-data/pagination.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "pagination",
+    "title": "Pagination",
+    "slug": "/guided-tour/list-data/pagination/",
+    "description": "Relay guide to pagination",
+    "keywords": [
+      "pagination",
+      "usePaginationFragment"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Rendering Connections",
+    "permalink": "/docs/next/guided-tour/list-data/rendering-connections/"
+  },
+  "next": {
+    "title": "Streaming Pagination",
+    "permalink": "/docs/next/guided-tour/list-data/streaming-pagination/"
+  }
+}

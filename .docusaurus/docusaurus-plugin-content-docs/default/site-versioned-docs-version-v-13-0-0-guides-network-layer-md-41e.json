@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guides/network-layer",
+  "id": "version-v13.0.0/guides/network-layer",
+  "isDocsHomePage": false,
+  "title": "Network Layer",
+  "description": "Relay guide to the network layer",
+  "source": "@site/versioned_docs/version-v13.0.0/guides/network-layer.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/network-layer/",
+  "permalink": "/docs/guides/network-layer/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/guides/network-layer.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "network-layer",
+    "title": "Network Layer",
+    "slug": "/guides/network-layer/",
+    "description": "Relay guide to the network layer",
+    "keywords": [
+      "network",
+      "caching"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "Persisted Queries",
+    "permalink": "/docs/guides/persisted-queries/"
+  },
+  "next": {
+    "title": "Client Schema Extensions",
+    "permalink": "/docs/guides/client-schema-extensions/"
+  }
+}

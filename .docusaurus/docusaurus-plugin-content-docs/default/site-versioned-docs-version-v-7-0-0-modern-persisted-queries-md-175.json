@@ -1,0 +1,31 @@
+{
+  "unversionedId": "persisted-queries",
+  "id": "version-v7.0.0/persisted-queries",
+  "isDocsHomePage": false,
+  "title": "Persisted Queries",
+  "description": "The relay compiler supports persisted queries which is useful because:",
+  "source": "@site/versioned_docs/version-v7.0.0/Modern-PersistedQueries.md",
+  "sourceDirName": ".",
+  "slug": "/persisted-queries",
+  "permalink": "/docs/v7.0.0/persisted-queries",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v7.0.0/Modern-PersistedQueries.md",
+  "tags": [],
+  "version": "v7.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "persisted-queries",
+    "title": "Persisted Queries",
+    "original_id": "persisted-queries"
+  },
+  "sidebar": "version-v7.0.0/docs",
+  "previous": {
+    "title": "GraphQL Server Specification",
+    "permalink": "/docs/v7.0.0/graphql-server-specification"
+  },
+  "next": {
+    "title": "Type Emission",
+    "permalink": "/docs/v7.0.0/type-emission"
+  }
+}

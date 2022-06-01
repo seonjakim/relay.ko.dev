@@ -1,0 +1,37 @@
+{
+  "unversionedId": "guided-tour/updating-data/local-data-updates",
+  "id": "guided-tour/updating-data/local-data-updates",
+  "isDocsHomePage": false,
+  "title": "Local Data Updates",
+  "description": "Other APIs for modifying store data",
+  "source": "@site/docs/guided-tour/updating-data/local-data-updates.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/local-data-updates/",
+  "permalink": "/docs/next/guided-tour/updating-data/local-data-updates/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/local-data-updates.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "local-data-updates",
+    "title": "Local Data Updates",
+    "slug": "/guided-tour/updating-data/local-data-updates/",
+    "description": "Other APIs for modifying store data",
+    "keywords": [
+      "client-only",
+      "commitLocalUpdate",
+      "commitPayload"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Imperatively modifying store data (unsafe)",
+    "permalink": "/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/"
+  },
+  "next": {
+    "title": "Client-only data",
+    "permalink": "/docs/next/guided-tour/updating-data/client-only-data/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "unversionedId": "api-reference/entrypoint-apis/entrypoint-container",
+  "id": "api-reference/entrypoint-apis/entrypoint-container",
+  "isDocsHomePage": false,
+  "title": "EntryPointContainer",
+  "description": "API reference for EntryPointContainer, a React component used to render the root component of an entrypoint",
+  "source": "@site/docs/api-reference/entrypoint-apis/entrypoint-container.md",
+  "sourceDirName": "api-reference/entrypoint-apis",
+  "slug": "/api-reference/entrypoint-container/",
+  "permalink": "/docs/next/api-reference/entrypoint-container/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/entrypoint-apis/entrypoint-container.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "entrypoint-container",
+    "title": "EntryPointContainer",
+    "slug": "/api-reference/entrypoint-container/",
+    "description": "API reference for EntryPointContainer, a React component used to render the root component of an entrypoint",
+    "keywords": [
+      "entrypoint",
+      "container",
+      "root"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "loadEntryPoint",
+    "permalink": "/docs/next/api-reference/load-entrypoint/"
+  },
+  "next": {
+    "title": "fetchQuery",
+    "permalink": "/docs/next/api-reference/fetch-query/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guided-tour/reusing-cached-data/introduction",
+  "id": "guided-tour/reusing-cached-data/introduction",
+  "isDocsHomePage": false,
+  "title": "Reusing Cached Data",
+  "description": "Relay guide to reusing cached data",
+  "source": "@site/docs/guided-tour/reusing-cached-data/introduction.md",
+  "sourceDirName": "guided-tour/reusing-cached-data",
+  "slug": "/guided-tour/reusing-cached-data/",
+  "permalink": "/docs/next/guided-tour/reusing-cached-data/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/reusing-cached-data/introduction.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "introduction",
+    "title": "Reusing Cached Data",
+    "slug": "/guided-tour/reusing-cached-data/",
+    "description": "Relay guide to reusing cached data",
+    "keywords": [
+      "reusing",
+      "cached"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Environment",
+    "permalink": "/docs/next/guided-tour/rendering/environment/"
+  },
+  "next": {
+    "title": "Fetch Policies",
+    "permalink": "/docs/next/guided-tour/reusing-cached-data/fetch-policies/"
+  }
+}

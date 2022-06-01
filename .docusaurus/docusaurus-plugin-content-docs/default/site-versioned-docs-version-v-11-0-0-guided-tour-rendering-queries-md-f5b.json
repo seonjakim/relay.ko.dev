@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guided-tour/rendering/queries",
+  "id": "version-v11.0.0/guided-tour/rendering/queries",
+  "isDocsHomePage": false,
+  "title": "Queries",
+  "description": "A GraphQL Query is a description of data you want to query from a GraphQL server. It consists of a set of fields (and potentially fragments) that we want to request from the GraphQL server. What we can query for will depend on the GraphQL Schema exposed on the server, which describes the data that is available for querying.",
+  "source": "@site/versioned_docs/version-v11.0.0/guided-tour/rendering/queries.md",
+  "sourceDirName": "guided-tour/rendering",
+  "slug": "/guided-tour/rendering/queries/",
+  "permalink": "/docs/v11.0.0/guided-tour/rendering/queries/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guided-tour/rendering/queries.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "queries",
+    "title": "Queries",
+    "slug": "/guided-tour/rendering/queries/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Workflow",
+    "permalink": "/docs/v11.0.0/guided-tour/workflow/"
+  },
+  "next": {
+    "title": "Fragments",
+    "permalink": "/docs/v11.0.0/guided-tour/rendering/fragments/"
+  }
+}

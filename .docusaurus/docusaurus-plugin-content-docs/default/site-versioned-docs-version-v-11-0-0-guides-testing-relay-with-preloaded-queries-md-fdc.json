@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/testing-relay-with-preloaded-queries",
+  "id": "version-v11.0.0/guides/testing-relay-with-preloaded-queries",
+  "isDocsHomePage": false,
+  "title": "Testing Relay with Preloaded Queries",
+  "description": "Components that use preloaded queries (useQueryLoader and usePreloadedQuery hooks) require slightly different and more convoluted test setup.",
+  "source": "@site/versioned_docs/version-v11.0.0/guides/testing-relay-with-preloaded-queries.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/testing-relay-with-preloaded-queries/",
+  "permalink": "/docs/v11.0.0/guides/testing-relay-with-preloaded-queries/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guides/testing-relay-with-preloaded-queries.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "testing-relay-with-preloaded-queries",
+    "title": "Testing Relay with Preloaded Queries",
+    "slug": "/guides/testing-relay-with-preloaded-queries/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Testing Relay Components",
+    "permalink": "/docs/v11.0.0/guides/testing-relay-components/"
+  },
+  "next": {
+    "title": "Upgrading to Relay Hooks",
+    "permalink": "/docs/v11.0.0/migration-and-compatibility/"
+  }
+}

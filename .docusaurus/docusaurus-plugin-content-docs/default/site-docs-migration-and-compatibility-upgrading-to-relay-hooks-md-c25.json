@@ -1,0 +1,36 @@
+{
+  "unversionedId": "migration-and-compatibility/upgrading-to-relay-hooks",
+  "id": "migration-and-compatibility/upgrading-to-relay-hooks",
+  "isDocsHomePage": false,
+  "title": "Upgrading to Relay Hooks",
+  "description": "Relay guide to upgrading to Relay hooks",
+  "source": "@site/docs/migration-and-compatibility/upgrading-to-relay-hooks.md",
+  "sourceDirName": "migration-and-compatibility",
+  "slug": "/migration-and-compatibility/",
+  "permalink": "/docs/next/migration-and-compatibility/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/migration-and-compatibility/upgrading-to-relay-hooks.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "upgrading-to-relay-hooks",
+    "title": "Upgrading to Relay Hooks",
+    "slug": "/migration-and-compatibility/",
+    "description": "Relay guide to upgrading to Relay hooks",
+    "keywords": [
+      "upgrade",
+      "hooks"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Relay Resolvers",
+    "permalink": "/docs/next/guides/relay-resolvers/"
+  },
+  "next": {
+    "title": "Suspense Compatibility",
+    "permalink": "/docs/next/migration-and-compatibility/suspense-compatibility/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guides/type-emission",
+  "id": "version-v11.0.0/guides/type-emission",
+  "isDocsHomePage": false,
+  "title": "Type Emission",
+  "description": "As part of its normal work, the Relay Compiler will emit type information for your language of choice that helps you write type-safe application code. These types are included in the artifacts that relay-compiler generates to describe your operations and fragments.",
+  "source": "@site/versioned_docs/version-v11.0.0/guides/type-emission.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/type-emission/",
+  "permalink": "/docs/v11.0.0/guides/type-emission/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guides/type-emission.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "type-emission",
+    "title": "Type Emission",
+    "slug": "/guides/type-emission/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Relay Compiler",
+    "permalink": "/docs/v11.0.0/guides/compiler/"
+  },
+  "next": {
+    "title": "Persisted Queries",
+    "permalink": "/docs/v11.0.0/guides/persisted-queries/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "unversionedId": "guided-tour/rendering/loading-states",
+  "id": "guided-tour/rendering/loading-states",
+  "isDocsHomePage": false,
+  "title": "Loading States with Suspense",
+  "description": "Relay guide to loading states",
+  "source": "@site/docs/guided-tour/rendering/loading-states.md",
+  "sourceDirName": "guided-tour/rendering",
+  "slug": "/guided-tour/rendering/loading-states/",
+  "permalink": "/docs/next/guided-tour/rendering/loading-states/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/rendering/loading-states.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "loading-states",
+    "title": "Loading States with Suspense",
+    "slug": "/guided-tour/rendering/loading-states/",
+    "description": "Relay guide to loading states",
+    "keywords": [
+      "suspense",
+      "loading",
+      "glimmer",
+      "fallback",
+      "spinner"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Variables",
+    "permalink": "/docs/next/guided-tour/rendering/variables/"
+  },
+  "next": {
+    "title": "Error States with ErrorBoundaries",
+    "permalink": "/docs/next/guided-tour/rendering/error-states/"
+  }
+}

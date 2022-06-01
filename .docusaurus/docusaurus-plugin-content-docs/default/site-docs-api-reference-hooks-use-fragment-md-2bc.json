@@ -1,0 +1,37 @@
+{
+  "unversionedId": "api-reference/hooks/use-fragment",
+  "id": "api-reference/hooks/use-fragment",
+  "isDocsHomePage": false,
+  "title": "useFragment",
+  "description": "API reference for useFragment, a React hook used to read fragment data from the Relay store using a fragment reference",
+  "source": "@site/docs/api-reference/hooks/use-fragment.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/use-fragment/",
+  "permalink": "/docs/next/api-reference/use-fragment/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/use-fragment.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-fragment",
+    "title": "useFragment",
+    "slug": "/api-reference/use-fragment/",
+    "description": "API reference for useFragment, a React hook used to read fragment data from the Relay store using a fragment reference",
+    "keywords": [
+      "fragment",
+      "read",
+      "fragment reference"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "useLazyLoadQuery",
+    "permalink": "/docs/next/api-reference/use-lazy-load-query/"
+  },
+  "next": {
+    "title": "useRefetchableFragment",
+    "permalink": "/docs/next/api-reference/use-refetchable-fragment/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "unversionedId": "guides/type-emission",
+  "id": "guides/type-emission",
+  "isDocsHomePage": false,
+  "title": "Type Emission",
+  "description": "Relay guide to type emission",
+  "source": "@site/docs/guides/type-emission.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/type-emission/",
+  "permalink": "/docs/next/guides/type-emission/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guides/type-emission.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "type-emission",
+    "title": "Type Emission",
+    "slug": "/guides/type-emission/",
+    "description": "Relay guide to type emission",
+    "keywords": [
+      "type emission"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Relay Compiler",
+    "permalink": "/docs/next/guides/compiler/"
+  },
+  "next": {
+    "title": "Persisted Queries",
+    "permalink": "/docs/next/guides/persisted-queries/"
+  }
+}

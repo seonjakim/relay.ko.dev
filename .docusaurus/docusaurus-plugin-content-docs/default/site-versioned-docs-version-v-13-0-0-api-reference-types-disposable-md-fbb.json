@@ -1,0 +1,18 @@
+{
+  "unversionedId": "api-reference/types/Disposable",
+  "id": "version-v13.0.0/api-reference/types/Disposable",
+  "isDocsHomePage": false,
+  "title": "Disposable",
+  "description": "Interface Disposable",
+  "source": "@site/versioned_docs/version-v13.0.0/api-reference/types/Disposable.md",
+  "sourceDirName": "api-reference/types",
+  "slug": "/api-reference/types/Disposable",
+  "permalink": "/docs/api-reference/types/Disposable",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/types/Disposable.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {}
+}

@@ -1,0 +1,38 @@
+{
+  "unversionedId": "api-reference/hooks/use-query-loader",
+  "id": "version-v13.0.0/api-reference/hooks/use-query-loader",
+  "isDocsHomePage": false,
+  "title": "useQueryLoader",
+  "description": "API reference for useQueryLoader, a React hook used to imperatively fetch data for a query in response to a user event",
+  "source": "@site/versioned_docs/version-v13.0.0/api-reference/hooks/use-query-loader.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/use-query-loader/",
+  "permalink": "/docs/api-reference/use-query-loader/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/hooks/use-query-loader.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-query-loader",
+    "title": "useQueryLoader",
+    "slug": "/api-reference/use-query-loader/",
+    "description": "API reference for useQueryLoader, a React hook used to imperatively fetch data for a query in response to a user event",
+    "keywords": [
+      "query",
+      "fetch",
+      "preload",
+      "render-as-you-fetch"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "usePreloadedQuery",
+    "permalink": "/docs/api-reference/use-preloaded-query/"
+  },
+  "next": {
+    "title": "loadQuery",
+    "permalink": "/docs/api-reference/load-query/"
+  }
+}

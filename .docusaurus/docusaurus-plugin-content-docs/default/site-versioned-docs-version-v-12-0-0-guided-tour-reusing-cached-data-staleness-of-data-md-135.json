@@ -1,0 +1,35 @@
+{
+  "unversionedId": "guided-tour/reusing-cached-data/staleness-of-data",
+  "id": "version-v12.0.0/guided-tour/reusing-cached-data/staleness-of-data",
+  "isDocsHomePage": false,
+  "title": "Staleness of Data",
+  "description": "Relay guide to the staleness of data",
+  "source": "@site/versioned_docs/version-v12.0.0/guided-tour/reusing-cached-data/staleness-of-data.md",
+  "sourceDirName": "guided-tour/reusing-cached-data",
+  "slug": "/guided-tour/reusing-cached-data/staleness-of-data/",
+  "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/staleness-of-data/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/guided-tour/reusing-cached-data/staleness-of-data.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "staleness-of-data",
+    "title": "Staleness of Data",
+    "slug": "/guided-tour/reusing-cached-data/staleness-of-data/",
+    "description": "Relay guide to the staleness of data",
+    "keywords": [
+      "staleness"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "Presence of Data",
+    "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/presence-of-data/"
+  },
+  "next": {
+    "title": "Rendering Partially Cached Data",
+    "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "api-reference/hooks/load-query",
+  "id": "version-v11.0.0/api-reference/hooks/load-query",
+  "isDocsHomePage": false,
+  "title": "loadQuery",
+  "description": "loadQuery",
+  "source": "@site/versioned_docs/version-v11.0.0/api-reference/hooks/load-query.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/load-query/",
+  "permalink": "/docs/v11.0.0/api-reference/load-query/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/api-reference/hooks/load-query.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "load-query",
+    "title": "loadQuery",
+    "slug": "/api-reference/load-query/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "useQueryLoader",
+    "permalink": "/docs/v11.0.0/api-reference/use-query-loader/"
+  },
+  "next": {
+    "title": "useLazyLoadQuery",
+    "permalink": "/docs/v11.0.0/api-reference/use-lazy-load-query/"
+  }
+}

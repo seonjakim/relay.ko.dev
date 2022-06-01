@@ -1,0 +1,27 @@
+{
+  "unversionedId": "community-learning-resources",
+  "id": "version-v10.1.1/community-learning-resources",
+  "isDocsHomePage": false,
+  "title": "Community Learning Resources",
+  "description": "Relay example projects",
+  "source": "@site/versioned_docs/version-v10.1.1/Community-LearningResources.md",
+  "sourceDirName": ".",
+  "slug": "/community-learning-resources",
+  "permalink": "/docs/v10.1.1/community-learning-resources",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v10.1.1/Community-LearningResources.md",
+  "tags": [],
+  "version": "v10.1.1",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "community-learning-resources",
+    "title": "Community Learning Resources",
+    "original_id": "community-learning-resources"
+  },
+  "sidebar": "version-v10.1.1/docs",
+  "previous": {
+    "title": "Videos",
+    "permalink": "/docs/v10.1.1/videos"
+  }
+}

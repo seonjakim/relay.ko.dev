@@ -1,0 +1,31 @@
+{
+  "unversionedId": "videos",
+  "id": "version-v4.0.0/videos",
+  "isDocsHomePage": false,
+  "title": "Videos",
+  "description": "Facebook F8 2017",
+  "source": "@site/versioned_docs/version-v4.0.0/PrinciplesAndArchitecture-Videos.md",
+  "sourceDirName": ".",
+  "slug": "/videos",
+  "permalink": "/docs/v4.0.0/videos",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v4.0.0/PrinciplesAndArchitecture-Videos.md",
+  "tags": [],
+  "version": "v4.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "videos",
+    "title": "Videos",
+    "original_id": "videos"
+  },
+  "sidebar": "version-v4.0.0/docs",
+  "previous": {
+    "title": "Runtime Architecture",
+    "permalink": "/docs/v4.0.0/runtime-architecture"
+  },
+  "next": {
+    "title": "Community Learning Resources",
+    "permalink": "/docs/v4.0.0/community-learning-resources"
+  }
+}

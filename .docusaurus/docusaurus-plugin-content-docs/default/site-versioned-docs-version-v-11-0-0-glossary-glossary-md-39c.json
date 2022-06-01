@@ -1,0 +1,27 @@
+{
+  "unversionedId": "glossary/glossary",
+  "id": "version-v11.0.0/glossary/glossary",
+  "isDocsHomePage": false,
+  "title": "Glossary",
+  "description": "3D",
+  "source": "@site/versioned_docs/version-v11.0.0/glossary/glossary.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/",
+  "permalink": "/docs/v11.0.0/glossary/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/glossary/glossary.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary",
+    "slug": "/glossary/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Community Learning Resources",
+    "permalink": "/docs/v11.0.0/community-learning-resources/"
+  }
+}

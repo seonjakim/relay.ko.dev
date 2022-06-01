@@ -1,0 +1,35 @@
+{
+  "unversionedId": "getting-started/step-by-step-guide",
+  "id": "getting-started/step-by-step-guide",
+  "isDocsHomePage": false,
+  "title": "Step-by-step Guide",
+  "description": "Step-by-step guide for setting up Relay",
+  "source": "@site/docs/getting-started/step-by-step-guide.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/step-by-step-guide/",
+  "permalink": "/docs/next/getting-started/step-by-step-guide/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/getting-started/step-by-step-guide.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "step-by-step-guide",
+    "title": "Step-by-step Guide",
+    "slug": "/getting-started/step-by-step-guide/",
+    "description": "Step-by-step guide for setting up Relay",
+    "keywords": [
+      "setup"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation and Setup",
+    "permalink": "/docs/next/getting-started/installation-and-setup/"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/next/guided-tour/"
+  }
+}

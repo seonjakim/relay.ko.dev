@@ -1,0 +1,31 @@
+{
+  "unversionedId": "api-reference/hooks/use-fragment",
+  "id": "version-v11.0.0/api-reference/hooks/use-fragment",
+  "isDocsHomePage": false,
+  "title": "useFragment",
+  "description": "useFragment",
+  "source": "@site/versioned_docs/version-v11.0.0/api-reference/hooks/use-fragment.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/use-fragment/",
+  "permalink": "/docs/v11.0.0/api-reference/use-fragment/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/api-reference/hooks/use-fragment.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-fragment",
+    "title": "useFragment",
+    "slug": "/api-reference/use-fragment/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "useLazyLoadQuery",
+    "permalink": "/docs/v11.0.0/api-reference/use-lazy-load-query/"
+  },
+  "next": {
+    "title": "useRefetchableFragment",
+    "permalink": "/docs/v11.0.0/api-reference/use-refetchable-fragment/"
+  }
+}

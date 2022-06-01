@@ -1,0 +1,36 @@
+{
+  "unversionedId": "api-reference/hooks/use-refetchable-fragment",
+  "id": "api-reference/hooks/use-refetchable-fragment",
+  "isDocsHomePage": false,
+  "title": "useRefetchableFragment",
+  "description": "API reference for useRefetchableFragment, a React hook used to refetch fragment data",
+  "source": "@site/docs/api-reference/hooks/use-refetchable-fragment.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/use-refetchable-fragment/",
+  "permalink": "/docs/next/api-reference/use-refetchable-fragment/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/use-refetchable-fragment.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-refetchable-fragment",
+    "title": "useRefetchableFragment",
+    "slug": "/api-reference/use-refetchable-fragment/",
+    "description": "API reference for useRefetchableFragment, a React hook used to refetch fragment data",
+    "keywords": [
+      "refetch",
+      "fragment"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "useFragment",
+    "permalink": "/docs/next/api-reference/use-fragment/"
+  },
+  "next": {
+    "title": "usePaginationFragment",
+    "permalink": "/docs/next/api-reference/use-pagination-fragment/"
+  }
+}

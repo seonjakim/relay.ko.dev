@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guided-tour/refetching/refetching-fragments-with-different-data",
+  "id": "version-v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data",
+  "isDocsHomePage": false,
+  "title": "Refetching Fragments with Different Data",
+  "description": "Relay guide to refetching fragments with different data",
+  "source": "@site/versioned_docs/version-v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data.md",
+  "sourceDirName": "guided-tour/refetching",
+  "slug": "/guided-tour/refetching/refetching-fragments-with-different-data/",
+  "permalink": "/docs/v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "refetching-fragments-with-different-data",
+    "title": "Refetching Fragments with Different Data",
+    "slug": "/guided-tour/refetching/refetching-fragments-with-different-data/",
+    "description": "Relay guide to refetching fragments with different data",
+    "keywords": [
+      "refetching",
+      "fragment"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "Refreshing Fragments",
+    "permalink": "/docs/v12.0.0/guided-tour/refetching/refreshing-fragments/"
+  },
+  "next": {
+    "title": "Connections",
+    "permalink": "/docs/v12.0.0/guided-tour/list-data/connections/"
+  }
+}

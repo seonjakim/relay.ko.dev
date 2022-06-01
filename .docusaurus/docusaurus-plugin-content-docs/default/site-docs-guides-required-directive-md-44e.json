@@ -1,0 +1,38 @@
+{
+  "unversionedId": "guides/required-directive",
+  "id": "guides/required-directive",
+  "isDocsHomePage": false,
+  "title": "@required Directive",
+  "description": "Relay guide to @required",
+  "source": "@site/docs/guides/required-directive.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/required-directive/",
+  "permalink": "/docs/next/guides/required-directive/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guides/required-directive.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "required-directive",
+    "title": "@required Directive",
+    "slug": "/guides/required-directive/",
+    "description": "Relay guide to @required",
+    "keywords": [
+      "required",
+      "directive",
+      "optional",
+      "nullthrows"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Testing Relay with Preloaded Queries",
+    "permalink": "/docs/next/guides/testing-relay-with-preloaded-queries/"
+  },
+  "next": {
+    "title": "Relay Resolvers",
+    "permalink": "/docs/next/guides/relay-resolvers/"
+  }
+}

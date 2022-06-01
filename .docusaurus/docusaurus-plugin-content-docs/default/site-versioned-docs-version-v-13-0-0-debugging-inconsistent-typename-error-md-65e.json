@@ -1,0 +1,39 @@
+{
+  "unversionedId": "debugging/inconsistent-typename-error",
+  "id": "version-v13.0.0/debugging/inconsistent-typename-error",
+  "isDocsHomePage": false,
+  "title": "Inconsistent Typename Error",
+  "description": "Debugging inconsistent typename errors in Relay",
+  "source": "@site/versioned_docs/version-v13.0.0/debugging/inconsistent-typename-error.md",
+  "sourceDirName": "debugging",
+  "slug": "/debugging/inconsistent-typename-error/",
+  "permalink": "/docs/debugging/inconsistent-typename-error/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/debugging/inconsistent-typename-error.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "inconsistent-typename-error",
+    "title": "Inconsistent Typename Error",
+    "slug": "/debugging/inconsistent-typename-error/",
+    "description": "Debugging inconsistent typename errors in Relay",
+    "keywords": [
+      "debugging",
+      "troubleshooting",
+      "inconsistent typename",
+      "RelayResponseNormalizer",
+      "globally unique id"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "Relay DevTools",
+    "permalink": "/docs/debugging/relay-devtools/"
+  },
+  "next": {
+    "title": "Debugging Declarative Mutation Directives",
+    "permalink": "/docs/debugging/declarative-mutation-directives/"
+  }
+}

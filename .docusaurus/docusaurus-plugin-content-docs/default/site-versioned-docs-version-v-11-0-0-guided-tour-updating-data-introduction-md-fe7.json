@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guided-tour/updating-data/introduction",
+  "id": "version-v11.0.0/guided-tour/updating-data/introduction",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Relay holds a local in-memory store of normalized GraphQL data, which accumulates data as GraphQL queries are made throughout usage of our app; think of it as a local database of GraphQL data. When records are updated, any components affected by the updated data will be notified and re-rendered with the updated data.",
+  "source": "@site/versioned_docs/version-v11.0.0/guided-tour/updating-data/introduction.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/",
+  "permalink": "/docs/v11.0.0/guided-tour/updating-data/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guided-tour/updating-data/introduction.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "introduction",
+    "title": "Introduction",
+    "slug": "/guided-tour/updating-data/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Advanced Pagination",
+    "permalink": "/docs/v11.0.0/guided-tour/list-data/advanced-pagination/"
+  },
+  "next": {
+    "title": "GraphQL Mutations",
+    "permalink": "/docs/v11.0.0/guided-tour/updating-data/graphql-mutations/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "unversionedId": "api-reference/hooks/relay-environment-provider",
+  "id": "api-reference/hooks/relay-environment-provider",
+  "isDocsHomePage": false,
+  "title": "RelayEnvironmentProvider",
+  "description": "API reference for RelayEnvironmentProvider, which sets a Relay environment in React context",
+  "source": "@site/docs/api-reference/hooks/relay-environment-provider.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/relay-environment-provider/",
+  "permalink": "/docs/next/api-reference/relay-environment-provider/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/relay-environment-provider.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "relay-environment-provider",
+    "title": "RelayEnvironmentProvider",
+    "slug": "/api-reference/relay-environment-provider/",
+    "description": "API reference for RelayEnvironmentProvider, which sets a Relay environment in React context",
+    "keywords": [
+      "environment",
+      "context"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Retaining Queries",
+    "permalink": "/docs/next/guided-tour/accessing-data-without-react/retaining-queries/"
+  },
+  "next": {
+    "title": "useRelayEnvironment",
+    "permalink": "/docs/next/api-reference/use-relay-environment/"
+  }
+}

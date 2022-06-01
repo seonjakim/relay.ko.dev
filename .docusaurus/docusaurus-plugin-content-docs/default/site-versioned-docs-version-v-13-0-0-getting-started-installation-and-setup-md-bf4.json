@@ -1,0 +1,38 @@
+{
+  "unversionedId": "getting-started/installation-and-setup",
+  "id": "version-v13.0.0/getting-started/installation-and-setup",
+  "isDocsHomePage": false,
+  "title": "Installation and Setup",
+  "description": "Relay installation and setup guide",
+  "source": "@site/versioned_docs/version-v13.0.0/getting-started/installation-and-setup.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation-and-setup/",
+  "permalink": "/docs/getting-started/installation-and-setup/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/getting-started/installation-and-setup.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "installation-and-setup",
+    "title": "Installation and Setup",
+    "slug": "/getting-started/installation-and-setup/",
+    "description": "Relay installation and setup guide",
+    "keywords": [
+      "installation",
+      "setup",
+      "compiler",
+      "babel-plugin-relay"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "Prerequisites",
+    "permalink": "/docs/getting-started/prerequisites/"
+  },
+  "next": {
+    "title": "Step-by-step Guide",
+    "permalink": "/docs/getting-started/step-by-step-guide/"
+  }
+}

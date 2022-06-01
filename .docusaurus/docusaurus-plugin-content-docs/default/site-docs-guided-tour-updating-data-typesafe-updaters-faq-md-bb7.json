@@ -1,0 +1,30 @@
+{
+  "unversionedId": "guided-tour/updating-data/typesafe-updaters-faq",
+  "id": "guided-tour/updating-data/typesafe-updaters-faq",
+  "isDocsHomePage": false,
+  "title": "Typesafe updaters FAQ",
+  "description": "Typesafe updater FAQ",
+  "source": "@site/docs/guided-tour/updating-data/typesafe-updaters-faq.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/typesafe-updaters-faq/",
+  "permalink": "/docs/next/guided-tour/updating-data/typesafe-updaters-faq/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/typesafe-updaters-faq.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "typesafe-updaters-faq",
+    "title": "Typesafe updaters FAQ",
+    "slug": "/guided-tour/updating-data/typesafe-updaters-faq/",
+    "description": "Typesafe updater FAQ",
+    "keywords": [
+      "typesafe updaters",
+      "readUpdatableQuery",
+      "readUpdatableFragment",
+      "updater",
+      "updatable"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "community/learning-resources",
+  "id": "version-v11.0.0/community/learning-resources",
+  "isDocsHomePage": false,
+  "title": "Community Learning Resources",
+  "description": "Relay example projects",
+  "source": "@site/versioned_docs/version-v11.0.0/community/learning-resources.md",
+  "sourceDirName": "community",
+  "slug": "/community-learning-resources/",
+  "permalink": "/docs/v11.0.0/community-learning-resources/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/community/learning-resources.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "learning-resources",
+    "title": "Community Learning Resources",
+    "slug": "/community-learning-resources/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Videos",
+    "permalink": "/docs/v11.0.0/principles-and-architecture/videos/"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/v11.0.0/glossary/"
+  }
+}

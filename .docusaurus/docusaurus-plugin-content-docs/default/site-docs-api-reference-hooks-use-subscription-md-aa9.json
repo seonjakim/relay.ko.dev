@@ -1,0 +1,35 @@
+{
+  "unversionedId": "api-reference/hooks/use-subscription",
+  "id": "api-reference/hooks/use-subscription",
+  "isDocsHomePage": false,
+  "title": "useSubscription",
+  "description": "API reference for useSubscription, a React hook used to subscribe and unsubscribe from a subscription",
+  "source": "@site/docs/api-reference/hooks/use-subscription.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/use-subscription/",
+  "permalink": "/docs/next/api-reference/use-subscription/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/use-subscription.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-subscription",
+    "title": "useSubscription",
+    "slug": "/api-reference/use-subscription/",
+    "description": "API reference for useSubscription, a React hook used to subscribe and unsubscribe from a subscription",
+    "keywords": [
+      "subscription"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "useMutation",
+    "permalink": "/docs/next/api-reference/use-mutation/"
+  },
+  "next": {
+    "title": "useEntryPointLoader",
+    "permalink": "/docs/next/api-reference/use-entrypoint-loader/"
+  }
+}

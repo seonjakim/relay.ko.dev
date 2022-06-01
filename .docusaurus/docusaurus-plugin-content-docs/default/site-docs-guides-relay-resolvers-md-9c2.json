@@ -1,0 +1,38 @@
+{
+  "unversionedId": "guides/relay-resolvers",
+  "id": "guides/relay-resolvers",
+  "isDocsHomePage": false,
+  "title": "Relay Resolvers",
+  "description": "Relay guide to Relay Resolvers",
+  "source": "@site/docs/guides/relay-resolvers.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/relay-resolvers/",
+  "permalink": "/docs/next/guides/relay-resolvers/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guides/relay-resolvers.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "relay-resolvers",
+    "title": "Relay Resolvers",
+    "slug": "/guides/relay-resolvers/",
+    "description": "Relay guide to Relay Resolvers",
+    "keywords": [
+      "resolvers",
+      "derived",
+      "selectors",
+      "reactive"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "@required Directive",
+    "permalink": "/docs/next/guides/required-directive/"
+  },
+  "next": {
+    "title": "Upgrading to Relay Hooks",
+    "permalink": "/docs/next/migration-and-compatibility/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unversionedId": "graphql-in-relay",
+  "id": "version-v10.1.1/graphql-in-relay",
+  "isDocsHomePage": false,
+  "title": "GraphQL in Relay",
+  "description": "Table of Contents:",
+  "source": "@site/versioned_docs/version-v10.1.1/Modern-GraphQLInRelay.md",
+  "sourceDirName": ".",
+  "slug": "/graphql-in-relay",
+  "permalink": "/docs/v10.1.1/graphql-in-relay",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v10.1.1/Modern-GraphQLInRelay.md",
+  "tags": [],
+  "version": "v10.1.1",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "graphql-in-relay",
+    "title": "GraphQL in Relay",
+    "original_id": "graphql-in-relay"
+  },
+  "sidebar": "version-v10.1.1/docs",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/docs/v10.1.1/quick-start-guide"
+  },
+  "next": {
+    "title": "Relay Environment",
+    "permalink": "/docs/v10.1.1/relay-environment"
+  }
+}

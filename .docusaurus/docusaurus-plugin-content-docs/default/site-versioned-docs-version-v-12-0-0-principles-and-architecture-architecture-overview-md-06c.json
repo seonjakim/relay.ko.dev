@@ -1,0 +1,35 @@
+{
+  "unversionedId": "principles-and-architecture/architecture-overview",
+  "id": "version-v12.0.0/principles-and-architecture/architecture-overview",
+  "isDocsHomePage": false,
+  "title": "Architecture Overview",
+  "description": "Relay architecture overview guide",
+  "source": "@site/versioned_docs/version-v12.0.0/principles-and-architecture/architecture-overview.md",
+  "sourceDirName": "principles-and-architecture",
+  "slug": "/principles-and-architecture/architecture-overview/",
+  "permalink": "/docs/v12.0.0/principles-and-architecture/architecture-overview/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/principles-and-architecture/architecture-overview.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "architecture-overview",
+    "title": "Architecture Overview",
+    "slug": "/principles-and-architecture/architecture-overview/",
+    "description": "Relay architecture overview guide",
+    "keywords": [
+      "architecture"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "Thinking in Relay",
+    "permalink": "/docs/v12.0.0/principles-and-architecture/thinking-in-relay/"
+  },
+  "next": {
+    "title": "Compiler Architecture",
+    "permalink": "/docs/v12.0.0/principles-and-architecture/compiler-architecture/"
+  }
+}

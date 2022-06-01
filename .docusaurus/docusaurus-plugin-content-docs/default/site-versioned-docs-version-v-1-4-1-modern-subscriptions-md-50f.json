@@ -1,0 +1,31 @@
+{
+  "unversionedId": "subscriptions",
+  "id": "version-v1.4.1/subscriptions",
+  "isDocsHomePage": false,
+  "title": "Subscriptions",
+  "description": "Relay exposes the following APIs to create subscriptions.",
+  "source": "@site/versioned_docs/version-v1.4.1/Modern-Subscriptions.md",
+  "sourceDirName": ".",
+  "slug": "/subscriptions",
+  "permalink": "/docs/v1.4.1/subscriptions",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v1.4.1/Modern-Subscriptions.md",
+  "tags": [],
+  "version": "v1.4.1",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "subscriptions",
+    "title": "Subscriptions",
+    "original_id": "subscriptions"
+  },
+  "sidebar": "version-v1.4.1/docs",
+  "previous": {
+    "title": "Mutations",
+    "permalink": "/docs/v1.4.1/mutations"
+  },
+  "next": {
+    "title": "Relay Store",
+    "permalink": "/docs/v1.4.1/relay-store"
+  }
+}

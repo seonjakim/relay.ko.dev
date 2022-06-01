@@ -1,0 +1,37 @@
+{
+  "unversionedId": "api-reference/entrypoint-apis/use-entrypoint-loader",
+  "id": "version-v12.0.0/api-reference/entrypoint-apis/use-entrypoint-loader",
+  "isDocsHomePage": false,
+  "title": "useEntryPointLoader",
+  "description": "API reference for useEntryPointLoader, a React hook used to load entrypoints in response to user events",
+  "source": "@site/versioned_docs/version-v12.0.0/api-reference/entrypoint-apis/use-entrypoint-loader.md",
+  "sourceDirName": "api-reference/entrypoint-apis",
+  "slug": "/api-reference/use-entrypoint-loader/",
+  "permalink": "/docs/v12.0.0/api-reference/use-entrypoint-loader/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/api-reference/entrypoint-apis/use-entrypoint-loader.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "use-entrypoint-loader",
+    "title": "useEntryPointLoader",
+    "slug": "/api-reference/use-entrypoint-loader/",
+    "description": "API reference for useEntryPointLoader, a React hook used to load entrypoints in response to user events",
+    "keywords": [
+      "render-as-you-fetch",
+      "entrypoint",
+      "preload"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "useSubscription",
+    "permalink": "/docs/v12.0.0/api-reference/use-subscription/"
+  },
+  "next": {
+    "title": "loadEntryPoint",
+    "permalink": "/docs/v12.0.0/api-reference/load-entrypoint/"
+  }
+}

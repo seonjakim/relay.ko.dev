@@ -1,0 +1,40 @@
+{
+  "unversionedId": "api-reference/hooks/load-query",
+  "id": "version-v13.0.0/api-reference/hooks/load-query",
+  "isDocsHomePage": false,
+  "title": "loadQuery",
+  "description": "API reference for loadQuery, which imperatively fetches data for a query, retains that query and returns a query reference",
+  "source": "@site/versioned_docs/version-v13.0.0/api-reference/hooks/load-query.md",
+  "sourceDirName": "api-reference/hooks",
+  "slug": "/api-reference/load-query/",
+  "permalink": "/docs/api-reference/load-query/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/hooks/load-query.md",
+  "tags": [],
+  "version": "v13.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "load-query",
+    "title": "loadQuery",
+    "slug": "/api-reference/load-query/",
+    "description": "API reference for loadQuery, which imperatively fetches data for a query, retains that query and returns a query reference",
+    "keywords": [
+      "preload",
+      "fetch",
+      "query",
+      "render-as-you-fetch",
+      "retain",
+      "query reference"
+    ]
+  },
+  "sidebar": "version-v13.0.0/docs",
+  "previous": {
+    "title": "useQueryLoader",
+    "permalink": "/docs/api-reference/use-query-loader/"
+  },
+  "next": {
+    "title": "useLazyLoadQuery",
+    "permalink": "/docs/api-reference/use-lazy-load-query/"
+  }
+}

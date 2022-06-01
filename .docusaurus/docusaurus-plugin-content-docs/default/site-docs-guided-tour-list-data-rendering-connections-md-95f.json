@@ -1,0 +1,37 @@
+{
+  "unversionedId": "guided-tour/list-data/rendering-connections",
+  "id": "guided-tour/list-data/rendering-connections",
+  "isDocsHomePage": false,
+  "title": "Rendering Connections",
+  "description": "Relay guide to rendering connections",
+  "source": "@site/docs/guided-tour/list-data/rendering-connections.md",
+  "sourceDirName": "guided-tour/list-data",
+  "slug": "/guided-tour/list-data/rendering-connections/",
+  "permalink": "/docs/next/guided-tour/list-data/rendering-connections/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/list-data/rendering-connections.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "rendering-connections",
+    "title": "Rendering Connections",
+    "slug": "/guided-tour/list-data/rendering-connections/",
+    "description": "Relay guide to rendering connections",
+    "keywords": [
+      "pagination",
+      "usePaginationFragment",
+      "connection"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Connections",
+    "permalink": "/docs/next/guided-tour/list-data/connections/"
+  },
+  "next": {
+    "title": "Pagination",
+    "permalink": "/docs/next/guided-tour/list-data/pagination/"
+  }
+}

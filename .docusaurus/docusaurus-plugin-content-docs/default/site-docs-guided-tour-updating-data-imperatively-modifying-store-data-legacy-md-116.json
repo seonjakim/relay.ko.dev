@@ -1,0 +1,37 @@
+{
+  "unversionedId": "guided-tour/updating-data/imperatively-modifying-store-data-unsafe",
+  "id": "guided-tour/updating-data/imperatively-modifying-store-data-unsafe",
+  "isDocsHomePage": false,
+  "title": "Imperatively modifying store data (unsafe)",
+  "description": "Imperatively modifying store data",
+  "source": "@site/docs/guided-tour/updating-data/imperatively-modifying-store-data-legacy.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/",
+  "permalink": "/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/imperatively-modifying-store-data-legacy.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "imperatively-modifying-store-data-unsafe",
+    "title": "Imperatively modifying store data (unsafe)",
+    "slug": "/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/",
+    "description": "Imperatively modifying store data",
+    "keywords": [
+      "record source",
+      "store",
+      "updater"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "GraphQL subscriptions",
+    "permalink": "/docs/next/guided-tour/updating-data/graphql-subscriptions/"
+  },
+  "next": {
+    "title": "Local Data Updates",
+    "permalink": "/docs/next/guided-tour/updating-data/local-data-updates/"
+  }
+}

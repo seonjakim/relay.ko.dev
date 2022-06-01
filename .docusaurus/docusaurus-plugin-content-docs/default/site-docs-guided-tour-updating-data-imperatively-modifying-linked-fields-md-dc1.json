@@ -1,0 +1,33 @@
+{
+  "unversionedId": "guided-tour/updating-data/imperatively-modifying-linked-fields",
+  "id": "guided-tour/updating-data/imperatively-modifying-linked-fields",
+  "isDocsHomePage": false,
+  "title": "Imperatively modifying linked fields",
+  "description": "Using readUpdatableQuery_EXPERIMENTAL to update linked fields in the store",
+  "source": "@site/docs/guided-tour/updating-data/imperatively-modifying-linked-fields.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/imperatively-modifying-linked-fields/",
+  "permalink": "/docs/next/guided-tour/updating-data/imperatively-modifying-linked-fields/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/imperatively-modifying-linked-fields.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "imperatively-modifying-linked-fields",
+    "title": "Imperatively modifying linked fields",
+    "slug": "/guided-tour/updating-data/imperatively-modifying-linked-fields/",
+    "description": "Using readUpdatableQuery_EXPERIMENTAL to update linked fields in the store",
+    "keywords": [
+      "record source",
+      "store",
+      "updater",
+      "typesafe updaters",
+      "readUpdatableQuery",
+      "readUpdatableFragment",
+      "updatable",
+      "assignable"
+    ]
+  }
+}

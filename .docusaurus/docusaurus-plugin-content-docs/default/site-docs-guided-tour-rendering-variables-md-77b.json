@@ -1,0 +1,36 @@
+{
+  "unversionedId": "guided-tour/rendering/variables",
+  "id": "guided-tour/rendering/variables",
+  "isDocsHomePage": false,
+  "title": "Variables",
+  "description": "Relay guide to query variables",
+  "source": "@site/docs/guided-tour/rendering/variables.md",
+  "sourceDirName": "guided-tour/rendering",
+  "slug": "/guided-tour/rendering/variables/",
+  "permalink": "/docs/next/guided-tour/rendering/variables/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/rendering/variables.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "variables",
+    "title": "Variables",
+    "slug": "/guided-tour/rendering/variables/",
+    "description": "Relay guide to query variables",
+    "keywords": [
+      "query",
+      "variables"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Fragments",
+    "permalink": "/docs/next/guided-tour/rendering/fragments/"
+  },
+  "next": {
+    "title": "Loading States with Suspense",
+    "permalink": "/docs/next/guided-tour/rendering/loading-states/"
+  }
+}

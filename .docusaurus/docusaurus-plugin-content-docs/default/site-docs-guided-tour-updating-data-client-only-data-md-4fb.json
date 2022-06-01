@@ -1,0 +1,35 @@
+{
+  "unversionedId": "guided-tour/updating-data/client-only-data",
+  "id": "guided-tour/updating-data/client-only-data",
+  "isDocsHomePage": false,
+  "title": "Client-only data",
+  "description": "Relay guide to client-only data",
+  "source": "@site/docs/guided-tour/updating-data/client-only-data.md",
+  "sourceDirName": "guided-tour/updating-data",
+  "slug": "/guided-tour/updating-data/client-only-data/",
+  "permalink": "/docs/next/guided-tour/updating-data/client-only-data/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guided-tour/updating-data/client-only-data.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "client-only-data",
+    "title": "Client-only data",
+    "slug": "/guided-tour/updating-data/client-only-data/",
+    "description": "Relay guide to client-only data",
+    "keywords": [
+      "client-only"
+    ]
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Local Data Updates",
+    "permalink": "/docs/next/guided-tour/updating-data/local-data-updates/"
+  },
+  "next": {
+    "title": "Retaining Queries",
+    "permalink": "/docs/next/guided-tour/accessing-data-without-react/retaining-queries/"
+  }
+}

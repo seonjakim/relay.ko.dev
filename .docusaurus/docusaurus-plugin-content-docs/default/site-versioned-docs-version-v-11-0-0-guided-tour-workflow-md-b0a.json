@@ -1,0 +1,31 @@
+{
+  "unversionedId": "guided-tour/workflow",
+  "id": "version-v11.0.0/guided-tour/workflow",
+  "isDocsHomePage": false,
+  "title": "Workflow",
+  "description": "Before we can get started writing Relay code, we need to make sure to setup the Relay Compiler.",
+  "source": "@site/versioned_docs/version-v11.0.0/guided-tour/workflow.md",
+  "sourceDirName": "guided-tour",
+  "slug": "/guided-tour/workflow/",
+  "permalink": "/docs/v11.0.0/guided-tour/workflow/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guided-tour/workflow.md",
+  "tags": [],
+  "version": "v11.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "workflow",
+    "title": "Workflow",
+    "slug": "/guided-tour/workflow/"
+  },
+  "sidebar": "version-v11.0.0/docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/v11.0.0/guided-tour/"
+  },
+  "next": {
+    "title": "Queries",
+    "permalink": "/docs/v11.0.0/guided-tour/rendering/queries/"
+  }
+}

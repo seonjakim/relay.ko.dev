@@ -1,0 +1,43 @@
+{
+  "unversionedId": "debugging/declarative-mutation-directives",
+  "id": "version-v12.0.0/debugging/declarative-mutation-directives",
+  "isDocsHomePage": false,
+  "title": "Debugging Declarative Mutation Directives",
+  "description": "Debugging declarative mutation directives",
+  "source": "@site/versioned_docs/version-v12.0.0/debugging/declarative-mutation-directives.md",
+  "sourceDirName": "debugging",
+  "slug": "/debugging/declarative-mutation-directives/",
+  "permalink": "/docs/v12.0.0/debugging/declarative-mutation-directives/",
+  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/debugging/declarative-mutation-directives.md",
+  "tags": [],
+  "version": "v12.0.0",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "declarative-mutation-directives",
+    "title": "Debugging Declarative Mutation Directives",
+    "slug": "/debugging/declarative-mutation-directives/",
+    "description": "Debugging declarative mutation directives",
+    "keywords": [
+      "debugging",
+      "troubleshooting",
+      "declarative mutation directive",
+      "deleteRecord",
+      "handlerProvider",
+      "appendEdge",
+      "prependEdge",
+      "appendNode",
+      "prependNode"
+    ]
+  },
+  "sidebar": "version-v12.0.0/docs",
+  "previous": {
+    "title": "Inconsistent Typename Error",
+    "permalink": "/docs/v12.0.0/debugging/inconsistent-typename-error/"
+  },
+  "next": {
+    "title": "Thinking in GraphQL",
+    "permalink": "/docs/v12.0.0/principles-and-architecture/thinking-in-graphql/"
+  }
+}
