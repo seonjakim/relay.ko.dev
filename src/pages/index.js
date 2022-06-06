@@ -124,11 +124,10 @@ const Index = () => {
         <Container className="textSection" background="light">
           <h2>Built for scale</h2>
           <p>
-            Relay is designed for high performance at any scale. Relay keeps
-            management of data-fetching easy, whether your app has tens,
-            hundreds, or thousands of components. And thanks to Relay’s
-            incremental compiler, it keeps your iteration speed fast even as
-            your app grows.
+            Relay는 프로젝트 규모와 상관없이 높은 성능을 위해 디자인되었습니다. Relay는
+            당신의 앱이 얼마나 많은 컴포넌트를 가지고 있는지와 상관없이 쉽게 데이터를
+            가져올 수 있도록 관리해줍니다. Relay의 점진적인 컴파일러덕분에, 높은 앱
+            성장의 속도를 유지시켜줍니다.
           </p>
           <GridBlock
             layout="threeColumn"
@@ -138,11 +137,11 @@ const Index = () => {
                 content: (
                   <span>
                     <p>
-                      Relay is data-fetching turned <b>declarative</b>.
-                      Components declare their data dependencies, without
-                      worrying about how to fetch them. Relay guarantees that
-                      the data each component needs is fetched and available.
-                      This keeps components decoupled and promotes reuse.
+                      Relay는 <b>선언적으로</b> 데이터를 가져옵니다.
+                      컴포넌트들은 각자의 데이터 종속성을 어떻게 가져올 것인지(fetch)에 
+                      대한 고민없이 선언할 수 있습니다. Relay는 각 컴포넌트가 필요한 정보를
+                      가져오거나 사용가능하도록 보장합니다. 이것은 컴포넌트들이 분리되고
+                      재사용될 수 있도록 도와줍니다.
                     </p>
 
                     <p>

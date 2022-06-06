@@ -14,9 +14,9 @@ import Disposable from '../types/Disposable.md';
 
 ## `commitMutation`
 
-Imperatively execute a mutation.
+강제로 `mutation`을 실행합니다.
 
-See also the [`useMutation`](../use-mutation/) API and [Guide to Updating Data](../../guided-tour/updating-data/).
+[`useMutation`](../use-mutation/) API와 [데이터 업데이트를 위한 가이드](../../guided-tour/updating-data/)도 참조하십시오.
 
 ```js
 import type {FeedbackLikeMutation} from 'FeedbackLikeMutation.graphql';
@@ -48,7 +48,7 @@ function likeFeedback(environment: IEnvironment): Disposable {
 
 ### Arguments
 
-* `environment`: `IEnvironment`. A Relay environment.
+* `environment`: `IEnvironment`. Relay 환경.
 * `config`: [`MutationConfig<TMutation>`](#type-mutationconfigtmutationconfig-mutationparameters).
 
 <MutationConfig />

@@ -1,11 +1,11 @@
 export default {
-  "title": "Relay",
+  "title": "Relay.ko",
   "tagline": "The GraphQL client that scales with you.",
-  "url": "https://relay.dev",
+  "url": "https://seonjakim.github.io/relay.ko.dev/",
   "baseUrl": "/",
   "trailingSlash": true,
-  "organizationName": "facebook",
-  "projectName": "relay",
+  "organizationName": "seonjakim",
+  "projectName": "relay.ko",
   "scripts": [],
   "favicon": "img/favicon.png",
   "customFields": {

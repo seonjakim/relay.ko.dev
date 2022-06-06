@@ -10,9 +10,9 @@ keywords:
 import DocsRating from '@site/src/core/DocsRating';
 import {OssOnly, FbInternalOnly} from 'internaldocs-fb-helpers';
 
-The Relay Store can be used to programmatically update client-side data inside [`updater` functions](../../guided-tour/updating-data/graphql-mutations/). The following is a reference of the Relay Store interface.
+Relay Store는 [`updater` 함수들](../../guided-tour/updating-data/graphql-mutations/) 내부에 있는 client-side 정보를 업데이트할 수 있습니다. 다음은 Relay Store 인터페이스에 대한 참조입니다.
 
-Table of Contents:
+목차:
 
 -   [RecordSourceSelectorProxy](#recordsourceselectorproxy)
 -   [RecordProxy](#recordproxy)
@@ -20,7 +20,7 @@ Table of Contents:
 
 ## RecordSourceSelectorProxy
 
-The `RecordSourceSelectorProxy` is the type of the `store` that [`updater` functions](../../guided-tour/updating-data/graphql-mutations/) receive as an argument. The following is the `RecordSourceSelectorProxy` interface:
+`RecordSourceSelectorProxy`는 [`updater` 함수들](../../guided-tour/updating-data/graphql-mutations/)이 인수처럼 받는 store의 타입 중 하나입니다. 아래는 `RecordSourceSelectorProxy`의 인터페이스:
 
 ```javascript
 interface RecordSourceSelectorProxy {
@@ -36,7 +36,7 @@ interface RecordSourceSelectorProxy {
 
 ### `create(dataID: string, typeName: string): RecordProxy`
 
-Creates a new record in the store given a `dataID` and the `typeName` as defined by the GraphQL schema. Returns a [`RecordProxy`](#recordproxy) which serves as an interface to mutate the newly created record.
+store에 GraphQL 스키마에 정의된 `dataID`와 `typeName`를 이용하여 새롭게 record를 생성합니다. 새로 생성된 record를 변경하기 위한 인터페이스 역할을 하는 [`RecordProxy`](#recordproxy)를 반환합니다.
 
 #### Example
 
@@ -46,7 +46,7 @@ const record = store.create(dataID, 'Todo');
 
 ### `delete(dataID: string): void`
 
-Deletes a record from the store given its `dataID`.
+`dataID`를 이용해 store에서 record를 삭제합니다.
 
 #### Example
 
@@ -56,7 +56,7 @@ store.delete(dataID);
 
 ### `get(dataID: string): ?RecordProxy`
 
-Retrieves a record from the store given its `dataID`. Returns a [`RecordProxy`](#recordproxy) which serves as an interface to mutate the record.
+`dataID`를 이용해 store에서 record를 검색합니다. record를 변경하기 위한 인터페이스 역할을 하는 [`RecordProxy`](#recordproxy)를 반환합니다.
 
 #### Example
 
@@ -66,11 +66,11 @@ const record = store.get(dataID);
 
 ### `getRoot(): RecordProxy`
 
-Returns the [`RecordProxy`](#recordproxy) representing the root of the GraphQL document.
+GraphQL 문서의 root를 나타내는 값인 [`RecordProxy`](#recordproxy)를 반환합니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 viewer {
@@ -87,11 +87,11 @@ const root = store.getRoot();
 
 ### `getRootField(fieldName: string): ?RecordProxy`
 
-Retrieves a root field from the store given the `fieldName`, as defined by the GraphQL document. Returns a [`RecordProxy`](#recordproxy) which serves as an interface to mutate the record.
+GraphQL 문서에 정의된 `fileName`을 이용해 store에서 root field를 검색합니다. record를 변경하기 위한 인터페이스 역할을 하는 [`RecordProxy`](#recordproxy)를 반환합니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 viewer {
@@ -107,11 +107,11 @@ const viewer = store.getRootField('viewer');
 
 ### `getPluralRootField(fieldName: string): ?Array<?RecordProxy>`
 
-Retrieves a root field that represents a collection from the store given the `fieldName`, as defined by the GraphQL document. Returns an array of [`RecordProxies`](#recordproxy).
+GraphQL 문서에 정의된 대로 `fieldName`이 지정된 store에서 collection(더미, 수집)을 타나는 root field를 검색합니다. [`RecordProxies`](#recordproxy)의 배열을 반환합니다.
 
 #### Example
-
-Given the GraphQL document:
+   
+주어진 GraphQL 문서:
 
 ```graphql
 nodes(first: 10) {
@@ -127,7 +127,7 @@ const nodes = store.getPluralRootField('nodes');
 
 ### `invalidateStore(): void`
 
-Globally invalidates the Relay store. This will cause any data that was written to the store before invalidation occurred to be considered stale, and will be considered to require refetch the next time a query is checked with `environment.check()`.
+Relay store를 전역적으로 무효화합니다. 이것은 무효화가 발생하기 전에 저장소에 기록된 모든 데이터를 오래된 것으로 간주하게 하고, 다음에 `environment.check()`로 query를 확인할 때 다시 가져와야 하는 것(refetching)으로 간주됩니다.
 
 #### Example
 
@@ -135,7 +135,7 @@ Globally invalidates the Relay store. This will cause any data that was written 
 store.invalidateStore();
 ```
 
-After global invalidation, any query that is checked before refetching it will be considered stale:
+전역 무효화 후, refetching이 일어나기 전에 확인된 모든 query는 오래된(stale) 것으로 간주됨:
 
 ```javascript
 environment.check(query) === 'stale'
@@ -143,7 +143,7 @@ environment.check(query) === 'stale'
 
 ## RecordProxy
 
-The `RecordProxy` serves as an interface to mutate records:
+record들을 변경할 수 있는 인터페이스 역할:
 
 ```javascript
 interface RecordProxy {
@@ -175,7 +175,7 @@ interface RecordProxy {
 
 ### `getDataID(): string`
 
-Returns the `dataID` of the current record.
+현재 record의 `dataID`를 반환합니다.
 
 #### Example
 
@@ -185,7 +185,7 @@ const id = record.getDataID();
 
 ### `getType(): string`
 
-Gets the type of the current record, as defined by the GraphQL schema.
+GraphQL schema에 정의된 대로 현재 record의 타입을 가져옵니다.
 
 #### Example
 
@@ -195,11 +195,11 @@ const type = user.getType();  // User
 
 ### `getValue(name: string, arguments?: ?Object): mixed`
 
-Gets the value of a field in the current record given the field name.
+field 이름이 지정된 현재 record의 field 값을 가져옵니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 viewer {
@@ -214,11 +214,11 @@ Usage:
 const name = viewer.getValue('name');
 ```
 
-Optionally, if the field takes arguments, you can pass a bag of `variables`.
+선택적으로 필드가 인수를 사용하는 경우, `변수들`의 집합체를 전달할 수 있습니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 viewer {
@@ -235,11 +235,11 @@ const name = viewer.getValue('name', {arg: 'value'});
 
 ### `getLinkedRecord(name: string, arguments?: ?Object): ?RecordProxy`
 
-Retrieves a record associated with the current record given the field name, as defined by the GraphQL document. Returns a `RecordProxy`.
+GraphQL 문서에 정의된 대로 필드 이름이 지정된 현재 record와 연관된 record를 검색합니다. `RecordProxy`를 반환합니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -257,11 +257,11 @@ const rootField = store.getRootField('rootField');
 const viewer = rootField.getLinkedRecord('viewer');
 ```
 
-Optionally, if the linked record takes arguments, you can pass a bag of `variables` as well.
+연계된 record가 인수를 사용하는 경우 선택적으로 `변수들`의 집합체를 전달할 수 있습니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -280,11 +280,11 @@ const viewer = rootField.getLinkedRecord('viewer', {arg: 'value'});
 
 ### `getLinkedRecords(name: string, arguments?: ?Object): ?Array<?RecordProxy>`
 
-Retrieves the set of records associated with the current record given the field name, as defined by the GraphQL document. Returns an array of `RecordProxies`.
+GraphQL 문서에 정의된 대로 field 이름이 지정된 현재 record와 연관된 record 집합을 검색합니다. `RecordProxies`의 배열을 반환합니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -301,11 +301,11 @@ const rootField = store.getRootField('rootField');
 const nodes = rootField.getLinkedRecords('nodes');
 ```
 
-Optionally, if the linked record takes arguments, you can pass a bag of `variables` as well.
+선택적으로 연계된 record가 인수를 사용하는 경우 `변수들`의 집합체도 전달할 수 있습니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -324,11 +324,11 @@ const nodes = rootField.getLinkedRecords('nodes', {count: 10});
 
 ### `getOrCreateLinkedRecord(name: string, typeName: string, arguments?: ?Object)`
 
-Retrieves a record associated with the current record given the field name, as defined by the GraphQL document. If the linked record does not exist, it will be created given the type name. Returns a `RecordProxy`.
+GraphQL 문서에 정의된 대로 field 이름이 지정된 현재 record와 연계된 record를 검색합니다. 연계된 record가 없을 경우, type 이름이 지정되어 생성됩니다. `RecordProxy`를 반환합니다.
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -345,13 +345,13 @@ const rootField = store.getRootField('rootField');
 const newViewer = rootField.getOrCreateLinkedRecord('viewer', 'User'); // Will create if it doesn't exist
 ```
 
-Optionally, if the linked record takes arguments, you can pass a bag of `variables` as well.
+선택적으로 연계된 record가 인수를 사용하는 경우, `변수들`의 집합체도 전달할 수 있습니다.
 
 ### `setValue(value: mixed, name: string, arguments?: ?Object): RecordProxy`
 
 Mutates the current record by setting a new value on the specified field. Returns the mutated record.
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 viewer {
@@ -390,7 +390,7 @@ Mutates the current record by setting a new linked record on the given field nam
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
@@ -416,7 +416,7 @@ Mutates the current record by setting a new set of linked records on the given f
 
 #### Example
 
-Given the GraphQL document:
+주어진 GraphQL 문서:
 
 ```graphql
 rootField {
