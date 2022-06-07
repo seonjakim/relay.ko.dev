@@ -349,7 +349,7 @@ const newViewer = rootField.getOrCreateLinkedRecord('viewer', 'User'); // Will c
 
 ### `setValue(value: mixed, name: string, arguments?: ?Object): RecordProxy`
 
-Mutates the current record by setting a new value on the specified field. Returns the mutated record.
+지정된 field에 새로운 값을 설정하여 현재 record를 변경합니다. 변경된 record를 반환합니다.
 
 주어진 GraphQL 문서:
 
@@ -366,7 +366,7 @@ Usage:
 viewer.setValue('New Name', 'name');
 ```
 
-Optionally, if the field takes arguments, you can pass a bag of `variables`.
+선택적으로 field가 인수를 사용하는 경우, `변수들`의 집합체를 전달할 수 있습니다.
 
 ```javascript
 viewer.setValue('New Name', 'name', {arg: 'value'});
@@ -374,7 +374,7 @@ viewer.setValue('New Name', 'name', {arg: 'value'});
 
 ### `copyFieldsFrom(sourceRecord: RecordProxy): void`
 
-Mutates the current record by copying the fields over from the passed in record `sourceRecord`.
+전달된 record `sourceRecord`에서 fields를 복사하여 현재 record를 변경합니다.
 
 #### Example
 
@@ -386,7 +386,7 @@ record.copyFieldsFrom(otherRecord); // Mutates `record`
 
 ### `setLinkedRecord(record: RecordProxy, name: string, arguments?: ?Object)`
 
-Mutates the current record by setting a new linked record on the given field name.
+주어진 field 이름에 새롭게 연계된 record를 설정하여 현재 record를 변경합니다.
 
 #### Example
 
@@ -408,11 +408,11 @@ const newViewer = store.create(/* ... */);
 rootField.setLinkedRecord(newViewer, 'viewer');
 ```
 
-Optionally, if the linked record takes arguments, you can pass a bag of `variables` as well.
+선택적으로 연계된 record가 인수를 사용하는 경우, `변수들`의 집합체를 전달할 수 있습니다.
 
 ### `setLinkedRecords(records: Array<RecordProxy>, name: string, variables?: ?Object)`
 
-Mutates the current record by setting a new set of linked records on the given field name.
+주어진 field 이름에 연계된 record의 새로운 세트(set)을 설정하여 현재 record를 변경합니다.
 
 #### Example
 
@@ -435,11 +435,11 @@ const newNodes = [...rootField.getLinkedRecords('nodes'), newNode];
 rootField.setLinkedRecords(newNodes, 'nodes');
 ```
 
-Optionally, if the linked record takes arguments, you can pass a bag of `variables` as well.
+선택적으로 연계된 record가 인수들을 사용할 경우, `변수들`의 집합체를 전달할 수 있습니다.
 
 ### `invalidateRecord(): void`
 
-Invalidates the record. This will cause any query that references this record to be considered stale until the next time it is refetched, and will be considered to require a refetch the next time such a query is checked with `environment.check()`.
+record를 무효화합니다. 해당 record를 참조하는 모든 query가 refetch될 때까지 오래된 것으로 간주되고, `environment.check()`로 query를 확인할 때 refetch가 필요한 것으로 간주됩니다.
 
 #### Example
 
@@ -448,7 +448,7 @@ const record = store.get('4');
 record.invalidateRecord();
 ```
 
-After invalidating a record, any query that references the invalidated record and that is checked before refetching it will be considered stale:
+record를 무효화한 후, refetch 전에 확인되는 무효화된 record를 참조하고 있는 모든 query는 오래된 것으로 간주됩니다:
 
 ```javascript
 environment.check(query) === 'stale'
@@ -456,7 +456,7 @@ environment.check(query) === 'stale'
 
 ## ConnectionHandler
 
-`ConnectionHandler` is a utility module exposed by `relay-runtime` that aids in the manipulation of connections. `ConnectionHandler` exposes the following interface:
+`ConnectionHandler`는 연결들의 조작을 돕는 `relay-runtime`에 의해 드러나는 utility module입니다. `ConnectionHandler`는 다음의 인터페이스를 노출합니다:
 
 ```javascript
 interface ConnectionHandler {
@@ -487,9 +487,9 @@ interface ConnectionHandler {
 
 ### `getConnection(record: RecordProxy, key: string, filters?: ?Object)`
 
-Given a record and a connection key, and optionally a set of filters, `getConnection` retrieves a [`RecordProxy`](#recordproxy) that represents a connection that was annotated with a `@connection` directive.
+record와 connection key, 그리고 선택적으로 filter 세트가 주어지면 `getConnection`은  `@connection` 지시문으로 주석이 달린, 연결을 나타내는 [`RecordProxy`](#recordproxy)를 검색합니다.
 
-First, let's take a look at a plain connection:
+먼저 기본 connection을 살펴보겠습니다:
 
 ```graphql
 fragment FriendsFragment on User {
@@ -503,7 +503,7 @@ fragment FriendsFragment on User {
 }
 ```
 
-Accessing a plain connection field like this is the same as other regular fields:
+기본 connection field에 접근하는 것은 보통의 field와 동일합니다:
 
 ```javascript
 // The `friends` connection record can be accessed with:
@@ -514,7 +514,7 @@ const friends = user && user.getLinkedRecord('friends');
 const edges = friends && friends.getLinkedRecords('edges');
 ```
 
-When using [usePaginationFragment](../use-pagination-fragment/), we usually annotate the actual connection field with `@connection` to tell Relay which part needs to be paginated:
+[usePaginationFragment](../use-pagination-fragment/)을 사용할 때, 실제 connection field를 `@connection`주석을 달아서 Relay가 paginate해야 하는 부분을 알 수 있도록 합니다:
 
 ```graphql
 fragment FriendsFragment on User {
@@ -530,7 +530,7 @@ fragment FriendsFragment on User {
 }
 ```
 
-For connections like the above, `ConnectionHandler` helps us find the record:
+위와 같은 connection의 경우, `ConnectionHandler`는 사용자가 record를 찾을 수 있게 도와줍니다:
 
 ```javascript
 import {ConnectionHandler} from 'relay-runtime';
@@ -554,11 +554,11 @@ Creates an edge given a [`store`](#recordsourceselectorproxy), a connection, the
 
 #### `insertEdgeBefore(connection: RecordProxy, newEdge: RecordProxy, cursor?: ?string)`
 
-Given a connection, inserts the edge at the beginning of the connection, or before the specified `cursor`.
+connection이 주어지면, edge를 connection 시작점 또는 지정된 `cursor` 앞에 삽입합니다.
 
 #### `insertEdgeAfter(connection: RecordProxy, newEdge: RecordProxy, cursor?: ?string)`
 
-Given a connection, inserts the edge at the end of the connection, or after the specified `cursor`.
+connection이 주어지면, edge를 connection 끝에 또는 지정된 `cursor` 뒤에 삽입합니다.
 
 #### Example
 
@@ -577,7 +577,7 @@ ConnectionHandler.insertEdgeBefore(friends, edge);
 
 ### `deleteNode(connection: RecordProxy, nodeID: string): void`
 
-Given a connection, deletes any edges whose node id matches the given id.
+연결이 주어지면, 주어진 id와 node id가 일치하는 모든 edge들을 삭제합니다.
 
 #### Example
 
