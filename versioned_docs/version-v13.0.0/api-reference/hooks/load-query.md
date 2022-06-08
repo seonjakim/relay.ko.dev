@@ -17,9 +17,9 @@ import {OssOnly, FbInternalOnly} from 'internaldocs-fb-helpers';
 
 ## `loadQuery`
 
-This function is designed to be used with the `usePreloadedQuery()` hook to implement the "render-as-you-fetch".
+이 함수는 "render-as-you-fetch"를 구현하기 위해 `usePreloadedQuery()` hook과 함께 사용되도록 디자인되었습니다. 
 
-Query references returned from `loadQuery` will leak data into the Relay store if `.dispose()` is not called on them once they are no longer referenced. As such, prefer calling `useQueryLoader` when possible, which ensures that query references are disposed for you.
+`loadQuery`에서 반환되는 query references는 더이상 참조되지 않을 때, `.dispose()`가 호출되지 않으면 데이터 누출이 발생합니다.가능한 경우 query references를 삭제해주는 `useQueryLoader`를 사용하시길 권장합니다.
 
 See the [`usePreloadedQuery`](../use-preloaded-query) docs for a more complete example.
 

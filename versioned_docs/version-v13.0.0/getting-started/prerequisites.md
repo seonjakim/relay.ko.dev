@@ -11,25 +11,25 @@ import DocsRating from '@site/src/core/DocsRating';
 import {OssOnly, FbInternalOnly} from 'internaldocs-fb-helpers';
 
 
-Before getting started with Relay, bear in mind that we assume that the following infrastructure has already been set up, as well as some level of familiarity with the topics below.
+Relay를 시작하기 전에, 이미 다음의 인프라가 설정되어 있고 사용자가 아래의 주제에 대해 어느 정도 익숙하다고 가정합니다.
 
 ## JavaScript
 
-Relay is a framework built in JavaScript, so we assume familiarity with the JavaScript language.
+Relay는 JavaScript로 구축된 프레임워크이므로, 사용자가 JavaScript 언어에 익숙하다고 가정합니다.
 
 ## React
 
-Relay is a framework for data management with the primary supported binding for React applications, so we assume that you are already familiar with [React](https://reactjs.org/).
+Relay는 기본적으로 React 애플리케이션에 지원되는 데이터 관리를 위한 프레임워크이므로 사용자가 [React](https://reactjs.org/)에 익숙하다고 가정합니다.
 
 ## GraphQL
 
-We also assume basic understanding of [GraphQL](http://graphql.org/learn/). In order to start using Relay, you will also need:
+또한 [GraphQL](http://graphql.org/learn/)에 대한 기본적인 이해를 전제하고 있습니다. Relay를 사용하려면 다음의 개념들도 필요합니다:
 
 ### A GraphQL Schema
 
-A description of your data model with an associated set of resolve methods that know how to fetch any data your application could ever need.
+사용자의 애플리케이션이 필요할 수 있는 데이터를 fetch할 수 있는 resolve methods와 관련된 데이터 모델에 대한 설명입니다.
 
-GraphQL is designed to support a wide range of data access patterns. In order to understand the structure of an application's data, Relay requires that you follow certain conventions when defining your schema. These are documented in the [GraphQL Server Specification](../../guides/graphql-server-specification).
+GraphQL은 광범위한 data access patterns를 지원하도록 설계되었습니다. 애플리케이션의 데이터 구조를 파악하기 위해 Relay는 특정 규칙에 따라 schema를 정의할 것을 요구합니다. [GraphQL Server Specification](../../guides/graphql-server-specification)에 문서화되어 있습니다.
 
 -   **[graphql-js](https://github.com/graphql/graphql-js)** on [npm](https://www.npmjs.com/package/graphql)
 
@@ -41,7 +41,7 @@ GraphQL is designed to support a wide range of data access patterns. In order to
 
 ### A GraphQL Server
 
-Any server can be taught to load a schema and speak GraphQL. Our [examples](https://github.com/relayjs/relay-examples) use Express.
+모든 서버는 schema를 로드하고 GraphQL로서 작동하도록 변동할 수 있습니다. [예시들](https://github.com/relayjs/relay-examples)은 Express로 작성했습니다.
 
 -   **[express-graphql](https://github.com/graphql/express-graphql)** on [npm](https://www.npmjs.com/package/express-graphql)
 
