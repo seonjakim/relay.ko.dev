@@ -52,11 +52,11 @@ const queryReference = loadQuery(
 
 ### Arguments
 
-* `environment`: A Relay Environment instance on which to execute the request. If you're starting this request somewhere within a React component, you probably want to use the environment you obtain from using [`useRelayEnvironment`](#userelayenvironment).
-* `query`: GraphQL query to fetch, specified using a `graphql` template literal, or a preloadable concrete request, which can be acquired by requiring the file `<name-of-query>$Parameters.graphql`. Relay will only generate the `$Parameters` file if the query is annotated with `@preloadable`.
-* `variables`: Object containing the variable values to fetch the query. These variables need to match GraphQL variables declared inside the query.
+* `environment`: 요청을 실행할 Relay Environment instance입니다. React component에서 요청을 시작할 경우, [`useRelayEnvironment`](#userelayenvironment)에서 가져온 environment를 사용하고 싶을 것입니다.
+* `query`: fetch를 위한 GraphQL query는 `graphql` 템플릿 리터럴을 사용하여 지정하거나 `<name-of-query>$Parameters.graphql`을 만들어 preload가 가능한 구체적인 요청입니다. Relay는 query가 `@preloadable` 주석 처리가 된 경우에만 `$Parameters` 파일을 생성합니다.
+* `variables`: query를 fetch할 변수 값을 포함하는 객체입니다. 이 변수들은 query 내부에 선언된 GraphQL 변수들과 일치해야 합니다.
 * `options`: *_[Optional]_* options object
-    * `fetchPolicy`: Determines if cached data should be used, and whether to send a network request based on the cached data that is currently available in the Relay store (for more details, see our [Fetch Policies](../../guided-tour/reusing-cached-data/fetch-policies) and [Garbage Collection](../../guided-tour/reusing-cached-data/availability-of-data) guides):
+    * `fetchPolicy`: Relay store에 현재 있는 cached data를 기반으로 cached data가 사용되어야 하는지, network 요청을 보내야 하는지 결정합니다 (자세한 정보는 [Fetch Policies](../../guided-tour/reusing-cached-data/fetch-policies)와 [Garbage Collection](../../guided-tour/reusing-cached-data/availability-of-data) 가이드에서 확인하실 수 있습니다):
         * "store-or-network": **(default)** *will* reuse locally cached data and will *only* send a network request if any data for the query is missing. If the query is fully cached, a network request will *not* be made.
         * "store-and-network": *will* reuse locally cached data and will *always* send a network request, regardless of whether any data was missing from the local cache or not.
         * "network-only": *will not* reuse locally cached data, and will *always* send a network request to fetch the query, ignoring any data that might be locally cached in Relay.
