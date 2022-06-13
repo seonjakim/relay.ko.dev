@@ -93,8 +93,8 @@ function LikeButton() {
         * `uploadables`: An optional uploadable map, an object representing any number of uploadable items, with one key per item. Each value must be of type `File` or `Blob`.
         *  No environment argument: `useMutation` will automatically use the current environment provided by `RelayEnvironmentProvider`
     * Return value:
-        * `disposable`: Object containing a `dispose` function. Calling `disposable.dispose()` will revert the optimistic update, and Relay won't update the store or call any success/error callback, but the network request is not guaranteed to be cancelled. If the `dispose` is called after the mutation has succeeded, it will not rollback the update in Relay store.
-* [1] `areMutationsInFlight`: `commitMutation`이 진행 중에 작동된 모든 mutation에 대해   Will be `true` if any mutation triggered by calling `commitMutation` is still in flight. If you call `commitMutation` multiple times, there can be multiple mutations in flight at once.
+        * `disposable`: `dispose`함수가 포함된 객체입니다. `disposable.dispose()`을 호출하면 optimistic update가 복귀하고, Relay는 store를 update하거나 success/error 콜백을 호출하지 않지만 네트워크 요청이 취소된다는 보장은 없습니다. mutation이 성공한 후, `dispose`가 호출되면, Relay store에 update를 rollback하지 않습니다.
+* [1] `areMutationsInFlight`: `commitMutation`을 호출하여 trigger된 mutation이 아직 진행 중인 경우 `true`가 됩니다. `commitMutation` 을 여러번 호출하면, 여러번의 mutation이 한번에 진행될 수 있습니다.
 
 
 <DocsRating />
