@@ -13,14 +13,14 @@ import DocsRating from '@site/src/core/DocsRating';
 
 ## `usePreloadedQuery`
 
-Hook used to access data fetched by an earlier call to [`loadQuery`](../load-query) or with the help of [`useQueryLoader`](../use-query-loader). This implements the "render-as-you-fetch" pattern:
+[`loadQuery`](../load-query)에 대한 earlier call 또는 [`useQueryLoader`](../use-query-loader)로 가져온 데이터에 접근하기 위해 사용되는 hook입니다. "render-as-you-fetch" 패턴을 구현합니다:
 
-* Call the `loadQuery` callback returned from `useQueryLoader`. This will store a query reference in React state.
-    * You can also call the imported `loadQuery` directly, which returns a query reference. In that case, store the item in state or in a React ref, and call `dispose()` on the value when you are no longer using it.
-* Then, in your render method, consume the query reference with `usePreloadedQuery()`. This call will suspend if the query is still pending, throw an error if it failed, and otherwise return the query results.
-* This pattern is encouraged over `useLazyLoadQuery()` as it can allow fetching data earlier while not blocking rendering.
+* `useQueryLoader`에서 반환된 `loadQuery` 콜백을 호출합니다. React state에 query reference가 저장됩니다.
+    * `loadQuery`를 직접 호출하여 query reference를 반환할 수도 있습니다. 이 경우 item을 state 또는 React ref에 저장하고 더이상 사용하지 않을 때 `dispose()`를 호출합니다.
+* 렌더 메소드에서 `usePreloadedQuery()`를 사용하여 query reference를 사용합니다. 이 호출은 query가 아직 pending 중이면 일시 중단되고, 실패하면 오류가 발생하고, 그렇지 않으면 query 결과를 반환합니다.
+* 이 패턴은 렌더링을 blocking하지 않으면서 데이터를 더 빠르게 가져올 수 있으므로 `useLazyLoadQuery()`보다 권장됩니다.
 
-For more information, see the [Rendering Queries](../../guided-tour/rendering/queries) guide.
+더 자세한 사항을 확인하고 싶다면 [Rendering Queries](../../guided-tour/rendering/queries)를 참고하세요.
 
 ```js
 import type {AppQuery as AppQueryType} from 'AppQuery.graphql';
@@ -72,17 +72,17 @@ function NameDisplay({ queryReference }) {
 
 ### Arguments
 
-* `query`: GraphQL query specified using a `graphql` template literal.
-* `preloadedQueryReference`: A `PreloadedQuery` query reference, which can be acquired from [`useQueryLoader`](../use-query-loader) or by calling [`loadQuery()`](../load-query) .
+* `query`: `graphql` template literal을 사용하여 지정된 GraphQL query입니다.
+* `preloadedQueryReference`: [`useQueryLoader`](../use-query-loader) 또는 [`loadQuery()`](../load-query)를 호출하여 가져올 수 있는 `PreloadedQuery` query reference입니다.
 
 ### Flow Type Parameters
 
-* `TQuery`: Type parameter that should correspond to the Flow type for the specified query. This type is available to import from the the auto-generated file: `<query_name>.graphql.js`.
+* `TQuery`: 지정된 query의 Flow type에 부합해야하는 type 매개변수입니다. 해당 type은 자동 생성된 파일에서 가져올 수 있습니다: `<query_name>.graphql.js`.
 
 ### Return Value
 
-* `data`: Object that contains data which has been read out from the Relay store; the object matches the shape of specified query.
-    * The Flow type for data will also match this shape, and contain types derived from the GraphQL Schema. For example, the type of `data` above is: `{ user: ?{ name: ?string } }`.
+* `data`: Relay store에서 읽어들인 data를 포함하고 있는 객체입니다; 해당 객체는 지정된 query의 모양과 일치합니다.
+    * 데이터의 Flow type도 이 모양과 일치하며 GraphQL Schema에서 파생된 type을 포함합니다. 예를 들어 위의 `data` 유형은  `{ user: ?{ name: ?string } }`입니다.
 
 
 
