@@ -55,18 +55,18 @@ function likeFeedback(environment: IEnvironment): Disposable {
 
 ### Flow Type Parameters
 
-* `TMutation`: Type parameter that should corresponds the Flow type for the mutation query. This type is available to import from the the auto-generated file: `<mutationName>.graphql.js`.
-  * Note that this auto-generated type will implement `MutationParameters`.
+* `TMutation`: mutation query의 Flow type에 해당하는 type 매개변수입니다. 이 type은 자동생성된 파일에서 가져올 수 있습니다: `<mutationName>.graphql.js`.
+  * 이 자동 생성 type은 `MutationParameters`를 구현합니다.
 
 :::caution
-If you do not **explicitly** pass this type parameter, the variables, optimistic response and response passed to `onCompleted` **will not be type-checked**!
+이 type 매개변수를 **명시적으로** 전달하지 않으면 `onCompleted`에 전달된 변수, optimistic 응답 및 응답의 **type 점검이 되지 않습니다**!
 :::
 
 ### Return Value
 
 * A [`Disposable`](#interface-disposable) which:
-  * If called while before the request completes, will cancel revert any optimistic updates and prevent the `onComplete` and `onError` callbacks from being executed. It will not necessarily cancel any network request. Will cause the `onUnsubscribe` callback to be called.
-  * If called after the initial request completes, will do nothing.
+  * 요청이 완료되기 전에 호출되면, optimistic updates를 취소하고 `onComplete`과 `onError` callback이 실행되지 않도록 합니다. 네트워크 요청을 취소하지는 않습니다. `onUnsubscribe` callback이 호출되도록 합니다.
+  * 초기 요청이 완료된 후 호출되면 아무 작업도 수행하지 않습니다.
 
 <Disposable />
 
