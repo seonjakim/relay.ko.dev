@@ -12,7 +12,7 @@ import DocsRating from '@site/src/core/DocsRating';
 
 ## `RelayEnvironmentProvider`
 
-This component is used to set a Relay environment in React Context. Usually, a *single* instance of this component should be rendered at the very root of the application, in order to set the Relay environment for the whole application:
+이 component는 React Context에서 Relay 환경을 설정하는데 사용되었습니다. 일반적으로 component의 *단일* 인스턴스는 전체 애플리케이션에 대한 Relay 환경을 설정하기 위해 애플리케이션의 root에서 렌더링되어야 합니다:
 
 ```js
 const React = require('React');
@@ -34,6 +34,6 @@ module.exports = Root;
 
 ### Props
 
-* `environment`: The Relay environment to set in React Context. Any Relay Hooks (like [`useLazyLoadQuery`](../use-lazy-load-query) or [`useFragment`](../use-fragment)) used in descendants of this provider component will use the Relay environment specified here
+* `environment`: React Context에서 설정할 Relay 환경입니다. 이 provider component의 하위 component에 사용되는 모든 Relay Hooks(like [`useLazyLoadQuery`](../use-lazy-load-query) or [`useFragment`](../use-fragment))는 여기 지정된 Relay 환경을 사용합니다.
 
 <DocsRating/>
