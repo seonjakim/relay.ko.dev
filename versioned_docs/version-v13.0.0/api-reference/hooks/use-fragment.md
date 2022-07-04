@@ -50,20 +50,19 @@ function UserComponent(props: Props) {
 
 ### Arguments
 
-* `fragment`: GraphQL fragment specified using a `graphql` template literal.
-* `fragmentReference`: The *fragment reference* is an opaque Relay object that Relay uses to read the data for the fragment from the store; more specifically, it contains information about which particular object instance the data should be read from.
-    * The type of the fragment reference can be imported from the generated Flow types, from the file `<fragment_name>.graphql.js`, and can be used to declare the type of your `Props`. The name of the fragment reference type will be: `<fragment_name>$key`. We use our [lint rule](https://github.com/relayjs/eslint-plugin-relay) to enforce that the type of the fragment reference prop is correctly declared.
+* `fragment`: `graphql` 템플릿 리터럴을 사용하여 지정된 GraphQL fragment.
+* `fragmentReference`: *fragment reference*는 Relay가 store에서 fragment에 대한 데이터를 읽는데 사용하는 불분명한 Relay 객체입니다. 보다 구체적으로 데이터가 읽어들여야 하는 특정 객체 인스턴스에 대한 정보를 포함합니다.
+    * fragment reference의 type은 `<fragment_name>.graphql.js`파일에 생성된 Flow types을 가져올 수 있으며, `Props` type을 선언하는데 사용할 수 있습니다. fragment reference type의 이름은: `<fragment_name>$key`. fragment reference prop의 type이 올바로 선언되도록 하기 위해서 [lint rule](https://github.com/relayjs/eslint-plugin-relay)을 강제합니다.
 
 ### Return Value
 
-* `data`: Object that contains data which has been read out from the Relay store; the object matches the shape of specified fragment.
-    * The Flow type for data will also match this shape, and contain types derived from the GraphQL Schema. For example, the type of `data` above is: `{ name: ?string, profile_picture: ?{ uri: ?string } }`.
+* `data`: Relay store에서 읽은 데이터를 포함하는 객체입니다; 지정된 fragment와 형태가 일치하는 객체입니다.
+    * 데이터의 Flow type 또한 이 형태와 일치하며 GraphQL Schema에서 파생된 type을 포함합니다. 예를 들어 위의 `data` type은 `{ name: ?string, profile_picture: ?{ uri: ?string } }`입니다.
 
 ### Behavior
 
-* The component is automatically subscribed to updates to the fragment data: if the data for this particular `User` is updated anywhere in the app (e.g. via fetching new data, or mutating existing data), the component will automatically re-render with the latest updated data.
-* The component will suspend if any data for that specific fragment is missing, and the data is currently being fetched by a parent query.
-    * For more details on Suspense, see our [Loading States with Suspense](../../guided-tour/rendering/loading-states) guide.
-
+* component는 자동으로 fragment 데이터의 업데이트를 구독합니다: 특정 `User`의 데이터가 앱의 어디에서나 업데이트되면 (예를들어 새 데이터 가져오기 또는 기존 데이터 변경), 해당 component는 자동으로 최신 데이터를 기반으로 re-render됩니다.
+* 특정 frament에 대한 데이터가 누락되고 상위 query에서 현재 데이터를 가져오고 있는 중일 경우 component는 일시 중단됩니다.
+    * Suspense에 관한 자세한 내용은 [Loading States with Suspense](../../guided-tour/rendering/loading-states) 가이드를 참조하세요.
 
 <DocsRating />
