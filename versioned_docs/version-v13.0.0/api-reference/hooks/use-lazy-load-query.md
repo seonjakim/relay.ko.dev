@@ -13,7 +13,7 @@ import DocsRating from '@site/src/core/DocsRating';
 
 ## `useLazyLoadQuery`
 
-Hook used to fetch a GraphQL query during render. This hook can trigger multiple nested or waterfalling round trips if used without caution, and waits until render to start a data fetch (when it can usually start a lot sooner than render), thereby degrading performance. Instead, prefer [`usePreloadedQuery`](../use-preloaded-query).
+렌더링 중 GraphQL query를 가져오는데 사용되는 Hook입니다. 이 훅은 주의없이 사용하는 경우 중첩 또는 폭포식의 요청과 응답의 반복을 발생시킬 수 있으며, 렌더링이 될 때까지 데이터 fetch를 (일반적으로 렌더링보다 훨씬 빨리 시작할 수 있는 경우) 기다려서 성능을 저하시킬 수 있습니다. 대신에 [`usePreloadedQuery`](../use-preloaded-query)를 사용하세요.
 
 ```js
 import type {AppQuery} from 'AppQuery.graphql';
@@ -41,14 +41,14 @@ function App() {
 
 ### Arguments
 
-* `query`: GraphQL query specified using a `graphql` template literal.
-* `variables`: Object containing the variable values to fetch the query. These variables need to match GraphQL variables declared inside the query.
+* `query`: `graphql` template literal을 사용하여 지정된 GraphQL query.
+* `variables`: query를 가져올 변수 값을 포함하는 객체입니다. 이 변수들은 query 내부에 선언된 GraphQL 변수들과 일치해야 합니다.
 * `options`: _*[Optional]*_ options object
-    * `fetchPolicy`: Determines if cached data should be used, and when to send a network request based on the cached data that is currently available in the Relay store (for more details, see our [Fetch Policies](../../guided-tour/reusing-cached-data/fetch-policies) and [Garbage Collection](../../guided-tour/reusing-cached-data/presence-of-data) guides):
-        * "store-or-network": _*(default)*_ *will* reuse locally cached data and will *only* send a network request if any data for the query is missing. If the query is fully cached, a network request will *not* be made.
-        * "store-and-network": *will* reuse locally cached data and will *always* send a network request, regardless of whether any data was missing from the local cache or not.
-        * "network-only": *will* *not* reuse locally cached data, and will *always* send a network request to fetch the query, ignoring any data that might be locally cached in Relay.
-        * "store-only": *will* *only* reuse locally cached data, and will *never* send a network request to fetch the query. In this case, the responsibility of fetching the query falls to the caller, but this policy could also be used to read and operate on data that is entirely [local](../../guided-tour/updating-data/local-data-updates).
+    * `fetchPolicy`: 캐시된 데이터를 사용해야 하는지 여부와 Relay store에서 현재 사용할 수 있는 캐시된 데이터를 기반으로 네트워크 요청을 보낼 시기를 결정합니다 (더 자세한 사항은 [Fetch Policies](../../guided-tour/reusing-cached-data/fetch-policies)와 [Garbage Collection](../../guided-tour/reusing-cached-data/presence-of-data)가이드를 참고해주세요.):
+        * "store-or-network": _*(default)*_ 로컬에 캐시된 데이터를 *재사용*하고 query에 대한 데이터가 *누락된 경우에만* 네트워크 요청을 보냅니다. query가 완전히 캐시되면 네트워크 요청은 *일어나지 않습니다*.
+        * "store-and-network": 로컬에 캐시된 데이터를 *재사용*하고 로컬 캐시에 누락된 데이터의 유무와 관계없이 *항상* 네트워크 요청을 보냅니다.
+        * "network-only": 로컬에 캐시된 데이터를 *사용하지 않으며*, Relay에 로컬 캐시된 데이터는 무시하고 query를 가져오기 위해 *항상* 네트워크 요청을 보냅니다.
+        * "store-only": 로컬에 캐시된 데이터만 *재사용하고* query를 가져오기 위해 네트워크 요청을 *절대* 보내지 않습니다. 이 경우 query를 가져오는 책임은 호출자에게 있지만 이 policy는 완전히 [local](../../guided-tour/updating-data/local-data-updates)인 데이터를 읽고 작동하는데 사용할 수 있습니다.
     * `fetchKey`: A `fetchKey` can be passed to force a re-evaluation of the current query and variables when the component re-renders, even if the variables didn't change, or even if the component isn't remounted (similarly to how passing a different `key` to a React component will cause it to remount). If the `fetchKey` is different from the one used in the previous render, the current query will be re-evaluated against the store, and it might be refetched depending on the current `fetchPolicy` and the state of the cache.
     * `networkCacheConfig`: *_[Optional] _* Default value: `{force: true}`. Object containing cache config options for the *network layer*. Note that the network layer may contain an *additional* query response cache which will reuse network responses for identical queries. If you want to bypass this cache completely (which is the default behavior), pass `{force: true}` as the value for this option.
 
