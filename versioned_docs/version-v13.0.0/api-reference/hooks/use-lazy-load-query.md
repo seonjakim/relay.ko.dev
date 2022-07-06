@@ -49,17 +49,17 @@ function App() {
         * "store-and-network": 로컬에 캐시된 데이터를 *재사용*하고 로컬 캐시에 누락된 데이터의 유무와 관계없이 *항상* 네트워크 요청을 보냅니다.
         * "network-only": 로컬에 캐시된 데이터를 *사용하지 않으며*, Relay에 로컬 캐시된 데이터는 무시하고 query를 가져오기 위해 *항상* 네트워크 요청을 보냅니다.
         * "store-only": 로컬에 캐시된 데이터만 *재사용하고* query를 가져오기 위해 네트워크 요청을 *절대* 보내지 않습니다. 이 경우 query를 가져오는 책임은 호출자에게 있지만 이 policy는 완전히 [local](../../guided-tour/updating-data/local-data-updates)인 데이터를 읽고 작동하는데 사용할 수 있습니다.
-    * `fetchKey`: A `fetchKey` can be passed to force a re-evaluation of the current query and variables when the component re-renders, even if the variables didn't change, or even if the component isn't remounted (similarly to how passing a different `key` to a React component will cause it to remount). If the `fetchKey` is different from the one used in the previous render, the current query will be re-evaluated against the store, and it might be refetched depending on the current `fetchPolicy` and the state of the cache.
-    * `networkCacheConfig`: *_[Optional] _* Default value: `{force: true}`. Object containing cache config options for the *network layer*. Note that the network layer may contain an *additional* query response cache which will reuse network responses for identical queries. If you want to bypass this cache completely (which is the default behavior), pass `{force: true}` as the value for this option.
+    * `fetchKey`: 변수가 변경되지 않았거나 component가 remount되지 않은 경우에도 component가 리렌더링될 때 `fetchKey`를 전달해 현재 query와 변수를 강제로 재평가(re-evaluation)할 수 있습니다(React component에서 다른 `key`를 전달하면 remount되는 것과 비슷합니다.). `fetchKey`가 이전 렌더링에서 사용된 것 다를 경우, 현재 query는 store와 비교해서 재평가(re-evaluation)될 것이며 `fetchPolicy` 및 캐시 상태에 따라 fetch될 수 있습니다.
+    * `networkCacheConfig`: *_[Optional] _* Default value: `{force: true}`. *네트워크 계층*에 대한 캐시 설정 옵션이 포함된 객체입니다. 네트워크 계층에는 동일한 query에 대해 네트워크 응답을 재사용하는 *추가* query 응답 캐시가 포함될 수 있습니다. 만약에 이 캐시를 완전히 우회하려면(기본 동작임), `{force: true}`를 옵션 값으로 전달하세요.
 
 ### Flow Type Parameters
 
-* `TQuery`: Type parameter that should correspond to the Flow type for the specified query. This type is available to import from the the auto-generated file: `<query_name>.graphql.js`.
+* `TQuery`: 지정된 query의 Flow type에 해당하는 Type 매개변수입니다. 이 type은 자동 생성된 파일에서 가져올 수 있습니다: `<query_name>.graphql.js`.
 
 ### Return Value
 
-* `data`: Object that contains data which has been read out from the Relay store; the object matches the shape of specified query.
-    * The Flow type for data will also match this shape, and contain types derived from the GraphQL Schema. For example, the type of `data` above is: `{| user: ?{| name: ?string |} |}`.
+* `data`: Relay store에서 읽은 데이터를 포함하는 객체입니다; 해당 객체는 지정된 query와 형태가 일치합니다.
+    * 데이터의 Flow type 또한 이 형태와 일치하며 GraphQL Schema에서 파생된 type을 포함합니다. 예를 들어 상단의 `data` type은: `{| user: ?{| name: ?string |} |}`.
 
 ### Behavior
 
