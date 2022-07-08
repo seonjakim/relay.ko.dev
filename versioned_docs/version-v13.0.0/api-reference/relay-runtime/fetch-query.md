@@ -14,7 +14,7 @@ import {OssOnly, FbInternalOnly} from 'internaldocs-fb-helpers';
 
 ## `fetchQuery`
 
-If you want to fetch a query outside of React, you can use the `fetchQuery` function from `react-relay`:
+React 외부에서 쿼리를 가져오려면 `react-relay`에서 `fetchQuery` 함수를 사용할 수 있습니다:
 
 ```js
 import type {AppQuery} from 'AppQuery.graphql';
@@ -44,16 +44,16 @@ fetchQuery<AppQuery>(
 
 ### Arguments
 
-* `environment`: A Relay Environment instance to execute the request on. If you're starting this request somewhere within a React component, you probably want to use the environment you obtain from using [`useRelayEnvironment`](../use-relay-environment/).
-* `query`: GraphQL query to fetch, specified using a `graphql` template literal.
-* `variables`: Object containing the variable values to fetch the query. These variables need to match GraphQL variables declared inside the query.
+* `environment`: 요청을 실행할 Relay Environment 인스턴스입니다. React component 내에서 이 요청을 시작할 경우 [`useRelayEnvironment`](../use-relay-environment/)를 사용해 environment를 가져올 수 있습니다.
+* `query`: fetch하고자 하는 GraphQL query로 `graphql` 템플릿 리터럴을 사용하여 지정합니다.
+* `variables`: query를 fetch할 변수 값을 포함한 객체입니다. 이 변수들은 query 내부에 선언된 GraphQL 변수와 일치해야 합ㄴ디ㅏ.
 * `options`: *_[Optional]_* options object
-    * `networkCacheConfig`: *_[Optional]_ *Object containing cache config options
-        * `force`: Boolean value. If true, will bypass the network response cache. Defaults to true.
+    * `networkCacheConfig`: *_[Optional]_* 캐시 설정 옵션이 포함된 객체
+        * `force`: Boolean 값. true인 경우 네트워크 응답 캐시를 무시합니다. 기본값은 true입니다.
 
 ### Flow Type Parameters
 
-* `TQuery`: Type parameter that should correspond to the Flow type for the specified query. This type is available to import from the the auto-generated file: `<query_name>.graphql.js`. It will ensure that the type of the data provided by the observable matches the shape of the query, and enforces that the `variables` passed as input to `fetchQuery` match the type of the variables expected by the query.
+* `TQuery`: 지정된 query의 Flow type에 해당하는 Type 매개변수입니다. 이 type은 자동 생성된 파일에서 가져올 수 있습니다: `<query_name>.graphql.js`. observable에서 제공하는 데이터 type이 query의 형태와 일치하는지 확인하고, `fetchQuery`에 전달된 `variables`가 query에서 지정된 변수 type과 일치하도록 강제합니다.
 
 ### Return Value
 
@@ -80,10 +80,9 @@ fetchQuery<AppQuery>(
 
 ### Behavior
 
-* `fetchQuery` will automatically save the fetched data to the in-memory Relay store, and notify any components subscribed to the relevant data.
-* `fetchQuery` will **NOT** retain the data for the query, meaning that it is not guaranteed that the data will remain saved in the Relay store at any point after the request completes. If you wish to make sure that the data is retained outside of the scope of the request, you need to call `environment.retain()` directly on the query to ensure it doesn't get deleted. See our section on [Controlling Relay's GC Policy](../../guided-tour/reusing-cached-data/availability-of-data) for more details.
-* `fetchQuery` will automatically de-dupe identical network requests (same query and variables) that are in flight at the same time, and that were initiated with `fetchQuery`.
-
+* `fetchQuery`는 fetch된 데이터를 in-memory Relay store에 자동으로 저장하고 관련 데이터를 구독하는 모든 component에 알립니다.
+* `fetchQuery`는 query에 대한 data를 유지하지 **않습니다**, 즉 요청 완료 후에 데이터가 Relay store에 저장된다는 보장이 없습니다. 데이터를 요청 범위 밖에서 유지하기 위해서는 `environment.retain()`를 query에 직접적으로 호출하여 삭제되지 않도록 해야 합니다. 더 자세한 사항은 [Controlling Relay's GC Policy](../../guided-tour/reusing-cached-data/availability-of-data) 섹션을 참조하세요.
+* `fetchQuery`는 동시에 진행 중이고 `fetchQuery`로 시작된 동일한 네트워크 요청(동일한 query 및 변수)를 자동으로 중복 제거합니다.
 
 ### Behavior with `.toPromise()`
 
