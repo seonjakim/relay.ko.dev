@@ -57,24 +57,24 @@ fetchQuery<AppQuery>(
 
 ### Return Value
 
-* `observable`: Returns an observable instance. To start the request, `subscribe` or `toPromise` must be called on the observable. Exposes the following methods:
-    * `subscribe`: Function that can be called to subscribe to the observable for the network request
+* `observable`: observable 인스턴스를 반환합니다. 요청을 시작하려면 observable에서 `subscribe` 또는 `toPromise`를 반드시 호출해야 합니다. 다음과 같은 methods를 가집니다:
+    * `subscribe`: 네트워크 요청에 대한 observable을 구독하기 위해 호출할 수 있는 함수
         * Arguments:
-            * `observer`: Object that specifies observer functions for different events occurring on the network request observable. May specify the following event handlers as keys in the observer object:
-                * `start`: Function that will be called when the network requests starts. It will receive a single `subscription` argument, which represents the subscription on the network observable.
-                * `complete`: Function that will be called if and when the network request completes successfully.
-                * `next`: Function that will be called every time a payload is received from the network. It will receive a single `data` argument, which represents a snapshot of the query data read from the Relay store at the moment a payload was received from the server.
-                * `error`:  Function that will be called if an error occurs during the network request. It will receive a single `error` argument, containing the error that occurred.
-                * `unsubscribe`: Function that will be called whenever the subscription is unsubscribed. It will receive a single `subscription` argument, which represents the subscription on the network observable.
+            * `observer`: 네트워크 요청 observable에서 발생하는 다양한 이벤트에 대해 observer 기능을 지정하는 객체입니다. 다음의 event handlers를 observer 객체의 키로 지정할 수 있습니다:
+                * `start`: 네트워크 요청이 시작될 때 호출될 함수입니다. 네트워크 observable에 대한 구독을 나타내는 단일 `subscription` 인자를 받습니다.
+                * `complete`: 네트워크 요청이 성공적으로 완료되면 호출되는 함수입니다.
+                * `next`: 네트워크에서 payload를 받을 때마다 호출되는 함수입니다. 서버에서 payload를 받는 순간 Relay store에서 읽어오는 query 데이터의 snapshot을 나타내는 단일 `data` 인수를 전달받습니다.
+                * `error`:  네트워크 요청 중에 오류가 발생하면 호출되는 함수입니다. 발생한 오류를 담고있는 단일 `error` 인수를 전달받습니다.
+                * `unsubscribe`: 구독이 취소(unsubscribe)될 때마다 호출되는 함수입니다. 네트워크 observable에 대한 구독(subscription)을 나타내는 단일 `subscription` 인수를 전달받습니다.
         * Return Value:
-            * `subscription`: Object representing a subscription to the observable. Calling `subscription.unsubscribe()` will cancel the network request.
+            * `subscription`: observable에 대한 구독(subscription)을 나타내는 객체입니다. `subscription.unsubscribe()`을 호출하면 네트워크 요청이 취소됩니다.
     * `toPromise`:
         * Return Value:
-            * `promise`: Returns a promise that will resolve when the first network response is received from the server. If the request fails, the promise will reject. Cannot be cancelled.
+            * `promise`: 서버에서 첫 네트워크 응답을 받을 때 이행(resolve)할 promise를 반환합니다. 요청이 실패하면 promise는 실패(reject)됩니다. 취소할 수 없습니다.
 
 <FbInternalOnly>
 
-> The `next` function may be called multiple times when using Relay's [Incremental Data Delivery](../../guides/incremental-data-delivery/) capabilities to receive multiple payloads from the server.
+> `next`함수는 Relay의 [Incremental Data Delivery](../../guides/incremental-data-delivery/) 기능을 통해 서버에서 여러 payload를 받을 때, 여러번 호출될 수 있습니다.
 
 </FbInternalOnly>
 
