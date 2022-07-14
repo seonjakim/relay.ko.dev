@@ -46,7 +46,7 @@ fetchQuery<AppQuery>(
 
 * `environment`: 요청을 실행할 Relay Environment 인스턴스입니다. React component 내에서 이 요청을 시작할 경우 [`useRelayEnvironment`](../use-relay-environment/)를 사용해 environment를 가져올 수 있습니다.
 * `query`: fetch하고자 하는 GraphQL query로 `graphql` 템플릿 리터럴을 사용하여 지정합니다.
-* `variables`: query를 fetch할 변수 값을 포함한 객체입니다. 이 변수들은 query 내부에 선언된 GraphQL 변수와 일치해야 합ㄴ디ㅏ.
+* `variables`: query를 fetch할 변수 값을 포함한 객체입니다. 이 변수들은 query 내부에 선언된 GraphQL 변수와 일치해야 합니다.
 * `options`: *_[Optional]_* options object
     * `networkCacheConfig`: *_[Optional]_* 캐시 설정 옵션이 포함된 객체
         * `force`: Boolean 값. true인 경우 네트워크 응답 캐시를 무시합니다. 기본값은 true입니다.
@@ -86,7 +86,7 @@ fetchQuery<AppQuery>(
 
 ### Behavior with `.toPromise()`
 
-If desired, you can convert the request into a Promise using `**.toPromise()**`. Note that toPromise will start the query and return a Promise that will resolve when the *first* piece of data returns from the server and *cancel further processing*. That means any deferred or 3D data in the query may not be processed. **We generally recommend against using toPromise() for this reason.**
+원한다면 `**.toPromise()**`를 사용해 요청을 Promise로 변환할 수 있습니다. toPromise는 query를 시작하고 *첫 번째* 데이터 조각이 서버에서 반환되고 *이후의 처리를 취소*할 때 이행(resolve)되는 Promise를 반환합니다. 즉, query의 지연(defer) 또는 3D 데이터는 처리되지 않을 수 있습니다. **이러한 이유로 일반적으로 toPromise()사용을 권장하지 않습니다.**
 
 ```js
 import type {AppQuery} from 'AppQuery.graphql';
@@ -109,6 +109,6 @@ fetchQuery<AppQuery>(
 .catch(error => {...};
 ```
 
-* `toPromise` Returns a promise that will resolve when the first network response is received from the server. If the request fails, the promise will reject. Cannot be cancelled.
+* `toPromise` 서버에서 첫 변째 네트워크 응답이 수신될 때 이행(resolve)될 promise를 반환합니다. 요청이 실패하면 promise는 실패(reject)합니다. 취소할 수 없습니다.
 
 <DocsRating />
