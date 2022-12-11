@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v11.0.0/guided-tour/refetching/refetching-queries-with-different-data.md",
   "sourceDirName": "guided-tour/refetching",
   "slug": "/guided-tour/refetching/refetching-queries-with-different-data/",
-  "permalink": "/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guided-tour/refetching/refetching-queries-with-different-data.md",
+  "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v11.0.0/guided-tour/refetching/refetching-queries-with-different-data.md",
   "tags": [],
   "version": "v11.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "refetching-queries-with-different-data",
     "title": "Refetching Queries with Different Data",
@@ -22,10 +22,10 @@
   "sidebar": "version-v11.0.0/docs",
   "previous": {
     "title": "Refreshing Queries",
-    "permalink": "/docs/v11.0.0/guided-tour/refetching/refreshing-queries/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-queries/"
   },
   "next": {
     "title": "Refreshing Fragments",
-    "permalink": "/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/"
   }
 }

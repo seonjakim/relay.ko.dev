@@ -16,9 +16,19 @@
       "name": "@docusaurus/plugin-content-pages",
       "version": "2.0.0-beta.8"
     },
-    "docusaurus-plugin-debug": {
+    "docusaurus-plugin-google-analytics": {
       "type": "package",
-      "name": "@docusaurus/plugin-debug",
+      "name": "@docusaurus/plugin-google-analytics",
+      "version": "2.0.0-beta.8"
+    },
+    "docusaurus-plugin-google-gtag": {
+      "type": "package",
+      "name": "@docusaurus/plugin-google-gtag",
+      "version": "2.0.0-beta.8"
+    },
+    "docusaurus-plugin-sitemap": {
+      "type": "package",
+      "name": "@docusaurus/plugin-sitemap",
       "version": "2.0.0-beta.8"
     },
     "docusaurus-theme-classic": {

@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v1.6.1/PrinciplesAndArchitecture-ThinkingInGraphQL.md",
   "sourceDirName": ".",
   "slug": "/thinking-in-graphql",
-  "permalink": "/docs/v1.6.1/thinking-in-graphql",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v1.6.1/PrinciplesAndArchitecture-ThinkingInGraphQL.md",
+  "permalink": "/relay.ko.dev/docs/v1.6.1/thinking-in-graphql",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v1.6.1/PrinciplesAndArchitecture-ThinkingInGraphQL.md",
   "tags": [],
   "version": "v1.6.1",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "thinking-in-graphql",
     "title": "Thinking in GraphQL",
@@ -22,10 +22,10 @@
   "sidebar": "version-v1.6.1/docs",
   "previous": {
     "title": "API Cheatsheet",
-    "permalink": "/docs/v1.6.1/api-cheatsheet"
+    "permalink": "/relay.ko.dev/docs/v1.6.1/api-cheatsheet"
   },
   "next": {
     "title": "Thinking In Relay",
-    "permalink": "/docs/v1.6.1/thinking-in-relay"
+    "permalink": "/relay.ko.dev/docs/v1.6.1/thinking-in-relay"
   }
 }

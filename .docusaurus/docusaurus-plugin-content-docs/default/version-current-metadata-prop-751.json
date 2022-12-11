@@ -17,22 +17,22 @@
           {
             "type": "link",
             "label": "Introduction to Relay",
-            "href": "/docs/next/"
+            "href": "/relay.ko.dev/docs/next/"
           },
           {
             "type": "link",
             "label": "Prerequisites",
-            "href": "/docs/next/getting-started/prerequisites/"
+            "href": "/relay.ko.dev/docs/next/getting-started/prerequisites/"
           },
           {
             "type": "link",
             "label": "Installation and Setup",
-            "href": "/docs/next/getting-started/installation-and-setup/"
+            "href": "/relay.ko.dev/docs/next/getting-started/installation-and-setup/"
           },
           {
             "type": "link",
             "label": "Step-by-step Guide",
-            "href": "/docs/next/getting-started/step-by-step-guide/"
+            "href": "/relay.ko.dev/docs/next/getting-started/step-by-step-guide/"
           }
         ]
       },
@@ -45,12 +45,12 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/docs/next/guided-tour/"
+            "href": "/relay.ko.dev/docs/next/guided-tour/"
           },
           {
             "type": "link",
             "label": "Workflow",
-            "href": "/docs/next/guided-tour/workflow/"
+            "href": "/relay.ko.dev/docs/next/guided-tour/workflow/"
           },
           {
             "type": "category",
@@ -61,32 +61,32 @@
               {
                 "type": "link",
                 "label": "Queries",
-                "href": "/docs/next/guided-tour/rendering/queries/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/queries/"
               },
               {
                 "type": "link",
                 "label": "Fragments",
-                "href": "/docs/next/guided-tour/rendering/fragments/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/fragments/"
               },
               {
                 "type": "link",
                 "label": "Variables",
-                "href": "/docs/next/guided-tour/rendering/variables/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/variables/"
               },
               {
                 "type": "link",
                 "label": "Loading States with Suspense",
-                "href": "/docs/next/guided-tour/rendering/loading-states/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/loading-states/"
               },
               {
                 "type": "link",
                 "label": "Error States with ErrorBoundaries",
-                "href": "/docs/next/guided-tour/rendering/error-states/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/error-states/"
               },
               {
                 "type": "link",
                 "label": "Environment",
-                "href": "/docs/next/guided-tour/rendering/environment/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/rendering/environment/"
               }
             ]
           },
@@ -99,37 +99,37 @@
               {
                 "type": "link",
                 "label": "Reusing Cached Data",
-                "href": "/docs/next/guided-tour/reusing-cached-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/"
               },
               {
                 "type": "link",
                 "label": "Fetch Policies",
-                "href": "/docs/next/guided-tour/reusing-cached-data/fetch-policies/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/fetch-policies/"
               },
               {
                 "type": "link",
                 "label": "Availability of Data",
-                "href": "/docs/next/guided-tour/reusing-cached-data/availability-of-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/availability-of-data/"
               },
               {
                 "type": "link",
                 "label": "Presence of Data",
-                "href": "/docs/next/guided-tour/reusing-cached-data/presence-of-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/presence-of-data/"
               },
               {
                 "type": "link",
                 "label": "Staleness of Data",
-                "href": "/docs/next/guided-tour/reusing-cached-data/staleness-of-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/staleness-of-data/"
               },
               {
                 "type": "link",
                 "label": "Rendering Partially Cached Data",
-                "href": "/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/"
               },
               {
                 "type": "link",
                 "label": "Filling in Missing Data (Missing Field Handlers)",
-                "href": "/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/"
               }
             ]
           },
@@ -142,27 +142,27 @@
               {
                 "type": "link",
                 "label": "Introduction",
-                "href": "/docs/next/guided-tour/refetching/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/refetching/"
               },
               {
                 "type": "link",
                 "label": "Refreshing Queries",
-                "href": "/docs/next/guided-tour/refetching/refreshing-queries/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-queries/"
               },
               {
                 "type": "link",
                 "label": "Refetching Queries with Different Data",
-                "href": "/docs/next/guided-tour/refetching/refetching-queries-with-different-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/refetching/refetching-queries-with-different-data/"
               },
               {
                 "type": "link",
                 "label": "Refreshing Fragments",
-                "href": "/docs/next/guided-tour/refetching/refreshing-fragments/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-fragments/"
               },
               {
                 "type": "link",
                 "label": "Refetching Fragments with Different Data",
-                "href": "/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/"
               }
             ]
           },
@@ -175,37 +175,37 @@
               {
                 "type": "link",
                 "label": "Connections",
-                "href": "/docs/next/guided-tour/list-data/connections/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/connections/"
               },
               {
                 "type": "link",
                 "label": "Rendering Connections",
-                "href": "/docs/next/guided-tour/list-data/rendering-connections/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/rendering-connections/"
               },
               {
                 "type": "link",
                 "label": "Pagination",
-                "href": "/docs/next/guided-tour/list-data/pagination/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/pagination/"
               },
               {
                 "type": "link",
                 "label": "Streaming Pagination",
-                "href": "/docs/next/guided-tour/list-data/streaming-pagination/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/streaming-pagination/"
               },
               {
                 "type": "link",
                 "label": "Refetching Connections (Using and Changing Filters)",
-                "href": "/docs/next/guided-tour/list-data/refetching-connections/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/refetching-connections/"
               },
               {
                 "type": "link",
                 "label": "Updating Connections",
-                "href": "/docs/next/guided-tour/list-data/updating-connections/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/updating-connections/"
               },
               {
                 "type": "link",
                 "label": "Advanced Pagination",
-                "href": "/docs/next/guided-tour/list-data/advanced-pagination/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/list-data/advanced-pagination/"
               }
             ]
           },
@@ -218,32 +218,32 @@
               {
                 "type": "link",
                 "label": "Introduction",
-                "href": "/docs/next/guided-tour/updating-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/"
               },
               {
                 "type": "link",
                 "label": "GraphQL mutations",
-                "href": "/docs/next/guided-tour/updating-data/graphql-mutations/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-mutations/"
               },
               {
                 "type": "link",
                 "label": "GraphQL subscriptions",
-                "href": "/docs/next/guided-tour/updating-data/graphql-subscriptions/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-subscriptions/"
               },
               {
                 "type": "link",
                 "label": "Imperatively modifying store data (unsafe)",
-                "href": "/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/"
               },
               {
                 "type": "link",
                 "label": "Local Data Updates",
-                "href": "/docs/next/guided-tour/updating-data/local-data-updates/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/local-data-updates/"
               },
               {
                 "type": "link",
                 "label": "Client-only data",
-                "href": "/docs/next/guided-tour/updating-data/client-only-data/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/updating-data/client-only-data/"
               }
             ]
           },
@@ -256,7 +256,7 @@
               {
                 "type": "link",
                 "label": "Retaining Queries",
-                "href": "/docs/next/guided-tour/accessing-data-without-react/retaining-queries/"
+                "href": "/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/retaining-queries/"
               }
             ]
           }
@@ -277,57 +277,57 @@
               {
                 "type": "link",
                 "label": "RelayEnvironmentProvider",
-                "href": "/docs/next/api-reference/relay-environment-provider/"
+                "href": "/relay.ko.dev/docs/next/api-reference/relay-environment-provider/"
               },
               {
                 "type": "link",
                 "label": "useRelayEnvironment",
-                "href": "/docs/next/api-reference/use-relay-environment/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-relay-environment/"
               },
               {
                 "type": "link",
                 "label": "usePreloadedQuery",
-                "href": "/docs/next/api-reference/use-preloaded-query/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-preloaded-query/"
               },
               {
                 "type": "link",
                 "label": "useQueryLoader",
-                "href": "/docs/next/api-reference/use-query-loader/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-query-loader/"
               },
               {
                 "type": "link",
                 "label": "loadQuery",
-                "href": "/docs/next/api-reference/load-query/"
+                "href": "/relay.ko.dev/docs/next/api-reference/load-query/"
               },
               {
                 "type": "link",
                 "label": "useLazyLoadQuery",
-                "href": "/docs/next/api-reference/use-lazy-load-query/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-lazy-load-query/"
               },
               {
                 "type": "link",
                 "label": "useFragment",
-                "href": "/docs/next/api-reference/use-fragment/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-fragment/"
               },
               {
                 "type": "link",
                 "label": "useRefetchableFragment",
-                "href": "/docs/next/api-reference/use-refetchable-fragment/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-refetchable-fragment/"
               },
               {
                 "type": "link",
                 "label": "usePaginationFragment",
-                "href": "/docs/next/api-reference/use-pagination-fragment/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-pagination-fragment/"
               },
               {
                 "type": "link",
                 "label": "useMutation",
-                "href": "/docs/next/api-reference/use-mutation/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-mutation/"
               },
               {
                 "type": "link",
                 "label": "useSubscription",
-                "href": "/docs/next/api-reference/use-subscription/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-subscription/"
               }
             ]
           },
@@ -340,17 +340,17 @@
               {
                 "type": "link",
                 "label": "useEntryPointLoader",
-                "href": "/docs/next/api-reference/use-entrypoint-loader/"
+                "href": "/relay.ko.dev/docs/next/api-reference/use-entrypoint-loader/"
               },
               {
                 "type": "link",
                 "label": "loadEntryPoint",
-                "href": "/docs/next/api-reference/load-entrypoint/"
+                "href": "/relay.ko.dev/docs/next/api-reference/load-entrypoint/"
               },
               {
                 "type": "link",
                 "label": "EntryPointContainer",
-                "href": "/docs/next/api-reference/entrypoint-container/"
+                "href": "/relay.ko.dev/docs/next/api-reference/entrypoint-container/"
               }
             ]
           },
@@ -363,34 +363,34 @@
               {
                 "type": "link",
                 "label": "fetchQuery",
-                "href": "/docs/next/api-reference/fetch-query/"
+                "href": "/relay.ko.dev/docs/next/api-reference/fetch-query/"
               },
               {
                 "type": "link",
                 "label": "Store",
-                "href": "/docs/next/api-reference/store/"
+                "href": "/relay.ko.dev/docs/next/api-reference/store/"
               },
               {
                 "type": "link",
                 "label": "commitMutation",
-                "href": "/docs/next/api-reference/commit-mutation/"
+                "href": "/relay.ko.dev/docs/next/api-reference/commit-mutation/"
               },
               {
                 "type": "link",
                 "label": "requestSubscription",
-                "href": "/docs/next/api-reference/request-subscription/"
+                "href": "/relay.ko.dev/docs/next/api-reference/request-subscription/"
               }
             ]
           },
           {
             "type": "link",
             "label": "GraphQL Directives",
-            "href": "/docs/next/api-reference/graphql-and-directives/"
+            "href": "/relay.ko.dev/docs/next/api-reference/graphql-and-directives/"
           },
           {
             "type": "link",
             "label": "Legacy APIs",
-            "href": "/docs/next/api-reference/legacy-apis/"
+            "href": "/relay.ko.dev/docs/next/api-reference/legacy-apis/"
           }
         ]
       },
@@ -403,52 +403,52 @@
           {
             "type": "link",
             "label": "GraphQL Server Specification",
-            "href": "/docs/next/guides/graphql-server-specification/"
+            "href": "/relay.ko.dev/docs/next/guides/graphql-server-specification/"
           },
           {
             "type": "link",
             "label": "Relay Compiler",
-            "href": "/docs/next/guides/compiler/"
+            "href": "/relay.ko.dev/docs/next/guides/compiler/"
           },
           {
             "type": "link",
             "label": "Type Emission",
-            "href": "/docs/next/guides/type-emission/"
+            "href": "/relay.ko.dev/docs/next/guides/type-emission/"
           },
           {
             "type": "link",
             "label": "Persisted Queries",
-            "href": "/docs/next/guides/persisted-queries/"
+            "href": "/relay.ko.dev/docs/next/guides/persisted-queries/"
           },
           {
             "type": "link",
             "label": "Network Layer",
-            "href": "/docs/next/guides/network-layer/"
+            "href": "/relay.ko.dev/docs/next/guides/network-layer/"
           },
           {
             "type": "link",
             "label": "Client Schema Extensions",
-            "href": "/docs/next/guides/client-schema-extensions/"
+            "href": "/relay.ko.dev/docs/next/guides/client-schema-extensions/"
           },
           {
             "type": "link",
             "label": "Testing Relay Components",
-            "href": "/docs/next/guides/testing-relay-components/"
+            "href": "/relay.ko.dev/docs/next/guides/testing-relay-components/"
           },
           {
             "type": "link",
             "label": "Testing Relay with Preloaded Queries",
-            "href": "/docs/next/guides/testing-relay-with-preloaded-queries/"
+            "href": "/relay.ko.dev/docs/next/guides/testing-relay-with-preloaded-queries/"
           },
           {
             "type": "link",
             "label": "@required Directive",
-            "href": "/docs/next/guides/required-directive/"
+            "href": "/relay.ko.dev/docs/next/guides/required-directive/"
           },
           {
             "type": "link",
             "label": "Relay Resolvers",
-            "href": "/docs/next/guides/relay-resolvers/"
+            "href": "/relay.ko.dev/docs/next/guides/relay-resolvers/"
           }
         ]
       },
@@ -461,17 +461,17 @@
           {
             "type": "link",
             "label": "Upgrading to Relay Hooks",
-            "href": "/docs/next/migration-and-compatibility/"
+            "href": "/relay.ko.dev/docs/next/migration-and-compatibility/"
           },
           {
             "type": "link",
             "label": "Suspense Compatibility",
-            "href": "/docs/next/migration-and-compatibility/suspense-compatibility/"
+            "href": "/relay.ko.dev/docs/next/migration-and-compatibility/suspense-compatibility/"
           },
           {
             "type": "link",
             "label": "Relay Hooks and Legacy Container APIs",
-            "href": "/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/"
+            "href": "/relay.ko.dev/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/"
           }
         ]
       },
@@ -484,17 +484,17 @@
           {
             "type": "link",
             "label": "Relay DevTools",
-            "href": "/docs/next/debugging/relay-devtools/"
+            "href": "/relay.ko.dev/docs/next/debugging/relay-devtools/"
           },
           {
             "type": "link",
             "label": "Inconsistent Typename Error",
-            "href": "/docs/next/debugging/inconsistent-typename-error/"
+            "href": "/relay.ko.dev/docs/next/debugging/inconsistent-typename-error/"
           },
           {
             "type": "link",
             "label": "Debugging Declarative Mutation Directives",
-            "href": "/docs/next/debugging/declarative-mutation-directives/"
+            "href": "/relay.ko.dev/docs/next/debugging/declarative-mutation-directives/"
           }
         ]
       },
@@ -507,44 +507,44 @@
           {
             "type": "link",
             "label": "Thinking in GraphQL",
-            "href": "/docs/next/principles-and-architecture/thinking-in-graphql/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-graphql/"
           },
           {
             "type": "link",
             "label": "Thinking in Relay",
-            "href": "/docs/next/principles-and-architecture/thinking-in-relay/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-relay/"
           },
           {
             "type": "link",
             "label": "Architecture Overview",
-            "href": "/docs/next/principles-and-architecture/architecture-overview/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/architecture-overview/"
           },
           {
             "type": "link",
             "label": "Compiler Architecture",
-            "href": "/docs/next/principles-and-architecture/compiler-architecture/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/compiler-architecture/"
           },
           {
             "type": "link",
             "label": "Runtime Architecture",
-            "href": "/docs/next/principles-and-architecture/runtime-architecture/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/runtime-architecture/"
           },
           {
             "type": "link",
             "label": "Videos",
-            "href": "/docs/next/principles-and-architecture/videos/"
+            "href": "/relay.ko.dev/docs/next/principles-and-architecture/videos/"
           }
         ]
       },
       {
         "type": "link",
         "label": "Community Learning Resources",
-        "href": "/docs/next/community-learning-resources/"
+        "href": "/relay.ko.dev/docs/next/community-learning-resources/"
       },
       {
         "type": "link",
         "label": "Glossary",
-        "href": "/docs/next/glossary/"
+        "href": "/relay.ko.dev/docs/next/glossary/"
       }
     ]
   }

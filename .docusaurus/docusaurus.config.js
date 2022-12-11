@@ -2,7 +2,7 @@ export default {
   "title": "Relay.ko",
   "tagline": "The GraphQL client that scales with you.",
   "url": "https://seonjakim.github.io/relay.ko.dev/",
-  "baseUrl": "/",
+  "baseUrl": "/relay.ko.dev/",
   "trailingSlash": true,
   "organizationName": "seonjakim",
   "projectName": "relay.ko",
@@ -184,7 +184,7 @@ export default {
         "docs": {
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
-          "editUrl": "https://github.com/facebook/relay/tree/main/website",
+          "editUrl": "https://seonjakim.github.io/relay.ko.dev/",
           "path": "./docs/",
           "sidebarPath": "/Users/seonjakim/Documents/relay.ko.dev/sidebars.js",
           "lastVersion": "v13.0.0",

@@ -7,13 +7,13 @@
   "source": "@site/docs/guides/required-directive.md",
   "sourceDirName": "guides",
   "slug": "/guides/required-directive/",
-  "permalink": "/docs/next/guides/required-directive/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/guides/required-directive.md",
+  "permalink": "/relay.ko.dev/docs/next/guides/required-directive/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/guides/required-directive.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "required-directive",
     "title": "@required Directive",
@@ -29,10 +29,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Testing Relay with Preloaded Queries",
-    "permalink": "/docs/next/guides/testing-relay-with-preloaded-queries/"
+    "permalink": "/relay.ko.dev/docs/next/guides/testing-relay-with-preloaded-queries/"
   },
   "next": {
     "title": "Relay Resolvers",
-    "permalink": "/docs/next/guides/relay-resolvers/"
+    "permalink": "/relay.ko.dev/docs/next/guides/relay-resolvers/"
   }
 }

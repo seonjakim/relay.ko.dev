@@ -7,13 +7,13 @@
   "source": "@site/docs/getting-started/prerequisites.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/prerequisites/",
-  "permalink": "/docs/next/getting-started/prerequisites/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/getting-started/prerequisites.md",
+  "permalink": "/relay.ko.dev/docs/next/getting-started/prerequisites/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/getting-started/prerequisites.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "prerequisites",
     "title": "Prerequisites",
@@ -26,10 +26,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Introduction to Relay",
-    "permalink": "/docs/next/"
+    "permalink": "/relay.ko.dev/docs/next/"
   },
   "next": {
     "title": "Installation and Setup",
-    "permalink": "/docs/next/getting-started/installation-and-setup/"
+    "permalink": "/relay.ko.dev/docs/next/getting-started/installation-and-setup/"
   }
 }

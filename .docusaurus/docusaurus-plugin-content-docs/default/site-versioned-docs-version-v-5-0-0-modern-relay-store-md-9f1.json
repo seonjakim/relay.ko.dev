@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v5.0.0/Modern-RelayStore.md",
   "sourceDirName": ".",
   "slug": "/relay-store",
-  "permalink": "/docs/v5.0.0/relay-store",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v5.0.0/Modern-RelayStore.md",
+  "permalink": "/relay.ko.dev/docs/v5.0.0/relay-store",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v5.0.0/Modern-RelayStore.md",
   "tags": [],
   "version": "v5.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "relay-store",
     "title": "Relay Store",
@@ -22,10 +22,10 @@
   "sidebar": "version-v5.0.0/docs",
   "previous": {
     "title": "Subscriptions",
-    "permalink": "/docs/v5.0.0/subscriptions"
+    "permalink": "/relay.ko.dev/docs/v5.0.0/subscriptions"
   },
   "next": {
     "title": "fetchQuery",
-    "permalink": "/docs/v5.0.0/fetch-query"
+    "permalink": "/relay.ko.dev/docs/v5.0.0/fetch-query"
   }
 }

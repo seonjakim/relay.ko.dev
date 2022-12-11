@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v12.0.0/guided-tour/rendering/error-states.md",
   "sourceDirName": "guided-tour/rendering",
   "slug": "/guided-tour/rendering/error-states/",
-  "permalink": "/docs/v12.0.0/guided-tour/rendering/error-states/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/guided-tour/rendering/error-states.md",
+  "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/error-states/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v12.0.0/guided-tour/rendering/error-states.md",
   "tags": [],
   "version": "v12.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "error-states",
     "title": "Error States with ErrorBoundaries",
@@ -28,10 +28,10 @@
   "sidebar": "version-v12.0.0/docs",
   "previous": {
     "title": "Loading States with Suspense",
-    "permalink": "/docs/v12.0.0/guided-tour/rendering/loading-states/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/loading-states/"
   },
   "next": {
     "title": "Environment",
-    "permalink": "/docs/v12.0.0/guided-tour/rendering/environment/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/environment/"
   }
 }

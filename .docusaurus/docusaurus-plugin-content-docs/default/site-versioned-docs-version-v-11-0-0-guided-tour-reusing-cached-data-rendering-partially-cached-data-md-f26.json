@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data.md",
   "sourceDirName": "guided-tour/reusing-cached-data",
   "slug": "/guided-tour/reusing-cached-data/rendering-partially-cached-data/",
-  "permalink": "/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data.md",
+  "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data.md",
   "tags": [],
   "version": "v11.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "rendering-partially-cached-data",
     "title": "Rendering Partially Cached Data",
@@ -22,10 +22,10 @@
   "sidebar": "version-v11.0.0/docs",
   "previous": {
     "title": "Staleness of Data",
-    "permalink": "/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/"
   },
   "next": {
     "title": "Filling in Missing Data (Missing Field Handlers)",
-    "permalink": "/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/"
   }
 }

@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v13.0.0/api-reference/hooks/use-mutation.md",
   "sourceDirName": "api-reference/hooks",
   "slug": "/api-reference/use-mutation/",
-  "permalink": "/docs/api-reference/use-mutation/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/hooks/use-mutation.md",
+  "permalink": "/relay.ko.dev/docs/api-reference/use-mutation/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v13.0.0/api-reference/hooks/use-mutation.md",
   "tags": [],
   "version": "v13.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1655254364,
+  "formattedLastUpdatedAt": "6/15/2022",
   "frontMatter": {
     "id": "use-mutation",
     "title": "useMutation",
@@ -26,10 +26,10 @@
   "sidebar": "version-v13.0.0/docs",
   "previous": {
     "title": "usePaginationFragment",
-    "permalink": "/docs/api-reference/use-pagination-fragment/"
+    "permalink": "/relay.ko.dev/docs/api-reference/use-pagination-fragment/"
   },
   "next": {
     "title": "useSubscription",
-    "permalink": "/docs/api-reference/use-subscription/"
+    "permalink": "/relay.ko.dev/docs/api-reference/use-subscription/"
   }
 }

@@ -1,4 +1,6 @@
 export default [
+  require("/Users/seonjakim/Documents/relay.ko.dev/node_modules/@docusaurus/plugin-google-analytics/lib/analytics"),
+  require("/Users/seonjakim/Documents/relay.ko.dev/node_modules/@docusaurus/plugin-google-gtag/lib/gtag"),
   require("/Users/seonjakim/Documents/relay.ko.dev/node_modules/infima/dist/css/default/default.css"),
   require("/Users/seonjakim/Documents/relay.ko.dev/node_modules/@docusaurus/theme-classic/lib/prism-include-languages"),
   require("/Users/seonjakim/Documents/relay.ko.dev/node_modules/@docusaurus/theme-classic/lib/admonitions.css"),

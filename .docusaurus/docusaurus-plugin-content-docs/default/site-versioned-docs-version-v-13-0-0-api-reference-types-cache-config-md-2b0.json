@@ -7,12 +7,12 @@
   "source": "@site/versioned_docs/version-v13.0.0/api-reference/types/CacheConfig.md",
   "sourceDirName": "api-reference/types",
   "slug": "/api-reference/types/CacheConfig",
-  "permalink": "/docs/api-reference/types/CacheConfig",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/types/CacheConfig.md",
+  "permalink": "/relay.ko.dev/docs/api-reference/types/CacheConfig",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v13.0.0/api-reference/types/CacheConfig.md",
   "tags": [],
   "version": "v13.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654500983,
+  "formattedLastUpdatedAt": "6/6/2022",
   "frontMatter": {}
 }

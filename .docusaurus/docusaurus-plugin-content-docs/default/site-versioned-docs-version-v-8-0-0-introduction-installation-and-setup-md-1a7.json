@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v8.0.0/Introduction-InstallationAndSetup.md",
   "sourceDirName": ".",
   "slug": "/installation-and-setup",
-  "permalink": "/docs/v8.0.0/installation-and-setup",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v8.0.0/Introduction-InstallationAndSetup.md",
+  "permalink": "/relay.ko.dev/docs/v8.0.0/installation-and-setup",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v8.0.0/Introduction-InstallationAndSetup.md",
   "tags": [],
   "version": "v8.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "installation-and-setup",
     "title": "Installation and Setup",
@@ -22,10 +22,10 @@
   "sidebar": "version-v8.0.0/docs",
   "previous": {
     "title": "Prerequisites",
-    "permalink": "/docs/v8.0.0/prerequisites"
+    "permalink": "/relay.ko.dev/docs/v8.0.0/prerequisites"
   },
   "next": {
     "title": "Quick Start Guide",
-    "permalink": "/docs/v8.0.0/quick-start-guide"
+    "permalink": "/relay.ko.dev/docs/v8.0.0/quick-start-guide"
   }
 }

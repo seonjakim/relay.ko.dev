@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v10.0.1/Modern-Mutations.md",
   "sourceDirName": ".",
   "slug": "/mutations",
-  "permalink": "/docs/v10.0.1/mutations",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v10.0.1/Modern-Mutations.md",
+  "permalink": "/relay.ko.dev/docs/v10.0.1/mutations",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v10.0.1/Modern-Mutations.md",
   "tags": [],
   "version": "v10.0.1",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "mutations",
     "title": "Mutations",
@@ -22,10 +22,10 @@
   "sidebar": "version-v10.0.1/docs",
   "previous": {
     "title": "Pagination Container",
-    "permalink": "/docs/v10.0.1/pagination-container"
+    "permalink": "/relay.ko.dev/docs/v10.0.1/pagination-container"
   },
   "next": {
     "title": "Subscriptions",
-    "permalink": "/docs/v10.0.1/subscriptions"
+    "permalink": "/relay.ko.dev/docs/v10.0.1/subscriptions"
   }
 }

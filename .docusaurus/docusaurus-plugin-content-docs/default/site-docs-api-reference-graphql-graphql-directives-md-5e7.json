@@ -7,13 +7,13 @@
   "source": "@site/docs/api-reference/graphql/graphql-directives.md",
   "sourceDirName": "api-reference/graphql",
   "slug": "/api-reference/graphql-and-directives/",
-  "permalink": "/docs/next/api-reference/graphql-and-directives/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/graphql/graphql-directives.md",
+  "permalink": "/relay.ko.dev/docs/next/api-reference/graphql-and-directives/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/api-reference/graphql/graphql-directives.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "graphql-directives",
     "title": "GraphQL Directives",
@@ -33,10 +33,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "requestSubscription",
-    "permalink": "/docs/next/api-reference/request-subscription/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/request-subscription/"
   },
   "next": {
     "title": "Legacy APIs",
-    "permalink": "/docs/next/api-reference/legacy-apis/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/legacy-apis/"
   }
 }

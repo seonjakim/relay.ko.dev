@@ -7,13 +7,13 @@
   "source": "@site/docs/getting-started/installation-and-setup.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation-and-setup/",
-  "permalink": "/docs/next/getting-started/installation-and-setup/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/getting-started/installation-and-setup.md",
+  "permalink": "/relay.ko.dev/docs/next/getting-started/installation-and-setup/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/getting-started/installation-and-setup.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "installation-and-setup",
     "title": "Installation and Setup",
@@ -29,10 +29,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Prerequisites",
-    "permalink": "/docs/next/getting-started/prerequisites/"
+    "permalink": "/relay.ko.dev/docs/next/getting-started/prerequisites/"
   },
   "next": {
     "title": "Step-by-step Guide",
-    "permalink": "/docs/next/getting-started/step-by-step-guide/"
+    "permalink": "/relay.ko.dev/docs/next/getting-started/step-by-step-guide/"
   }
 }

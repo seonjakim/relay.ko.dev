@@ -7,13 +7,13 @@
   "source": "@site/docs/api-reference/hooks/use-subscription.md",
   "sourceDirName": "api-reference/hooks",
   "slug": "/api-reference/use-subscription/",
-  "permalink": "/docs/next/api-reference/use-subscription/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/use-subscription.md",
+  "permalink": "/relay.ko.dev/docs/next/api-reference/use-subscription/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/api-reference/hooks/use-subscription.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "use-subscription",
     "title": "useSubscription",
@@ -26,10 +26,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "useMutation",
-    "permalink": "/docs/next/api-reference/use-mutation/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/use-mutation/"
   },
   "next": {
     "title": "useEntryPointLoader",
-    "permalink": "/docs/next/api-reference/use-entrypoint-loader/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/use-entrypoint-loader/"
   }
 }

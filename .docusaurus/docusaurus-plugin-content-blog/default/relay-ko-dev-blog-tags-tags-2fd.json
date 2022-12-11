@@ -1,0 +1,30 @@
+{
+  "/relay.ko.dev/blog/tags/relay-compiler": {
+    "allTagsPath": "/relay.ko.dev/blog/tags",
+    "slug": "/relay.ko.dev/blog/tags/relay-compiler",
+    "name": "relay-compiler",
+    "count": 1,
+    "permalink": "/relay.ko.dev/blog/tags/relay-compiler"
+  },
+  "/relay.ko.dev/blog/tags/rust": {
+    "allTagsPath": "/relay.ko.dev/blog/tags",
+    "slug": "/relay.ko.dev/blog/tags/rust",
+    "name": "rust",
+    "count": 1,
+    "permalink": "/relay.ko.dev/blog/tags/rust"
+  },
+  "/relay.ko.dev/blog/tags/required": {
+    "allTagsPath": "/relay.ko.dev/blog/tags",
+    "slug": "/relay.ko.dev/blog/tags/required",
+    "name": "required",
+    "count": 1,
+    "permalink": "/relay.ko.dev/blog/tags/required"
+  },
+  "/relay.ko.dev/blog/tags/relay-hooks": {
+    "allTagsPath": "/relay.ko.dev/blog/tags",
+    "slug": "/relay.ko.dev/blog/tags/relay-hooks",
+    "name": "relay-hooks",
+    "count": 1,
+    "permalink": "/relay.ko.dev/blog/tags/relay-hooks"
+  }
+}

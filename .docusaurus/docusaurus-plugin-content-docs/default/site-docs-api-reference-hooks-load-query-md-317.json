@@ -7,13 +7,13 @@
   "source": "@site/docs/api-reference/hooks/load-query.md",
   "sourceDirName": "api-reference/hooks",
   "slug": "/api-reference/load-query/",
-  "permalink": "/docs/next/api-reference/load-query/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/docs/api-reference/hooks/load-query.md",
+  "permalink": "/relay.ko.dev/docs/next/api-reference/load-query/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/docs/api-reference/hooks/load-query.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "load-query",
     "title": "loadQuery",
@@ -31,10 +31,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "useQueryLoader",
-    "permalink": "/docs/next/api-reference/use-query-loader/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/use-query-loader/"
   },
   "next": {
     "title": "useLazyLoadQuery",
-    "permalink": "/docs/next/api-reference/use-lazy-load-query/"
+    "permalink": "/relay.ko.dev/docs/next/api-reference/use-lazy-load-query/"
   }
 }

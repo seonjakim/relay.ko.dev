@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v12.0.0/guided-tour/updating-data/local-data-updates.md",
   "sourceDirName": "guided-tour/updating-data",
   "slug": "/guided-tour/updating-data/local-data-updates/",
-  "permalink": "/docs/v12.0.0/guided-tour/updating-data/local-data-updates/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/guided-tour/updating-data/local-data-updates.md",
+  "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/local-data-updates/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v12.0.0/guided-tour/updating-data/local-data-updates.md",
   "tags": [],
   "version": "v12.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "local-data-updates",
     "title": "Local Data Updates",
@@ -28,10 +28,10 @@
   "sidebar": "version-v12.0.0/docs",
   "previous": {
     "title": "GraphQL Subscriptions",
-    "permalink": "/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/"
   },
   "next": {
     "title": "Client-Only Data",
-    "permalink": "/docs/v12.0.0/guided-tour/updating-data/client-only-data/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/client-only-data/"
   }
 }

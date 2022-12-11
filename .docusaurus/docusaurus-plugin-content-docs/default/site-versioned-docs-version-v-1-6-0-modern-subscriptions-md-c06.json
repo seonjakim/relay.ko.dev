@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v1.6.0/Modern-Subscriptions.md",
   "sourceDirName": ".",
   "slug": "/subscriptions",
-  "permalink": "/docs/v1.6.0/subscriptions",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v1.6.0/Modern-Subscriptions.md",
+  "permalink": "/relay.ko.dev/docs/v1.6.0/subscriptions",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v1.6.0/Modern-Subscriptions.md",
   "tags": [],
   "version": "v1.6.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "subscriptions",
     "title": "Subscriptions",
@@ -22,10 +22,10 @@
   "sidebar": "version-v1.6.0/docs",
   "previous": {
     "title": "Mutations",
-    "permalink": "/docs/v1.6.0/mutations"
+    "permalink": "/relay.ko.dev/docs/v1.6.0/mutations"
   },
   "next": {
     "title": "Relay Store",
-    "permalink": "/docs/v1.6.0/relay-store"
+    "permalink": "/relay.ko.dev/docs/v1.6.0/relay-store"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/2021/03/09/introducing-relay-hooks",
+  "permalink": "/relay.ko.dev/blog/2021/03/09/introducing-relay-hooks",
   "source": "@site/blog/2021-03-09-introducing-relay-hooks.md",
   "title": "Introducing Relay Hooks",
   "description": "Introducing Relay Hooks",
@@ -8,7 +8,7 @@
   "tags": [
     {
       "label": "relay-hooks",
-      "permalink": "/blog/tags/relay-hooks"
+      "permalink": "/relay.ko.dev/blog/tags/relay-hooks"
     }
   ],
   "readingTime": 5.66,
@@ -20,6 +20,6 @@
   ],
   "prevItem": {
     "title": "Introducing the new Relay compiler",
-    "permalink": "/blog/2021/12/08/introducing-the-new-relay-compiler"
+    "permalink": "/relay.ko.dev/blog/2021/12/08/introducing-the-new-relay-compiler"
   }
 }

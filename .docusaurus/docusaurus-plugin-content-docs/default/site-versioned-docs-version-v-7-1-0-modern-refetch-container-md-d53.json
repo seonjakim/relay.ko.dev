@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v7.1.0/Modern-RefetchContainer.md",
   "sourceDirName": ".",
   "slug": "/refetch-container",
-  "permalink": "/docs/v7.1.0/refetch-container",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v7.1.0/Modern-RefetchContainer.md",
+  "permalink": "/relay.ko.dev/docs/v7.1.0/refetch-container",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v7.1.0/Modern-RefetchContainer.md",
   "tags": [],
   "version": "v7.1.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "refetch-container",
     "title": "Refetch Container",
@@ -22,10 +22,10 @@
   "sidebar": "version-v7.1.0/docs",
   "previous": {
     "title": "Fragment Container",
-    "permalink": "/docs/v7.1.0/fragment-container"
+    "permalink": "/relay.ko.dev/docs/v7.1.0/fragment-container"
   },
   "next": {
     "title": "Pagination Container",
-    "permalink": "/docs/v7.1.0/pagination-container"
+    "permalink": "/relay.ko.dev/docs/v7.1.0/pagination-container"
   }
 }

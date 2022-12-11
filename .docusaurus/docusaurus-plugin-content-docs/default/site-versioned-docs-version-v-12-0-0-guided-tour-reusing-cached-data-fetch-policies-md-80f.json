@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v12.0.0/guided-tour/reusing-cached-data/fetch-policies.md",
   "sourceDirName": "guided-tour/reusing-cached-data",
   "slug": "/guided-tour/reusing-cached-data/fetch-policies/",
-  "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v12.0.0/guided-tour/reusing-cached-data/fetch-policies.md",
+  "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v12.0.0/guided-tour/reusing-cached-data/fetch-policies.md",
   "tags": [],
   "version": "v12.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "fetch-policies",
     "title": "Fetch Policies",
@@ -30,10 +30,10 @@
   "sidebar": "version-v12.0.0/docs",
   "previous": {
     "title": "Reusing Cached Data",
-    "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/"
   },
   "next": {
     "title": "Availability of Data",
-    "permalink": "/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/"
+    "permalink": "/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/"
   }
 }

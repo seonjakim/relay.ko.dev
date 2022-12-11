@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v1.6.0/Modern-ConvertingMutations.md",
   "sourceDirName": ".",
   "slug": "/converting-mutations",
-  "permalink": "/docs/v1.6.0/converting-mutations",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v1.6.0/Modern-ConvertingMutations.md",
+  "permalink": "/relay.ko.dev/docs/v1.6.0/converting-mutations",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v1.6.0/Modern-ConvertingMutations.md",
   "tags": [],
   "version": "v1.6.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "converting-mutations",
     "title": "Converting Mutations",
@@ -22,10 +22,10 @@
   "sidebar": "version-v1.6.0/docs",
   "previous": {
     "title": "Upgrading setVariables",
-    "permalink": "/docs/v1.6.0/upgrading-setvariables"
+    "permalink": "/relay.ko.dev/docs/v1.6.0/upgrading-setvariables"
   },
   "next": {
     "title": "Compatibility Cheatsheet",
-    "permalink": "/docs/v1.6.0/compatibility-cheatsheet"
+    "permalink": "/relay.ko.dev/docs/v1.6.0/compatibility-cheatsheet"
   }
 }

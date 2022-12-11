@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v9.1.0/Modern-PersistedQueries.md",
   "sourceDirName": ".",
   "slug": "/persisted-queries",
-  "permalink": "/docs/v9.1.0/persisted-queries",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v9.1.0/Modern-PersistedQueries.md",
+  "permalink": "/relay.ko.dev/docs/v9.1.0/persisted-queries",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v9.1.0/Modern-PersistedQueries.md",
   "tags": [],
   "version": "v9.1.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "persisted-queries",
     "title": "Persisted Queries",
@@ -22,10 +22,10 @@
   "sidebar": "version-v9.1.0/docs",
   "previous": {
     "title": "GraphQL Server Specification",
-    "permalink": "/docs/v9.1.0/graphql-server-specification"
+    "permalink": "/relay.ko.dev/docs/v9.1.0/graphql-server-specification"
   },
   "next": {
     "title": "Type Emission",
-    "permalink": "/docs/v9.1.0/type-emission"
+    "permalink": "/relay.ko.dev/docs/v9.1.0/type-emission"
   }
 }

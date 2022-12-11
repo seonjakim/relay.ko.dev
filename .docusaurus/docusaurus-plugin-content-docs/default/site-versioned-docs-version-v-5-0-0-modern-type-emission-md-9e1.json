@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v5.0.0/Modern-TypeEmission.md",
   "sourceDirName": ".",
   "slug": "/type-emission",
-  "permalink": "/docs/v5.0.0/type-emission",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v5.0.0/Modern-TypeEmission.md",
+  "permalink": "/relay.ko.dev/docs/v5.0.0/type-emission",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v5.0.0/Modern-TypeEmission.md",
   "tags": [],
   "version": "v5.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "type-emission",
     "title": "Type Emission",
@@ -22,10 +22,10 @@
   "sidebar": "version-v5.0.0/docs",
   "previous": {
     "title": "Persisted Queries",
-    "permalink": "/docs/v5.0.0/persisted-queries"
+    "permalink": "/relay.ko.dev/docs/v5.0.0/persisted-queries"
   },
   "next": {
     "title": "Testing Relay Components",
-    "permalink": "/docs/v5.0.0/testing-relay-components"
+    "permalink": "/relay.ko.dev/docs/v5.0.0/testing-relay-components"
   }
 }

@@ -16,7 +16,8 @@
     "crowdin-download": "crowdin-cli --config ../crowdin.yaml download -b main",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "docusaurus": "docusaurus"
+    "docusaurus": "docusaurus",
+    "gh:deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.8",
@@ -33,7 +34,8 @@
     "spec-md": "^3.0.2"
   },
   "devDependencies": {
-    "docusaurus": "2.0.0-alpha.378053ac5"
+    "docusaurus": "2.0.0-alpha.378053ac5",
+    "gh-pages": "^4.0.0"
   },
   "resolutions": {
     "highlight.js": "^10.4.1",

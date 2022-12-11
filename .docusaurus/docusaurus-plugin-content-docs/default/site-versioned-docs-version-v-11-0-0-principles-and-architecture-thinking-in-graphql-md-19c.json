@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v11.0.0/principles-and-architecture/thinking-in-graphql.md",
   "sourceDirName": "principles-and-architecture",
   "slug": "/principles-and-architecture/thinking-in-graphql/",
-  "permalink": "/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v11.0.0/principles-and-architecture/thinking-in-graphql.md",
+  "permalink": "/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v11.0.0/principles-and-architecture/thinking-in-graphql.md",
   "tags": [],
   "version": "v11.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "thinking-in-graphql",
     "title": "Thinking in GraphQL",
@@ -22,10 +22,10 @@
   "sidebar": "version-v11.0.0/docs",
   "previous": {
     "title": "Debugging Declarative Mutation Directives",
-    "permalink": "/docs/v11.0.0/debugging/declarative-mutation-directives/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/debugging/declarative-mutation-directives/"
   },
   "next": {
     "title": "Thinking in Relay",
-    "permalink": "/docs/v11.0.0/principles-and-architecture/thinking-in-relay/"
+    "permalink": "/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-relay/"
   }
 }

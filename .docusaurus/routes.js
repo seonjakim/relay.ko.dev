@@ -4,7275 +4,7240 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug/',
-    component: ComponentCreator('/__docusaurus/debug/','60e'),
+    path: '/relay.ko.dev/',
+    component: ComponentCreator('/relay.ko.dev/','88e'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config/',
-    component: ComponentCreator('/__docusaurus/debug/config/','647'),
+    path: '/relay.ko.dev/blog/',
+    component: ComponentCreator('/relay.ko.dev/blog/','c9d'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content/',
-    component: ComponentCreator('/__docusaurus/debug/content/','8e2'),
+    path: '/relay.ko.dev/blog/2021/03/09/introducing-relay-hooks/',
+    component: ComponentCreator('/relay.ko.dev/blog/2021/03/09/introducing-relay-hooks/','237'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData/',
-    component: ComponentCreator('/__docusaurus/debug/globalData/','4f6'),
+    path: '/relay.ko.dev/blog/2021/12/08/introducing-the-new-relay-compiler/',
+    component: ComponentCreator('/relay.ko.dev/blog/2021/12/08/introducing-the-new-relay-compiler/','da6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata/',
-    component: ComponentCreator('/__docusaurus/debug/metadata/','363'),
+    path: '/relay.ko.dev/blog/archive/',
+    component: ComponentCreator('/relay.ko.dev/blog/archive/','0ea'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry/',
-    component: ComponentCreator('/__docusaurus/debug/registry/','fb4'),
+    path: '/relay.ko.dev/blog/tags/',
+    component: ComponentCreator('/relay.ko.dev/blog/tags/','d3b'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes/',
-    component: ComponentCreator('/__docusaurus/debug/routes/','b09'),
+    path: '/relay.ko.dev/blog/tags/relay-compiler/',
+    component: ComponentCreator('/relay.ko.dev/blog/tags/relay-compiler/','4a5'),
     exact: true
   },
   {
-    path: '/blog/',
-    component: ComponentCreator('/blog/','537'),
+    path: '/relay.ko.dev/blog/tags/relay-hooks/',
+    component: ComponentCreator('/relay.ko.dev/blog/tags/relay-hooks/','764'),
     exact: true
   },
   {
-    path: '/blog/2021/03/09/introducing-relay-hooks/',
-    component: ComponentCreator('/blog/2021/03/09/introducing-relay-hooks/','670'),
+    path: '/relay.ko.dev/blog/tags/required/',
+    component: ComponentCreator('/relay.ko.dev/blog/tags/required/','34a'),
     exact: true
   },
   {
-    path: '/blog/2021/12/08/introducing-the-new-relay-compiler/',
-    component: ComponentCreator('/blog/2021/12/08/introducing-the-new-relay-compiler/','15e'),
+    path: '/relay.ko.dev/blog/tags/rust/',
+    component: ComponentCreator('/relay.ko.dev/blog/tags/rust/','99b'),
     exact: true
   },
   {
-    path: '/blog/archive/',
-    component: ComponentCreator('/blog/archive/','38a'),
+    path: '/relay.ko.dev/compiler-explorer/',
+    component: ComponentCreator('/relay.ko.dev/compiler-explorer/','685'),
     exact: true
   },
   {
-    path: '/blog/tags/',
-    component: ComponentCreator('/blog/tags/','0ff'),
+    path: '/relay.ko.dev/help/',
+    component: ComponentCreator('/relay.ko.dev/help/','947'),
     exact: true
   },
   {
-    path: '/blog/tags/relay-compiler/',
-    component: ComponentCreator('/blog/tags/relay-compiler/','cea'),
+    path: '/relay.ko.dev/search/',
+    component: ComponentCreator('/relay.ko.dev/search/','dac'),
     exact: true
   },
   {
-    path: '/blog/tags/relay-hooks/',
-    component: ComponentCreator('/blog/tags/relay-hooks/','323'),
+    path: '/relay.ko.dev/users/',
+    component: ComponentCreator('/relay.ko.dev/users/','58a'),
     exact: true
   },
   {
-    path: '/blog/tags/required/',
-    component: ComponentCreator('/blog/tags/required/','2d0'),
+    path: '/relay.ko.dev/versions/',
+    component: ComponentCreator('/relay.ko.dev/versions/','3b9'),
     exact: true
   },
   {
-    path: '/blog/tags/rust/',
-    component: ComponentCreator('/blog/tags/rust/','27c'),
-    exact: true
-  },
-  {
-    path: '/compiler-explorer/',
-    component: ComponentCreator('/compiler-explorer/','cd4'),
-    exact: true
-  },
-  {
-    path: '/help/',
-    component: ComponentCreator('/help/','4ff'),
-    exact: true
-  },
-  {
-    path: '/search/',
-    component: ComponentCreator('/search/','030'),
-    exact: true
-  },
-  {
-    path: '/users/',
-    component: ComponentCreator('/users/','342'),
-    exact: true
-  },
-  {
-    path: '/versions/',
-    component: ComponentCreator('/versions/','059'),
-    exact: true
-  },
-  {
-    path: '/docs/next/',
-    component: ComponentCreator('/docs/next/','4c2'),
+    path: '/relay.ko.dev/docs/next/',
+    component: ComponentCreator('/relay.ko.dev/docs/next/','f65'),
     routes: [
       {
-        path: '/docs/next/',
-        component: ComponentCreator('/docs/next/','48c'),
+        path: '/relay.ko.dev/docs/next/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/','729'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/commit-mutation/',
-        component: ComponentCreator('/docs/next/api-reference/commit-mutation/','434'),
+        path: '/relay.ko.dev/docs/next/api-reference/commit-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/commit-mutation/','5e9'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/entrypoint-container/',
-        component: ComponentCreator('/docs/next/api-reference/entrypoint-container/','563'),
+        path: '/relay.ko.dev/docs/next/api-reference/entrypoint-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/entrypoint-container/','0f5'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/fetch-query/',
-        component: ComponentCreator('/docs/next/api-reference/fetch-query/','417'),
+        path: '/relay.ko.dev/docs/next/api-reference/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/fetch-query/','002'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/graphql-and-directives/',
-        component: ComponentCreator('/docs/next/api-reference/graphql-and-directives/','4c0'),
+        path: '/relay.ko.dev/docs/next/api-reference/graphql-and-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/graphql-and-directives/','ab1'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/legacy-apis/',
-        component: ComponentCreator('/docs/next/api-reference/legacy-apis/','450'),
+        path: '/relay.ko.dev/docs/next/api-reference/legacy-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/legacy-apis/','b3d'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/load-entrypoint/',
-        component: ComponentCreator('/docs/next/api-reference/load-entrypoint/','84b'),
+        path: '/relay.ko.dev/docs/next/api-reference/load-entrypoint/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/load-entrypoint/','e99'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/load-query/',
-        component: ComponentCreator('/docs/next/api-reference/load-query/','210'),
+        path: '/relay.ko.dev/docs/next/api-reference/load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/load-query/','02b'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/relay-environment-provider/',
-        component: ComponentCreator('/docs/next/api-reference/relay-environment-provider/','af6'),
+        path: '/relay.ko.dev/docs/next/api-reference/relay-environment-provider/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/relay-environment-provider/','fe9'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/request-subscription/',
-        component: ComponentCreator('/docs/next/api-reference/request-subscription/','9c1'),
+        path: '/relay.ko.dev/docs/next/api-reference/request-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/request-subscription/','72a'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/store/',
-        component: ComponentCreator('/docs/next/api-reference/store/','a82'),
+        path: '/relay.ko.dev/docs/next/api-reference/store/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/store/','037'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/types/CacheConfig/',
-        component: ComponentCreator('/docs/next/api-reference/types/CacheConfig/','285'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/CacheConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/CacheConfig/','76d'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/types/Disposable/',
-        component: ComponentCreator('/docs/next/api-reference/types/Disposable/','daf'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/Disposable/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/Disposable/','cae'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/types/GraphQLSubscriptionConfig/',
-        component: ComponentCreator('/docs/next/api-reference/types/GraphQLSubscriptionConfig/','955'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/GraphQLSubscriptionConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/GraphQLSubscriptionConfig/','035'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/types/MutationConfig/',
-        component: ComponentCreator('/docs/next/api-reference/types/MutationConfig/','ba1'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/MutationConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/MutationConfig/','481'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/types/SelectorStoreUpdater/',
-        component: ComponentCreator('/docs/next/api-reference/types/SelectorStoreUpdater/','650'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/SelectorStoreUpdater/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/SelectorStoreUpdater/','8b3'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/types/UploadableMap/',
-        component: ComponentCreator('/docs/next/api-reference/types/UploadableMap/','8a5'),
+        path: '/relay.ko.dev/docs/next/api-reference/types/UploadableMap/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/types/UploadableMap/','d6d'),
         exact: true
       },
       {
-        path: '/docs/next/api-reference/use-entrypoint-loader/',
-        component: ComponentCreator('/docs/next/api-reference/use-entrypoint-loader/','68c'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-entrypoint-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-entrypoint-loader/','d31'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-fragment/',
-        component: ComponentCreator('/docs/next/api-reference/use-fragment/','9b8'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-fragment/','509'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-lazy-load-query/',
-        component: ComponentCreator('/docs/next/api-reference/use-lazy-load-query/','bdf'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-lazy-load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-lazy-load-query/','bdb'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-mutation/',
-        component: ComponentCreator('/docs/next/api-reference/use-mutation/','ea8'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-mutation/','2bc'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-pagination-fragment/',
-        component: ComponentCreator('/docs/next/api-reference/use-pagination-fragment/','682'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-pagination-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-pagination-fragment/','9c5'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-preloaded-query/',
-        component: ComponentCreator('/docs/next/api-reference/use-preloaded-query/','f77'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-preloaded-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-preloaded-query/','1da'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-query-loader/',
-        component: ComponentCreator('/docs/next/api-reference/use-query-loader/','116'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-query-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-query-loader/','f2f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-refetchable-fragment/',
-        component: ComponentCreator('/docs/next/api-reference/use-refetchable-fragment/','ca6'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-refetchable-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-refetchable-fragment/','3d7'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-relay-environment/',
-        component: ComponentCreator('/docs/next/api-reference/use-relay-environment/','22e'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-relay-environment/','a33'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/api-reference/use-subscription/',
-        component: ComponentCreator('/docs/next/api-reference/use-subscription/','29a'),
+        path: '/relay.ko.dev/docs/next/api-reference/use-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/api-reference/use-subscription/','ca7'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/community-learning-resources/',
-        component: ComponentCreator('/docs/next/community-learning-resources/','e0a'),
+        path: '/relay.ko.dev/docs/next/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/community-learning-resources/','988'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/debugging/declarative-mutation-directives/',
-        component: ComponentCreator('/docs/next/debugging/declarative-mutation-directives/','dc5'),
+        path: '/relay.ko.dev/docs/next/debugging/declarative-mutation-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/debugging/declarative-mutation-directives/','ea7'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/debugging/inconsistent-typename-error/',
-        component: ComponentCreator('/docs/next/debugging/inconsistent-typename-error/','cfa'),
+        path: '/relay.ko.dev/docs/next/debugging/inconsistent-typename-error/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/debugging/inconsistent-typename-error/','130'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/debugging/relay-devtools/',
-        component: ComponentCreator('/docs/next/debugging/relay-devtools/','47e'),
+        path: '/relay.ko.dev/docs/next/debugging/relay-devtools/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/debugging/relay-devtools/','409'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/getting-started/installation-and-setup/',
-        component: ComponentCreator('/docs/next/getting-started/installation-and-setup/','094'),
+        path: '/relay.ko.dev/docs/next/getting-started/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/getting-started/installation-and-setup/','7fb'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/getting-started/prerequisites/',
-        component: ComponentCreator('/docs/next/getting-started/prerequisites/','67b'),
+        path: '/relay.ko.dev/docs/next/getting-started/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/getting-started/prerequisites/','cb0'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/getting-started/step-by-step-guide/',
-        component: ComponentCreator('/docs/next/getting-started/step-by-step-guide/','dfa'),
+        path: '/relay.ko.dev/docs/next/getting-started/step-by-step-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/getting-started/step-by-step-guide/','8b2'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/glossary/',
-        component: ComponentCreator('/docs/next/glossary/','5fc'),
+        path: '/relay.ko.dev/docs/next/glossary/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/glossary/','ba6'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/',
-        component: ComponentCreator('/docs/next/guided-tour/','5bd'),
+        path: '/relay.ko.dev/docs/next/guided-tour/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/','6f9'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/accessing-data-without-react/prefetching-queries/',
-        component: ComponentCreator('/docs/next/guided-tour/accessing-data-without-react/prefetching-queries/','d0c'),
+        path: '/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/prefetching-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/prefetching-queries/','bd7'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/accessing-data-without-react/reading-fragments/',
-        component: ComponentCreator('/docs/next/guided-tour/accessing-data-without-react/reading-fragments/','b45'),
+        path: '/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/reading-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/reading-fragments/','810'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/accessing-data-without-react/reading-queries/',
-        component: ComponentCreator('/docs/next/guided-tour/accessing-data-without-react/reading-queries/','cd1'),
+        path: '/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/reading-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/reading-queries/','f27'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/accessing-data-without-react/retaining-queries/',
-        component: ComponentCreator('/docs/next/guided-tour/accessing-data-without-react/retaining-queries/','f62'),
+        path: '/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/retaining-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/retaining-queries/','151'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/accessing-data-without-react/subscribing-to-queries/',
-        component: ComponentCreator('/docs/next/guided-tour/accessing-data-without-react/subscribing-to-queries/','dae'),
+        path: '/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/subscribing-to-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/accessing-data-without-react/subscribing-to-queries/','478'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/list-data/advanced-pagination/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/advanced-pagination/','7a4'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/advanced-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/advanced-pagination/','7f8'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/connections/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/connections/','0bf'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/connections/','cc4'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/pagination/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/pagination/','c11'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/pagination/','6d3'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/refetching-connections/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/refetching-connections/','7dd'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/refetching-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/refetching-connections/','3c8'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/rendering-connections/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/rendering-connections/','8d7'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/rendering-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/rendering-connections/','f29'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/streaming-pagination/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/streaming-pagination/','23d'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/streaming-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/streaming-pagination/','a2f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/list-data/updating-connections/',
-        component: ComponentCreator('/docs/next/guided-tour/list-data/updating-connections/','b81'),
+        path: '/relay.ko.dev/docs/next/guided-tour/list-data/updating-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/list-data/updating-connections/','2d2'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/refetching/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/','e1f'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/','81d'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/refetching/OssAvoidSuspenseNote/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/OssAvoidSuspenseNote/','ef0'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/OssAvoidSuspenseNote/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/OssAvoidSuspenseNote/','ba0'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/','d2f'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/refetching-fragments-with-different-data/','593'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/refetching/refetching-queries-with-different-data/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/refetching-queries-with-different-data/','cd5'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/refetching-queries-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/refetching-queries-with-different-data/','fe5'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/refetching/refreshing-fragments/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/refreshing-fragments/','343'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-fragments/','9d8'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/refetching/refreshing-queries/',
-        component: ComponentCreator('/docs/next/guided-tour/refetching/refreshing-queries/','b2e'),
+        path: '/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/refetching/refreshing-queries/','76f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/environment/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/environment/','a10'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/environment/','b7c'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/error-states/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/error-states/','dca'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/error-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/error-states/','696'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/fragments/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/fragments/','6ed'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/fragments/','74f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/loading-states/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/loading-states/','882'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/loading-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/loading-states/','567'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/queries/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/queries/','77d'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/queries/','f36'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/rendering/variables/',
-        component: ComponentCreator('/docs/next/guided-tour/rendering/variables/','d37'),
+        path: '/relay.ko.dev/docs/next/guided-tour/rendering/variables/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/rendering/variables/','cd3'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/','169'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/','309'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/availability-of-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/availability-of-data/','8d4'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/availability-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/availability-of-data/','f8c'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/fetch-policies/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/fetch-policies/','e6c'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/fetch-policies/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/fetch-policies/','85d'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/','812'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/filling-in-missing-data/','a31'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/presence-of-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/presence-of-data/','2f7'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/presence-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/presence-of-data/','ed3'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/','0d3'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/rendering-partially-cached-data/','a9e'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/reusing-cached-data/staleness-of-data/',
-        component: ComponentCreator('/docs/next/guided-tour/reusing-cached-data/staleness-of-data/','b43'),
+        path: '/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/staleness-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/reusing-cached-data/staleness-of-data/','cc2'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/','751'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/','c60'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/client-only-data/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/client-only-data/','dac'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/client-only-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/client-only-data/','661'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/graphql-mutations/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/graphql-mutations/','34b'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-mutations/','564'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/graphql-subscriptions/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/graphql-subscriptions/','bb8'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/graphql-subscriptions/','f33'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/imperatively-modifying-linked-fields/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/imperatively-modifying-linked-fields/','243'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-linked-fields/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-linked-fields/','7f3'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/','f57'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-store-data-unsafe/','849'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/imperatively-modifying-store-data/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/imperatively-modifying-store-data/','ea8'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-store-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/imperatively-modifying-store-data/','2c7'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/updating-data/local-data-updates/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/local-data-updates/','63c'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/local-data-updates/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/local-data-updates/','40f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guided-tour/updating-data/typesafe-updaters-faq/',
-        component: ComponentCreator('/docs/next/guided-tour/updating-data/typesafe-updaters-faq/','934'),
+        path: '/relay.ko.dev/docs/next/guided-tour/updating-data/typesafe-updaters-faq/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/updating-data/typesafe-updaters-faq/','f03'),
         exact: true
       },
       {
-        path: '/docs/next/guided-tour/workflow/',
-        component: ComponentCreator('/docs/next/guided-tour/workflow/','df1'),
+        path: '/relay.ko.dev/docs/next/guided-tour/workflow/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guided-tour/workflow/','2c9'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/client-schema-extensions/',
-        component: ComponentCreator('/docs/next/guides/client-schema-extensions/','c16'),
+        path: '/relay.ko.dev/docs/next/guides/client-schema-extensions/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/client-schema-extensions/','e0f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/compiler/',
-        component: ComponentCreator('/docs/next/guides/compiler/','85a'),
+        path: '/relay.ko.dev/docs/next/guides/compiler/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/compiler/','a34'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/graphql-server-specification/',
-        component: ComponentCreator('/docs/next/guides/graphql-server-specification/','39b'),
+        path: '/relay.ko.dev/docs/next/guides/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/graphql-server-specification/','151'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/network-layer/',
-        component: ComponentCreator('/docs/next/guides/network-layer/','e40'),
+        path: '/relay.ko.dev/docs/next/guides/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/network-layer/','ade'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/persisted-queries/',
-        component: ComponentCreator('/docs/next/guides/persisted-queries/','77f'),
+        path: '/relay.ko.dev/docs/next/guides/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/persisted-queries/','c04'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/relay-resolvers/',
-        component: ComponentCreator('/docs/next/guides/relay-resolvers/','625'),
+        path: '/relay.ko.dev/docs/next/guides/relay-resolvers/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/relay-resolvers/','9ed'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/required-directive/',
-        component: ComponentCreator('/docs/next/guides/required-directive/','800'),
+        path: '/relay.ko.dev/docs/next/guides/required-directive/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/required-directive/','1d1'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/testing-relay-components/',
-        component: ComponentCreator('/docs/next/guides/testing-relay-components/','083'),
+        path: '/relay.ko.dev/docs/next/guides/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/testing-relay-components/','15e'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/testing-relay-with-preloaded-queries/',
-        component: ComponentCreator('/docs/next/guides/testing-relay-with-preloaded-queries/','ad2'),
+        path: '/relay.ko.dev/docs/next/guides/testing-relay-with-preloaded-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/testing-relay-with-preloaded-queries/','f5f'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/guides/type-emission/',
-        component: ComponentCreator('/docs/next/guides/type-emission/','881'),
+        path: '/relay.ko.dev/docs/next/guides/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/guides/type-emission/','b34'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/migration-and-compatibility/',
-        component: ComponentCreator('/docs/next/migration-and-compatibility/','26c'),
+        path: '/relay.ko.dev/docs/next/migration-and-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/migration-and-compatibility/','3f3'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
-        component: ComponentCreator('/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','91d'),
+        path: '/relay.ko.dev/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','8db'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/migration-and-compatibility/suspense-compatibility/',
-        component: ComponentCreator('/docs/next/migration-and-compatibility/suspense-compatibility/','a38'),
+        path: '/relay.ko.dev/docs/next/migration-and-compatibility/suspense-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/migration-and-compatibility/suspense-compatibility/','15d'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/architecture-overview/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/architecture-overview/','5ce'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/architecture-overview/','911'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/compiler-architecture/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/compiler-architecture/','98f'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/compiler-architecture/','3d7'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/runtime-architecture/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/runtime-architecture/','781'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/runtime-architecture/','f88'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/thinking-in-graphql/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/thinking-in-graphql/','467'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-graphql/','b93'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/thinking-in-relay/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/thinking-in-relay/','801'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/thinking-in-relay/','1e9'),
         exact: true,
         'sidebar': "docs"
       },
       {
-        path: '/docs/next/principles-and-architecture/videos/',
-        component: ComponentCreator('/docs/next/principles-and-architecture/videos/','67d'),
+        path: '/relay.ko.dev/docs/next/principles-and-architecture/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/next/principles-and-architecture/videos/','611'),
         exact: true,
         'sidebar': "docs"
       }
     ]
   },
   {
-    path: '/docs/v1.4.1/',
-    component: ComponentCreator('/docs/v1.4.1/','684'),
+    path: '/relay.ko.dev/docs/v1.4.1/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/','514'),
     routes: [
       {
-        path: '/docs/v1.4.1/',
-        component: ComponentCreator('/docs/v1.4.1/','1a7'),
+        path: '/relay.ko.dev/docs/v1.4.1/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/','917'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.4.1/api-cheatsheet/','9ac'),
+        path: '/relay.ko.dev/docs/v1.4.1/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/api-cheatsheet/','808'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/architecture-overview/',
-        component: ComponentCreator('/docs/v1.4.1/architecture-overview/','ee6'),
+        path: '/relay.ko.dev/docs/v1.4.1/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/architecture-overview/','3a6'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.4.1/community-learning-resources/','be2'),
+        path: '/relay.ko.dev/docs/v1.4.1/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/community-learning-resources/','bd0'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.4.1/compatibility-cheatsheet/','f9a'),
+        path: '/relay.ko.dev/docs/v1.4.1/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/compatibility-cheatsheet/','5b0'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.4.1/compiler-architecture/','b44'),
+        path: '/relay.ko.dev/docs/v1.4.1/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/compiler-architecture/','965'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.4.1/conversion-playbook/','9fa'),
+        path: '/relay.ko.dev/docs/v1.4.1/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/conversion-playbook/','6d0'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.4.1/conversion-scripts/','0b5'),
+        path: '/relay.ko.dev/docs/v1.4.1/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/conversion-scripts/','ec5'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/converting-mutations/',
-        component: ComponentCreator('/docs/v1.4.1/converting-mutations/','d2b'),
+        path: '/relay.ko.dev/docs/v1.4.1/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/converting-mutations/','bac'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/fetch-query/',
-        component: ComponentCreator('/docs/v1.4.1/fetch-query/','245'),
+        path: '/relay.ko.dev/docs/v1.4.1/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/fetch-query/','8a0'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/fragment-container/',
-        component: ComponentCreator('/docs/v1.4.1/fragment-container/','973'),
+        path: '/relay.ko.dev/docs/v1.4.1/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/fragment-container/','cb7'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.4.1/graphql-in-relay/','16e'),
+        path: '/relay.ko.dev/docs/v1.4.1/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/graphql-in-relay/','a1e'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.4.1/graphql-server-specification/','9e0'),
+        path: '/relay.ko.dev/docs/v1.4.1/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/graphql-server-specification/','5ce'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.4.1/installation-and-setup/','244'),
+        path: '/relay.ko.dev/docs/v1.4.1/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/installation-and-setup/','075'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/local-state-management/',
-        component: ComponentCreator('/docs/v1.4.1/local-state-management/','adc'),
+        path: '/relay.ko.dev/docs/v1.4.1/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/local-state-management/','085'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/migration-setup/',
-        component: ComponentCreator('/docs/v1.4.1/migration-setup/','2bd'),
+        path: '/relay.ko.dev/docs/v1.4.1/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/migration-setup/','919'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/mutations/',
-        component: ComponentCreator('/docs/v1.4.1/mutations/','e54'),
+        path: '/relay.ko.dev/docs/v1.4.1/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/mutations/','c09'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/network-layer/',
-        component: ComponentCreator('/docs/v1.4.1/network-layer/','a32'),
+        path: '/relay.ko.dev/docs/v1.4.1/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/network-layer/','127'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.4.1/new-in-relay-modern/','704'),
+        path: '/relay.ko.dev/docs/v1.4.1/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/new-in-relay-modern/','149'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/pagination-container/',
-        component: ComponentCreator('/docs/v1.4.1/pagination-container/','10a'),
+        path: '/relay.ko.dev/docs/v1.4.1/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/pagination-container/','ba8'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/persisted-queries/',
-        component: ComponentCreator('/docs/v1.4.1/persisted-queries/','37e'),
+        path: '/relay.ko.dev/docs/v1.4.1/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/persisted-queries/','716'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/prerequisites/',
-        component: ComponentCreator('/docs/v1.4.1/prerequisites/','532'),
+        path: '/relay.ko.dev/docs/v1.4.1/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/prerequisites/','fe9'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/query-renderer/',
-        component: ComponentCreator('/docs/v1.4.1/query-renderer/','ae1'),
+        path: '/relay.ko.dev/docs/v1.4.1/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/query-renderer/','8fa'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.4.1/quick-start-guide/','657'),
+        path: '/relay.ko.dev/docs/v1.4.1/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/quick-start-guide/','4ca'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/refetch-container/',
-        component: ComponentCreator('/docs/v1.4.1/refetch-container/','866'),
+        path: '/relay.ko.dev/docs/v1.4.1/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/refetch-container/','af7'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/relay-compat/',
-        component: ComponentCreator('/docs/v1.4.1/relay-compat/','1dc'),
+        path: '/relay.ko.dev/docs/v1.4.1/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/relay-compat/','bbc'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/relay-debugging/',
-        component: ComponentCreator('/docs/v1.4.1/relay-debugging/','94d'),
+        path: '/relay.ko.dev/docs/v1.4.1/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/relay-debugging/','1ee'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/relay-environment/',
-        component: ComponentCreator('/docs/v1.4.1/relay-environment/','3b3'),
+        path: '/relay.ko.dev/docs/v1.4.1/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/relay-environment/','f86'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/relay-store/',
-        component: ComponentCreator('/docs/v1.4.1/relay-store/','098'),
+        path: '/relay.ko.dev/docs/v1.4.1/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/relay-store/','c14'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/routing/',
-        component: ComponentCreator('/docs/v1.4.1/routing/','6b6'),
+        path: '/relay.ko.dev/docs/v1.4.1/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/routing/','cf2'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.4.1/runtime-architecture/','c06'),
+        path: '/relay.ko.dev/docs/v1.4.1/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/runtime-architecture/','583'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/subscriptions/',
-        component: ComponentCreator('/docs/v1.4.1/subscriptions/','e43'),
+        path: '/relay.ko.dev/docs/v1.4.1/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/subscriptions/','086'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.4.1/testing-relay-components/','1a0'),
+        path: '/relay.ko.dev/docs/v1.4.1/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/testing-relay-components/','40f'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.4.1/thinking-in-graphql/','310'),
+        path: '/relay.ko.dev/docs/v1.4.1/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/thinking-in-graphql/','36a'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.4.1/thinking-in-relay/','f44'),
+        path: '/relay.ko.dev/docs/v1.4.1/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/thinking-in-relay/','70b'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/type-emission/',
-        component: ComponentCreator('/docs/v1.4.1/type-emission/','b95'),
+        path: '/relay.ko.dev/docs/v1.4.1/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/type-emission/','b94'),
         exact: true
       },
       {
-        path: '/docs/v1.4.1/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.4.1/upgrading-setvariables/','588'),
+        path: '/relay.ko.dev/docs/v1.4.1/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/upgrading-setvariables/','98c'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       },
       {
-        path: '/docs/v1.4.1/videos/',
-        component: ComponentCreator('/docs/v1.4.1/videos/','488'),
+        path: '/relay.ko.dev/docs/v1.4.1/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.4.1/videos/','842'),
         exact: true,
         'sidebar': "version-v1.4.1/docs"
       }
     ]
   },
   {
-    path: '/docs/v1.5.0/',
-    component: ComponentCreator('/docs/v1.5.0/','11f'),
+    path: '/relay.ko.dev/docs/v1.5.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/','674'),
     routes: [
       {
-        path: '/docs/v1.5.0/',
-        component: ComponentCreator('/docs/v1.5.0/','b4e'),
+        path: '/relay.ko.dev/docs/v1.5.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/','7f4'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.5.0/api-cheatsheet/','8f0'),
+        path: '/relay.ko.dev/docs/v1.5.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/api-cheatsheet/','3b8'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/architecture-overview/',
-        component: ComponentCreator('/docs/v1.5.0/architecture-overview/','f66'),
+        path: '/relay.ko.dev/docs/v1.5.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/architecture-overview/','5e9'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.5.0/community-learning-resources/','cff'),
+        path: '/relay.ko.dev/docs/v1.5.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/community-learning-resources/','2b4'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.5.0/compatibility-cheatsheet/','30d'),
+        path: '/relay.ko.dev/docs/v1.5.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/compatibility-cheatsheet/','656'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.5.0/compiler-architecture/','dfe'),
+        path: '/relay.ko.dev/docs/v1.5.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/compiler-architecture/','8ab'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.5.0/conversion-playbook/','d7d'),
+        path: '/relay.ko.dev/docs/v1.5.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/conversion-playbook/','6b8'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.5.0/conversion-scripts/','f64'),
+        path: '/relay.ko.dev/docs/v1.5.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/conversion-scripts/','558'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/converting-mutations/',
-        component: ComponentCreator('/docs/v1.5.0/converting-mutations/','d18'),
+        path: '/relay.ko.dev/docs/v1.5.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/converting-mutations/','d96'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/fetch-query/',
-        component: ComponentCreator('/docs/v1.5.0/fetch-query/','221'),
+        path: '/relay.ko.dev/docs/v1.5.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/fetch-query/','614'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/fragment-container/',
-        component: ComponentCreator('/docs/v1.5.0/fragment-container/','e0e'),
+        path: '/relay.ko.dev/docs/v1.5.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/fragment-container/','7a7'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.5.0/graphql-in-relay/','d13'),
+        path: '/relay.ko.dev/docs/v1.5.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/graphql-in-relay/','612'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.5.0/graphql-server-specification/','363'),
+        path: '/relay.ko.dev/docs/v1.5.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/graphql-server-specification/','d84'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.5.0/installation-and-setup/','bc4'),
+        path: '/relay.ko.dev/docs/v1.5.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/installation-and-setup/','894'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/local-state-management/',
-        component: ComponentCreator('/docs/v1.5.0/local-state-management/','ba2'),
+        path: '/relay.ko.dev/docs/v1.5.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/local-state-management/','04e'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/migration-setup/',
-        component: ComponentCreator('/docs/v1.5.0/migration-setup/','c3a'),
+        path: '/relay.ko.dev/docs/v1.5.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/migration-setup/','49c'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/mutations/',
-        component: ComponentCreator('/docs/v1.5.0/mutations/','3ed'),
+        path: '/relay.ko.dev/docs/v1.5.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/mutations/','c79'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/network-layer/',
-        component: ComponentCreator('/docs/v1.5.0/network-layer/','9a5'),
+        path: '/relay.ko.dev/docs/v1.5.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/network-layer/','cff'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.5.0/new-in-relay-modern/','179'),
+        path: '/relay.ko.dev/docs/v1.5.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/new-in-relay-modern/','c79'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/pagination-container/',
-        component: ComponentCreator('/docs/v1.5.0/pagination-container/','6f1'),
+        path: '/relay.ko.dev/docs/v1.5.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/pagination-container/','4e8'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/persisted-queries/',
-        component: ComponentCreator('/docs/v1.5.0/persisted-queries/','2d4'),
+        path: '/relay.ko.dev/docs/v1.5.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/persisted-queries/','a74'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/prerequisites/',
-        component: ComponentCreator('/docs/v1.5.0/prerequisites/','5e6'),
+        path: '/relay.ko.dev/docs/v1.5.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/prerequisites/','e57'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/query-renderer/',
-        component: ComponentCreator('/docs/v1.5.0/query-renderer/','079'),
+        path: '/relay.ko.dev/docs/v1.5.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/query-renderer/','28a'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.5.0/quick-start-guide/','b46'),
+        path: '/relay.ko.dev/docs/v1.5.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/quick-start-guide/','901'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/refetch-container/',
-        component: ComponentCreator('/docs/v1.5.0/refetch-container/','54d'),
+        path: '/relay.ko.dev/docs/v1.5.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/refetch-container/','30c'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/relay-compat/',
-        component: ComponentCreator('/docs/v1.5.0/relay-compat/','cd8'),
+        path: '/relay.ko.dev/docs/v1.5.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/relay-compat/','50f'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/relay-debugging/',
-        component: ComponentCreator('/docs/v1.5.0/relay-debugging/','df2'),
+        path: '/relay.ko.dev/docs/v1.5.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/relay-debugging/','c06'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/relay-environment/',
-        component: ComponentCreator('/docs/v1.5.0/relay-environment/','039'),
+        path: '/relay.ko.dev/docs/v1.5.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/relay-environment/','51b'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/relay-store/',
-        component: ComponentCreator('/docs/v1.5.0/relay-store/','eb1'),
+        path: '/relay.ko.dev/docs/v1.5.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/relay-store/','597'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/routing/',
-        component: ComponentCreator('/docs/v1.5.0/routing/','0a6'),
+        path: '/relay.ko.dev/docs/v1.5.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/routing/','eb5'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.5.0/runtime-architecture/','89f'),
+        path: '/relay.ko.dev/docs/v1.5.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/runtime-architecture/','29f'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/subscriptions/',
-        component: ComponentCreator('/docs/v1.5.0/subscriptions/','4a6'),
+        path: '/relay.ko.dev/docs/v1.5.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/subscriptions/','db8'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.5.0/testing-relay-components/','a54'),
+        path: '/relay.ko.dev/docs/v1.5.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/testing-relay-components/','42a'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.5.0/thinking-in-graphql/','c66'),
+        path: '/relay.ko.dev/docs/v1.5.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/thinking-in-graphql/','4b2'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.5.0/thinking-in-relay/','98c'),
+        path: '/relay.ko.dev/docs/v1.5.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/thinking-in-relay/','ca2'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/type-emission/',
-        component: ComponentCreator('/docs/v1.5.0/type-emission/','5f2'),
+        path: '/relay.ko.dev/docs/v1.5.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/type-emission/','3e3'),
         exact: true
       },
       {
-        path: '/docs/v1.5.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.5.0/upgrading-setvariables/','684'),
+        path: '/relay.ko.dev/docs/v1.5.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/upgrading-setvariables/','6af'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       },
       {
-        path: '/docs/v1.5.0/videos/',
-        component: ComponentCreator('/docs/v1.5.0/videos/','64d'),
+        path: '/relay.ko.dev/docs/v1.5.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.5.0/videos/','41b'),
         exact: true,
         'sidebar': "version-v1.5.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v1.6.0/',
-    component: ComponentCreator('/docs/v1.6.0/','9ac'),
+    path: '/relay.ko.dev/docs/v1.6.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/','a7d'),
     routes: [
       {
-        path: '/docs/v1.6.0/',
-        component: ComponentCreator('/docs/v1.6.0/','6f4'),
+        path: '/relay.ko.dev/docs/v1.6.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/','5ca'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.0/api-cheatsheet/','943'),
+        path: '/relay.ko.dev/docs/v1.6.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/api-cheatsheet/','61e'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/architecture-overview/',
-        component: ComponentCreator('/docs/v1.6.0/architecture-overview/','7ed'),
+        path: '/relay.ko.dev/docs/v1.6.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/architecture-overview/','26b'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.6.0/community-learning-resources/','81b'),
+        path: '/relay.ko.dev/docs/v1.6.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/community-learning-resources/','b37'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.0/compatibility-cheatsheet/','dfb'),
+        path: '/relay.ko.dev/docs/v1.6.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/compatibility-cheatsheet/','4b2'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.6.0/compiler-architecture/','811'),
+        path: '/relay.ko.dev/docs/v1.6.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/compiler-architecture/','f17'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.6.0/conversion-playbook/','a8a'),
+        path: '/relay.ko.dev/docs/v1.6.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/conversion-playbook/','9e8'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.6.0/conversion-scripts/','378'),
+        path: '/relay.ko.dev/docs/v1.6.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/conversion-scripts/','5c6'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/converting-mutations/',
-        component: ComponentCreator('/docs/v1.6.0/converting-mutations/','1f6'),
+        path: '/relay.ko.dev/docs/v1.6.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/converting-mutations/','097'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/fetch-query/',
-        component: ComponentCreator('/docs/v1.6.0/fetch-query/','604'),
+        path: '/relay.ko.dev/docs/v1.6.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/fetch-query/','45f'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/fragment-container/',
-        component: ComponentCreator('/docs/v1.6.0/fragment-container/','fe8'),
+        path: '/relay.ko.dev/docs/v1.6.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/fragment-container/','ed9'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.6.0/graphql-in-relay/','b7c'),
+        path: '/relay.ko.dev/docs/v1.6.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/graphql-in-relay/','ca1'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.6.0/graphql-server-specification/','53f'),
+        path: '/relay.ko.dev/docs/v1.6.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/graphql-server-specification/','860'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.6.0/installation-and-setup/','ff5'),
+        path: '/relay.ko.dev/docs/v1.6.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/installation-and-setup/','fb4'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/local-state-management/',
-        component: ComponentCreator('/docs/v1.6.0/local-state-management/','fa1'),
+        path: '/relay.ko.dev/docs/v1.6.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/local-state-management/','a47'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/migration-setup/',
-        component: ComponentCreator('/docs/v1.6.0/migration-setup/','6d9'),
+        path: '/relay.ko.dev/docs/v1.6.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/migration-setup/','4ee'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/mutations/',
-        component: ComponentCreator('/docs/v1.6.0/mutations/','477'),
+        path: '/relay.ko.dev/docs/v1.6.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/mutations/','abc'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/network-layer/',
-        component: ComponentCreator('/docs/v1.6.0/network-layer/','40b'),
+        path: '/relay.ko.dev/docs/v1.6.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/network-layer/','4f7'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.6.0/new-in-relay-modern/','fa5'),
+        path: '/relay.ko.dev/docs/v1.6.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/new-in-relay-modern/','bb2'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/pagination-container/',
-        component: ComponentCreator('/docs/v1.6.0/pagination-container/','a49'),
+        path: '/relay.ko.dev/docs/v1.6.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/pagination-container/','f05'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/persisted-queries/',
-        component: ComponentCreator('/docs/v1.6.0/persisted-queries/','9c0'),
+        path: '/relay.ko.dev/docs/v1.6.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/persisted-queries/','e30'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/prerequisites/',
-        component: ComponentCreator('/docs/v1.6.0/prerequisites/','df1'),
+        path: '/relay.ko.dev/docs/v1.6.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/prerequisites/','4a0'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/query-renderer/',
-        component: ComponentCreator('/docs/v1.6.0/query-renderer/','095'),
+        path: '/relay.ko.dev/docs/v1.6.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/query-renderer/','bbb'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.6.0/quick-start-guide/','8f5'),
+        path: '/relay.ko.dev/docs/v1.6.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/quick-start-guide/','dfa'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/refetch-container/',
-        component: ComponentCreator('/docs/v1.6.0/refetch-container/','38c'),
+        path: '/relay.ko.dev/docs/v1.6.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/refetch-container/','251'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/relay-compat/',
-        component: ComponentCreator('/docs/v1.6.0/relay-compat/','d31'),
+        path: '/relay.ko.dev/docs/v1.6.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/relay-compat/','74b'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/relay-debugging/',
-        component: ComponentCreator('/docs/v1.6.0/relay-debugging/','777'),
+        path: '/relay.ko.dev/docs/v1.6.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/relay-debugging/','682'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/relay-environment/',
-        component: ComponentCreator('/docs/v1.6.0/relay-environment/','7fa'),
+        path: '/relay.ko.dev/docs/v1.6.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/relay-environment/','50a'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/relay-store/',
-        component: ComponentCreator('/docs/v1.6.0/relay-store/','791'),
+        path: '/relay.ko.dev/docs/v1.6.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/relay-store/','f40'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/routing/',
-        component: ComponentCreator('/docs/v1.6.0/routing/','6b6'),
+        path: '/relay.ko.dev/docs/v1.6.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/routing/','dae'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.6.0/runtime-architecture/','6f6'),
+        path: '/relay.ko.dev/docs/v1.6.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/runtime-architecture/','491'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/subscriptions/',
-        component: ComponentCreator('/docs/v1.6.0/subscriptions/','ee8'),
+        path: '/relay.ko.dev/docs/v1.6.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/subscriptions/','e6c'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.6.0/testing-relay-components/','e7a'),
+        path: '/relay.ko.dev/docs/v1.6.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/testing-relay-components/','51d'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.6.0/thinking-in-graphql/','dde'),
+        path: '/relay.ko.dev/docs/v1.6.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/thinking-in-graphql/','310'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.6.0/thinking-in-relay/','ede'),
+        path: '/relay.ko.dev/docs/v1.6.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/thinking-in-relay/','d37'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/type-emission/',
-        component: ComponentCreator('/docs/v1.6.0/type-emission/','afc'),
+        path: '/relay.ko.dev/docs/v1.6.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/type-emission/','4e3'),
         exact: true
       },
       {
-        path: '/docs/v1.6.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.6.0/upgrading-setvariables/','7c2'),
+        path: '/relay.ko.dev/docs/v1.6.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/upgrading-setvariables/','7f7'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       },
       {
-        path: '/docs/v1.6.0/videos/',
-        component: ComponentCreator('/docs/v1.6.0/videos/','efc'),
+        path: '/relay.ko.dev/docs/v1.6.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.0/videos/','8f1'),
         exact: true,
         'sidebar': "version-v1.6.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v1.6.1/',
-    component: ComponentCreator('/docs/v1.6.1/','02e'),
+    path: '/relay.ko.dev/docs/v1.6.1/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/','e15'),
     routes: [
       {
-        path: '/docs/v1.6.1/',
-        component: ComponentCreator('/docs/v1.6.1/','5b2'),
+        path: '/relay.ko.dev/docs/v1.6.1/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/','c0b'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.1/api-cheatsheet/','81e'),
+        path: '/relay.ko.dev/docs/v1.6.1/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/api-cheatsheet/','9b4'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/architecture-overview/',
-        component: ComponentCreator('/docs/v1.6.1/architecture-overview/','790'),
+        path: '/relay.ko.dev/docs/v1.6.1/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/architecture-overview/','19b'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.6.1/community-learning-resources/','016'),
+        path: '/relay.ko.dev/docs/v1.6.1/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/community-learning-resources/','2e0'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.1/compatibility-cheatsheet/','475'),
+        path: '/relay.ko.dev/docs/v1.6.1/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/compatibility-cheatsheet/','004'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.6.1/compiler-architecture/','0b6'),
+        path: '/relay.ko.dev/docs/v1.6.1/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/compiler-architecture/','192'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.6.1/conversion-playbook/','cea'),
+        path: '/relay.ko.dev/docs/v1.6.1/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/conversion-playbook/','f77'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.6.1/conversion-scripts/','405'),
+        path: '/relay.ko.dev/docs/v1.6.1/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/conversion-scripts/','7d2'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/converting-mutations/',
-        component: ComponentCreator('/docs/v1.6.1/converting-mutations/','b2f'),
+        path: '/relay.ko.dev/docs/v1.6.1/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/converting-mutations/','41e'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/fetch-query/',
-        component: ComponentCreator('/docs/v1.6.1/fetch-query/','2dd'),
+        path: '/relay.ko.dev/docs/v1.6.1/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/fetch-query/','232'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/fragment-container/',
-        component: ComponentCreator('/docs/v1.6.1/fragment-container/','8bf'),
+        path: '/relay.ko.dev/docs/v1.6.1/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/fragment-container/','268'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.6.1/graphql-in-relay/','669'),
+        path: '/relay.ko.dev/docs/v1.6.1/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/graphql-in-relay/','1b1'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.6.1/graphql-server-specification/','6d0'),
+        path: '/relay.ko.dev/docs/v1.6.1/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/graphql-server-specification/','499'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.6.1/installation-and-setup/','714'),
+        path: '/relay.ko.dev/docs/v1.6.1/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/installation-and-setup/','0f4'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/local-state-management/',
-        component: ComponentCreator('/docs/v1.6.1/local-state-management/','c5c'),
+        path: '/relay.ko.dev/docs/v1.6.1/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/local-state-management/','4c7'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/migration-setup/',
-        component: ComponentCreator('/docs/v1.6.1/migration-setup/','ee9'),
+        path: '/relay.ko.dev/docs/v1.6.1/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/migration-setup/','021'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/mutations/',
-        component: ComponentCreator('/docs/v1.6.1/mutations/','42d'),
+        path: '/relay.ko.dev/docs/v1.6.1/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/mutations/','da2'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/network-layer/',
-        component: ComponentCreator('/docs/v1.6.1/network-layer/','4b1'),
+        path: '/relay.ko.dev/docs/v1.6.1/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/network-layer/','1cb'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.6.1/new-in-relay-modern/','049'),
+        path: '/relay.ko.dev/docs/v1.6.1/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/new-in-relay-modern/','4bf'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/pagination-container/',
-        component: ComponentCreator('/docs/v1.6.1/pagination-container/','24d'),
+        path: '/relay.ko.dev/docs/v1.6.1/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/pagination-container/','f14'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/persisted-queries/',
-        component: ComponentCreator('/docs/v1.6.1/persisted-queries/','570'),
+        path: '/relay.ko.dev/docs/v1.6.1/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/persisted-queries/','bde'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/prerequisites/',
-        component: ComponentCreator('/docs/v1.6.1/prerequisites/','b03'),
+        path: '/relay.ko.dev/docs/v1.6.1/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/prerequisites/','401'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/query-renderer/',
-        component: ComponentCreator('/docs/v1.6.1/query-renderer/','318'),
+        path: '/relay.ko.dev/docs/v1.6.1/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/query-renderer/','9f6'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.6.1/quick-start-guide/','0f4'),
+        path: '/relay.ko.dev/docs/v1.6.1/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/quick-start-guide/','921'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/refetch-container/',
-        component: ComponentCreator('/docs/v1.6.1/refetch-container/','ea0'),
+        path: '/relay.ko.dev/docs/v1.6.1/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/refetch-container/','3fd'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/relay-compat/',
-        component: ComponentCreator('/docs/v1.6.1/relay-compat/','c6a'),
+        path: '/relay.ko.dev/docs/v1.6.1/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/relay-compat/','31c'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/relay-debugging/',
-        component: ComponentCreator('/docs/v1.6.1/relay-debugging/','241'),
+        path: '/relay.ko.dev/docs/v1.6.1/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/relay-debugging/','f5f'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/relay-environment/',
-        component: ComponentCreator('/docs/v1.6.1/relay-environment/','a2d'),
+        path: '/relay.ko.dev/docs/v1.6.1/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/relay-environment/','999'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/relay-store/',
-        component: ComponentCreator('/docs/v1.6.1/relay-store/','07e'),
+        path: '/relay.ko.dev/docs/v1.6.1/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/relay-store/','94b'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/routing/',
-        component: ComponentCreator('/docs/v1.6.1/routing/','d33'),
+        path: '/relay.ko.dev/docs/v1.6.1/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/routing/','7bd'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.6.1/runtime-architecture/','de0'),
+        path: '/relay.ko.dev/docs/v1.6.1/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/runtime-architecture/','0c3'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/subscriptions/',
-        component: ComponentCreator('/docs/v1.6.1/subscriptions/','b4a'),
+        path: '/relay.ko.dev/docs/v1.6.1/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/subscriptions/','907'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.6.1/testing-relay-components/','058'),
+        path: '/relay.ko.dev/docs/v1.6.1/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/testing-relay-components/','d49'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.6.1/thinking-in-graphql/','243'),
+        path: '/relay.ko.dev/docs/v1.6.1/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/thinking-in-graphql/','702'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.6.1/thinking-in-relay/','582'),
+        path: '/relay.ko.dev/docs/v1.6.1/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/thinking-in-relay/','e86'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/type-emission/',
-        component: ComponentCreator('/docs/v1.6.1/type-emission/','78a'),
+        path: '/relay.ko.dev/docs/v1.6.1/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/type-emission/','f06'),
         exact: true
       },
       {
-        path: '/docs/v1.6.1/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.6.1/upgrading-setvariables/','30d'),
+        path: '/relay.ko.dev/docs/v1.6.1/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/upgrading-setvariables/','109'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       },
       {
-        path: '/docs/v1.6.1/videos/',
-        component: ComponentCreator('/docs/v1.6.1/videos/','4b2'),
+        path: '/relay.ko.dev/docs/v1.6.1/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.1/videos/','8e8'),
         exact: true,
         'sidebar': "version-v1.6.1/docs"
       }
     ]
   },
   {
-    path: '/docs/v1.6.2/',
-    component: ComponentCreator('/docs/v1.6.2/','12e'),
+    path: '/relay.ko.dev/docs/v1.6.2/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/','4de'),
     routes: [
       {
-        path: '/docs/v1.6.2/',
-        component: ComponentCreator('/docs/v1.6.2/','ab7'),
+        path: '/relay.ko.dev/docs/v1.6.2/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/','7d2'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.2/api-cheatsheet/','e90'),
+        path: '/relay.ko.dev/docs/v1.6.2/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/api-cheatsheet/','8d7'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/architecture-overview/',
-        component: ComponentCreator('/docs/v1.6.2/architecture-overview/','1be'),
+        path: '/relay.ko.dev/docs/v1.6.2/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/architecture-overview/','743'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.6.2/community-learning-resources/','df3'),
+        path: '/relay.ko.dev/docs/v1.6.2/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/community-learning-resources/','972'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.6.2/compatibility-cheatsheet/','bdc'),
+        path: '/relay.ko.dev/docs/v1.6.2/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/compatibility-cheatsheet/','c2d'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.6.2/compiler-architecture/','01b'),
+        path: '/relay.ko.dev/docs/v1.6.2/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/compiler-architecture/','e1b'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.6.2/conversion-playbook/','6be'),
+        path: '/relay.ko.dev/docs/v1.6.2/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/conversion-playbook/','74a'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.6.2/conversion-scripts/','b9c'),
+        path: '/relay.ko.dev/docs/v1.6.2/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/conversion-scripts/','a1d'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/converting-mutations/',
-        component: ComponentCreator('/docs/v1.6.2/converting-mutations/','995'),
+        path: '/relay.ko.dev/docs/v1.6.2/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/converting-mutations/','ab9'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/fetch-query/',
-        component: ComponentCreator('/docs/v1.6.2/fetch-query/','35b'),
+        path: '/relay.ko.dev/docs/v1.6.2/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/fetch-query/','eb6'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/fragment-container/',
-        component: ComponentCreator('/docs/v1.6.2/fragment-container/','2ff'),
+        path: '/relay.ko.dev/docs/v1.6.2/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/fragment-container/','e48'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.6.2/graphql-in-relay/','d8f'),
+        path: '/relay.ko.dev/docs/v1.6.2/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/graphql-in-relay/','6b6'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.6.2/graphql-server-specification/','663'),
+        path: '/relay.ko.dev/docs/v1.6.2/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/graphql-server-specification/','d46'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.6.2/installation-and-setup/','24d'),
+        path: '/relay.ko.dev/docs/v1.6.2/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/installation-and-setup/','bce'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/local-state-management/',
-        component: ComponentCreator('/docs/v1.6.2/local-state-management/','da8'),
+        path: '/relay.ko.dev/docs/v1.6.2/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/local-state-management/','625'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/migration-setup/',
-        component: ComponentCreator('/docs/v1.6.2/migration-setup/','ff0'),
+        path: '/relay.ko.dev/docs/v1.6.2/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/migration-setup/','08f'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/mutations/',
-        component: ComponentCreator('/docs/v1.6.2/mutations/','39c'),
+        path: '/relay.ko.dev/docs/v1.6.2/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/mutations/','b54'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/network-layer/',
-        component: ComponentCreator('/docs/v1.6.2/network-layer/','eab'),
+        path: '/relay.ko.dev/docs/v1.6.2/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/network-layer/','f2a'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.6.2/new-in-relay-modern/','a4e'),
+        path: '/relay.ko.dev/docs/v1.6.2/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/new-in-relay-modern/','0a4'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/pagination-container/',
-        component: ComponentCreator('/docs/v1.6.2/pagination-container/','258'),
+        path: '/relay.ko.dev/docs/v1.6.2/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/pagination-container/','5f7'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/persisted-queries/',
-        component: ComponentCreator('/docs/v1.6.2/persisted-queries/','b35'),
+        path: '/relay.ko.dev/docs/v1.6.2/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/persisted-queries/','1f8'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/prerequisites/',
-        component: ComponentCreator('/docs/v1.6.2/prerequisites/','127'),
+        path: '/relay.ko.dev/docs/v1.6.2/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/prerequisites/','a8c'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/query-renderer/',
-        component: ComponentCreator('/docs/v1.6.2/query-renderer/','533'),
+        path: '/relay.ko.dev/docs/v1.6.2/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/query-renderer/','275'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.6.2/quick-start-guide/','a18'),
+        path: '/relay.ko.dev/docs/v1.6.2/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/quick-start-guide/','1be'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/refetch-container/',
-        component: ComponentCreator('/docs/v1.6.2/refetch-container/','cda'),
+        path: '/relay.ko.dev/docs/v1.6.2/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/refetch-container/','086'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/relay-compat/',
-        component: ComponentCreator('/docs/v1.6.2/relay-compat/','aac'),
+        path: '/relay.ko.dev/docs/v1.6.2/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/relay-compat/','d04'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/relay-debugging/',
-        component: ComponentCreator('/docs/v1.6.2/relay-debugging/','25a'),
+        path: '/relay.ko.dev/docs/v1.6.2/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/relay-debugging/','b82'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/relay-environment/',
-        component: ComponentCreator('/docs/v1.6.2/relay-environment/','e7c'),
+        path: '/relay.ko.dev/docs/v1.6.2/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/relay-environment/','c1f'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/relay-store/',
-        component: ComponentCreator('/docs/v1.6.2/relay-store/','57b'),
+        path: '/relay.ko.dev/docs/v1.6.2/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/relay-store/','273'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/routing/',
-        component: ComponentCreator('/docs/v1.6.2/routing/','493'),
+        path: '/relay.ko.dev/docs/v1.6.2/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/routing/','cc7'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.6.2/runtime-architecture/','798'),
+        path: '/relay.ko.dev/docs/v1.6.2/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/runtime-architecture/','aee'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/subscriptions/',
-        component: ComponentCreator('/docs/v1.6.2/subscriptions/','ae4'),
+        path: '/relay.ko.dev/docs/v1.6.2/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/subscriptions/','b58'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.6.2/testing-relay-components/','8cf'),
+        path: '/relay.ko.dev/docs/v1.6.2/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/testing-relay-components/','c92'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.6.2/thinking-in-graphql/','f0e'),
+        path: '/relay.ko.dev/docs/v1.6.2/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/thinking-in-graphql/','ef4'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.6.2/thinking-in-relay/','050'),
+        path: '/relay.ko.dev/docs/v1.6.2/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/thinking-in-relay/','3da'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/type-emission/',
-        component: ComponentCreator('/docs/v1.6.2/type-emission/','8cc'),
+        path: '/relay.ko.dev/docs/v1.6.2/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/type-emission/','39f'),
         exact: true
       },
       {
-        path: '/docs/v1.6.2/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.6.2/upgrading-setvariables/','01b'),
+        path: '/relay.ko.dev/docs/v1.6.2/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/upgrading-setvariables/','259'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       },
       {
-        path: '/docs/v1.6.2/videos/',
-        component: ComponentCreator('/docs/v1.6.2/videos/','34a'),
+        path: '/relay.ko.dev/docs/v1.6.2/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.6.2/videos/','82a'),
         exact: true,
         'sidebar': "version-v1.6.2/docs"
       }
     ]
   },
   {
-    path: '/docs/v1.7.0/',
-    component: ComponentCreator('/docs/v1.7.0/','d90'),
+    path: '/relay.ko.dev/docs/v1.7.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/','50b'),
     routes: [
       {
-        path: '/docs/v1.7.0/',
-        component: ComponentCreator('/docs/v1.7.0/','54e'),
+        path: '/relay.ko.dev/docs/v1.7.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/','b4e'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v1.7.0/api-cheatsheet/','37f'),
+        path: '/relay.ko.dev/docs/v1.7.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/api-cheatsheet/','aed'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/architecture-overview/',
-        component: ComponentCreator('/docs/v1.7.0/architecture-overview/','272'),
+        path: '/relay.ko.dev/docs/v1.7.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/architecture-overview/','fc7'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v1.7.0/community-learning-resources/','b93'),
+        path: '/relay.ko.dev/docs/v1.7.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/community-learning-resources/','7d3'),
         exact: true
       },
       {
-        path: '/docs/v1.7.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v1.7.0/compatibility-cheatsheet/','ad5'),
+        path: '/relay.ko.dev/docs/v1.7.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/compatibility-cheatsheet/','e54'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v1.7.0/compiler-architecture/','464'),
+        path: '/relay.ko.dev/docs/v1.7.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/compiler-architecture/','ca4'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v1.7.0/conversion-playbook/','e0c'),
+        path: '/relay.ko.dev/docs/v1.7.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/conversion-playbook/','b3f'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v1.7.0/conversion-scripts/','1cb'),
+        path: '/relay.ko.dev/docs/v1.7.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/conversion-scripts/','382'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/converting-mutations/',
-        component: ComponentCreator('/docs/v1.7.0/converting-mutations/','d6d'),
+        path: '/relay.ko.dev/docs/v1.7.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/converting-mutations/','79b'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/fetch-query/',
-        component: ComponentCreator('/docs/v1.7.0/fetch-query/','c81'),
+        path: '/relay.ko.dev/docs/v1.7.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/fetch-query/','25c'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/fragment-container/',
-        component: ComponentCreator('/docs/v1.7.0/fragment-container/','389'),
+        path: '/relay.ko.dev/docs/v1.7.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/fragment-container/','bab'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v1.7.0/graphql-in-relay/','a5b'),
+        path: '/relay.ko.dev/docs/v1.7.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/graphql-in-relay/','ed5'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v1.7.0/graphql-server-specification/','b00'),
+        path: '/relay.ko.dev/docs/v1.7.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/graphql-server-specification/','cfd'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v1.7.0/installation-and-setup/','df7'),
+        path: '/relay.ko.dev/docs/v1.7.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/installation-and-setup/','bf4'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/local-state-management/',
-        component: ComponentCreator('/docs/v1.7.0/local-state-management/','8ac'),
+        path: '/relay.ko.dev/docs/v1.7.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/local-state-management/','d24'),
         exact: true
       },
       {
-        path: '/docs/v1.7.0/migration-setup/',
-        component: ComponentCreator('/docs/v1.7.0/migration-setup/','177'),
+        path: '/relay.ko.dev/docs/v1.7.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/migration-setup/','c87'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/mutations/',
-        component: ComponentCreator('/docs/v1.7.0/mutations/','2ef'),
+        path: '/relay.ko.dev/docs/v1.7.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/mutations/','a59'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/network-layer/',
-        component: ComponentCreator('/docs/v1.7.0/network-layer/','617'),
+        path: '/relay.ko.dev/docs/v1.7.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/network-layer/','fb5'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v1.7.0/new-in-relay-modern/','66b'),
+        path: '/relay.ko.dev/docs/v1.7.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/new-in-relay-modern/','cc5'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/pagination-container/',
-        component: ComponentCreator('/docs/v1.7.0/pagination-container/','469'),
+        path: '/relay.ko.dev/docs/v1.7.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/pagination-container/','2a7'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/persisted-queries/',
-        component: ComponentCreator('/docs/v1.7.0/persisted-queries/','79e'),
+        path: '/relay.ko.dev/docs/v1.7.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/persisted-queries/','d81'),
         exact: true
       },
       {
-        path: '/docs/v1.7.0/prerequisites/',
-        component: ComponentCreator('/docs/v1.7.0/prerequisites/','07b'),
+        path: '/relay.ko.dev/docs/v1.7.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/prerequisites/','912'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/query-renderer/',
-        component: ComponentCreator('/docs/v1.7.0/query-renderer/','a91'),
+        path: '/relay.ko.dev/docs/v1.7.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/query-renderer/','ece'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v1.7.0/quick-start-guide/','63b'),
+        path: '/relay.ko.dev/docs/v1.7.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/quick-start-guide/','1a0'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/refetch-container/',
-        component: ComponentCreator('/docs/v1.7.0/refetch-container/','a1c'),
+        path: '/relay.ko.dev/docs/v1.7.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/refetch-container/','b45'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/relay-compat/',
-        component: ComponentCreator('/docs/v1.7.0/relay-compat/','80c'),
+        path: '/relay.ko.dev/docs/v1.7.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/relay-compat/','2c3'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/relay-debugging/',
-        component: ComponentCreator('/docs/v1.7.0/relay-debugging/','316'),
+        path: '/relay.ko.dev/docs/v1.7.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/relay-debugging/','ad8'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/relay-environment/',
-        component: ComponentCreator('/docs/v1.7.0/relay-environment/','297'),
+        path: '/relay.ko.dev/docs/v1.7.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/relay-environment/','3f8'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/relay-store/',
-        component: ComponentCreator('/docs/v1.7.0/relay-store/','3af'),
+        path: '/relay.ko.dev/docs/v1.7.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/relay-store/','43f'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/routing/',
-        component: ComponentCreator('/docs/v1.7.0/routing/','8ad'),
+        path: '/relay.ko.dev/docs/v1.7.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/routing/','d86'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v1.7.0/runtime-architecture/','677'),
+        path: '/relay.ko.dev/docs/v1.7.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/runtime-architecture/','8df'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/subscriptions/',
-        component: ComponentCreator('/docs/v1.7.0/subscriptions/','ff9'),
+        path: '/relay.ko.dev/docs/v1.7.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/subscriptions/','865'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v1.7.0/testing-relay-components/','d22'),
+        path: '/relay.ko.dev/docs/v1.7.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/testing-relay-components/','15d'),
         exact: true
       },
       {
-        path: '/docs/v1.7.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v1.7.0/thinking-in-graphql/','620'),
+        path: '/relay.ko.dev/docs/v1.7.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/thinking-in-graphql/','588'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v1.7.0/thinking-in-relay/','ebe'),
+        path: '/relay.ko.dev/docs/v1.7.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/thinking-in-relay/','15e'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/type-emission/',
-        component: ComponentCreator('/docs/v1.7.0/type-emission/','94d'),
+        path: '/relay.ko.dev/docs/v1.7.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/type-emission/','31f'),
         exact: true
       },
       {
-        path: '/docs/v1.7.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v1.7.0/upgrading-setvariables/','d3e'),
+        path: '/relay.ko.dev/docs/v1.7.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/upgrading-setvariables/','743'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       },
       {
-        path: '/docs/v1.7.0/videos/',
-        component: ComponentCreator('/docs/v1.7.0/videos/','19d'),
+        path: '/relay.ko.dev/docs/v1.7.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v1.7.0/videos/','4ee'),
         exact: true,
         'sidebar': "version-v1.7.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.0.0/',
-    component: ComponentCreator('/docs/v10.0.0/','e01'),
+    path: '/relay.ko.dev/docs/v10.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/','c50'),
     routes: [
       {
-        path: '/docs/v10.0.0/',
-        component: ComponentCreator('/docs/v10.0.0/','b72'),
+        path: '/relay.ko.dev/docs/v10.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/','919'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.0.0/api-cheatsheet/','3a4'),
+        path: '/relay.ko.dev/docs/v10.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/api-cheatsheet/','b72'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v10.0.0/architecture-overview/','b3b'),
+        path: '/relay.ko.dev/docs/v10.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/architecture-overview/','536'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.0.0/community-learning-resources/','d4b'),
+        path: '/relay.ko.dev/docs/v10.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/community-learning-resources/','cf6'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.0.0/compatibility-cheatsheet/','86e'),
+        path: '/relay.ko.dev/docs/v10.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/compatibility-cheatsheet/','1a2'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.0.0/compiler-architecture/','f02'),
+        path: '/relay.ko.dev/docs/v10.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/compiler-architecture/','952'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.0.0/conversion-playbook/','0e4'),
+        path: '/relay.ko.dev/docs/v10.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/conversion-playbook/','9d4'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.0.0/conversion-scripts/','ed5'),
+        path: '/relay.ko.dev/docs/v10.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/conversion-scripts/','60a'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v10.0.0/converting-mutations/','4f6'),
+        path: '/relay.ko.dev/docs/v10.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/converting-mutations/','cb3'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v10.0.0/fetch-query/','96c'),
+        path: '/relay.ko.dev/docs/v10.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/fetch-query/','ed5'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v10.0.0/fragment-container/','228'),
+        path: '/relay.ko.dev/docs/v10.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/fragment-container/','c39'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.0.0/graphql-in-relay/','37f'),
+        path: '/relay.ko.dev/docs/v10.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/graphql-in-relay/','d98'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.0.0/graphql-server-specification/','dad'),
+        path: '/relay.ko.dev/docs/v10.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/graphql-server-specification/','c91'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.0.0/installation-and-setup/','1fb'),
+        path: '/relay.ko.dev/docs/v10.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/installation-and-setup/','804'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v10.0.0/local-state-management/','fe1'),
+        path: '/relay.ko.dev/docs/v10.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/local-state-management/','8d1'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v10.0.0/migration-setup/','2ce'),
+        path: '/relay.ko.dev/docs/v10.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/migration-setup/','7f4'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/mutations/',
-        component: ComponentCreator('/docs/v10.0.0/mutations/','eb1'),
+        path: '/relay.ko.dev/docs/v10.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/mutations/','495'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/network-layer/',
-        component: ComponentCreator('/docs/v10.0.0/network-layer/','9d1'),
+        path: '/relay.ko.dev/docs/v10.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/network-layer/','215'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.0.0/new-in-relay-modern/','244'),
+        path: '/relay.ko.dev/docs/v10.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/new-in-relay-modern/','a54'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v10.0.0/pagination-container/','e18'),
+        path: '/relay.ko.dev/docs/v10.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/pagination-container/','9c9'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v10.0.0/persisted-queries/','078'),
+        path: '/relay.ko.dev/docs/v10.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/persisted-queries/','a1a'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v10.0.0/prerequisites/','58a'),
+        path: '/relay.ko.dev/docs/v10.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/prerequisites/','9a6'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v10.0.0/query-renderer/','f11'),
+        path: '/relay.ko.dev/docs/v10.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/query-renderer/','6f0'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.0.0/quick-start-guide/','a2c'),
+        path: '/relay.ko.dev/docs/v10.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/quick-start-guide/','657'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v10.0.0/refetch-container/','a88'),
+        path: '/relay.ko.dev/docs/v10.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/refetch-container/','8f8'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v10.0.0/relay-compat/','2fa'),
+        path: '/relay.ko.dev/docs/v10.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/relay-compat/','de6'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v10.0.0/relay-debugging/','d36'),
+        path: '/relay.ko.dev/docs/v10.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/relay-debugging/','187'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v10.0.0/relay-environment/','464'),
+        path: '/relay.ko.dev/docs/v10.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/relay-environment/','01f'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/relay-store/',
-        component: ComponentCreator('/docs/v10.0.0/relay-store/','8b7'),
+        path: '/relay.ko.dev/docs/v10.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/relay-store/','d9e'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/routing/',
-        component: ComponentCreator('/docs/v10.0.0/routing/','7b5'),
+        path: '/relay.ko.dev/docs/v10.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/routing/','f28'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.0.0/runtime-architecture/','8ac'),
+        path: '/relay.ko.dev/docs/v10.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/runtime-architecture/','438'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v10.0.0/subscriptions/','0be'),
+        path: '/relay.ko.dev/docs/v10.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/subscriptions/','21c'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.0.0/testing-relay-components/','9bc'),
+        path: '/relay.ko.dev/docs/v10.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/testing-relay-components/','b26'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.0.0/thinking-in-graphql/','66d'),
+        path: '/relay.ko.dev/docs/v10.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/thinking-in-graphql/','486'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.0.0/thinking-in-relay/','327'),
+        path: '/relay.ko.dev/docs/v10.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/thinking-in-relay/','f3b'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/type-emission/',
-        component: ComponentCreator('/docs/v10.0.0/type-emission/','425'),
+        path: '/relay.ko.dev/docs/v10.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/type-emission/','ecb'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       },
       {
-        path: '/docs/v10.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.0.0/upgrading-setvariables/','e13'),
+        path: '/relay.ko.dev/docs/v10.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/upgrading-setvariables/','a95'),
         exact: true
       },
       {
-        path: '/docs/v10.0.0/videos/',
-        component: ComponentCreator('/docs/v10.0.0/videos/','c84'),
+        path: '/relay.ko.dev/docs/v10.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.0/videos/','dce'),
         exact: true,
         'sidebar': "version-v10.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.0.1/',
-    component: ComponentCreator('/docs/v10.0.1/','4d0'),
+    path: '/relay.ko.dev/docs/v10.0.1/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/','b68'),
     routes: [
       {
-        path: '/docs/v10.0.1/',
-        component: ComponentCreator('/docs/v10.0.1/','d52'),
+        path: '/relay.ko.dev/docs/v10.0.1/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/','321'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.0.1/api-cheatsheet/','95a'),
+        path: '/relay.ko.dev/docs/v10.0.1/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/api-cheatsheet/','73c'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/architecture-overview/',
-        component: ComponentCreator('/docs/v10.0.1/architecture-overview/','667'),
+        path: '/relay.ko.dev/docs/v10.0.1/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/architecture-overview/','b88'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.0.1/community-learning-resources/','329'),
+        path: '/relay.ko.dev/docs/v10.0.1/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/community-learning-resources/','710'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.0.1/compatibility-cheatsheet/','4a3'),
+        path: '/relay.ko.dev/docs/v10.0.1/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/compatibility-cheatsheet/','262'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.0.1/compiler-architecture/','c8d'),
+        path: '/relay.ko.dev/docs/v10.0.1/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/compiler-architecture/','d4c'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.0.1/conversion-playbook/','8cd'),
+        path: '/relay.ko.dev/docs/v10.0.1/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/conversion-playbook/','7e1'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.0.1/conversion-scripts/','fc6'),
+        path: '/relay.ko.dev/docs/v10.0.1/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/conversion-scripts/','fcd'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/converting-mutations/',
-        component: ComponentCreator('/docs/v10.0.1/converting-mutations/','784'),
+        path: '/relay.ko.dev/docs/v10.0.1/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/converting-mutations/','680'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/fetch-query/',
-        component: ComponentCreator('/docs/v10.0.1/fetch-query/','b2a'),
+        path: '/relay.ko.dev/docs/v10.0.1/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/fetch-query/','37d'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/fragment-container/',
-        component: ComponentCreator('/docs/v10.0.1/fragment-container/','c7c'),
+        path: '/relay.ko.dev/docs/v10.0.1/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/fragment-container/','f3c'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.0.1/graphql-in-relay/','e27'),
+        path: '/relay.ko.dev/docs/v10.0.1/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/graphql-in-relay/','7da'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.0.1/graphql-server-specification/','606'),
+        path: '/relay.ko.dev/docs/v10.0.1/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/graphql-server-specification/','778'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.0.1/installation-and-setup/','1b8'),
+        path: '/relay.ko.dev/docs/v10.0.1/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/installation-and-setup/','f9d'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/local-state-management/',
-        component: ComponentCreator('/docs/v10.0.1/local-state-management/','a83'),
+        path: '/relay.ko.dev/docs/v10.0.1/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/local-state-management/','cf0'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/migration-setup/',
-        component: ComponentCreator('/docs/v10.0.1/migration-setup/','3c1'),
+        path: '/relay.ko.dev/docs/v10.0.1/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/migration-setup/','42a'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/mutations/',
-        component: ComponentCreator('/docs/v10.0.1/mutations/','ef2'),
+        path: '/relay.ko.dev/docs/v10.0.1/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/mutations/','ae8'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/network-layer/',
-        component: ComponentCreator('/docs/v10.0.1/network-layer/','648'),
+        path: '/relay.ko.dev/docs/v10.0.1/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/network-layer/','1fb'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.0.1/new-in-relay-modern/','512'),
+        path: '/relay.ko.dev/docs/v10.0.1/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/new-in-relay-modern/','f94'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/pagination-container/',
-        component: ComponentCreator('/docs/v10.0.1/pagination-container/','91e'),
+        path: '/relay.ko.dev/docs/v10.0.1/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/pagination-container/','6ef'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/persisted-queries/',
-        component: ComponentCreator('/docs/v10.0.1/persisted-queries/','75d'),
+        path: '/relay.ko.dev/docs/v10.0.1/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/persisted-queries/','b5d'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/prerequisites/',
-        component: ComponentCreator('/docs/v10.0.1/prerequisites/','564'),
+        path: '/relay.ko.dev/docs/v10.0.1/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/prerequisites/','31e'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/query-renderer/',
-        component: ComponentCreator('/docs/v10.0.1/query-renderer/','91b'),
+        path: '/relay.ko.dev/docs/v10.0.1/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/query-renderer/','fb7'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.0.1/quick-start-guide/','ed5'),
+        path: '/relay.ko.dev/docs/v10.0.1/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/quick-start-guide/','516'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/refetch-container/',
-        component: ComponentCreator('/docs/v10.0.1/refetch-container/','05c'),
+        path: '/relay.ko.dev/docs/v10.0.1/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/refetch-container/','f89'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/relay-compat/',
-        component: ComponentCreator('/docs/v10.0.1/relay-compat/','51d'),
+        path: '/relay.ko.dev/docs/v10.0.1/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/relay-compat/','77b'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/relay-debugging/',
-        component: ComponentCreator('/docs/v10.0.1/relay-debugging/','89c'),
+        path: '/relay.ko.dev/docs/v10.0.1/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/relay-debugging/','5a4'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/relay-environment/',
-        component: ComponentCreator('/docs/v10.0.1/relay-environment/','dd8'),
+        path: '/relay.ko.dev/docs/v10.0.1/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/relay-environment/','e04'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/relay-store/',
-        component: ComponentCreator('/docs/v10.0.1/relay-store/','771'),
+        path: '/relay.ko.dev/docs/v10.0.1/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/relay-store/','f6b'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/routing/',
-        component: ComponentCreator('/docs/v10.0.1/routing/','ffa'),
+        path: '/relay.ko.dev/docs/v10.0.1/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/routing/','54a'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.0.1/runtime-architecture/','f79'),
+        path: '/relay.ko.dev/docs/v10.0.1/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/runtime-architecture/','9b4'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/subscriptions/',
-        component: ComponentCreator('/docs/v10.0.1/subscriptions/','652'),
+        path: '/relay.ko.dev/docs/v10.0.1/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/subscriptions/','a5b'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.0.1/testing-relay-components/','416'),
+        path: '/relay.ko.dev/docs/v10.0.1/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/testing-relay-components/','38f'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.0.1/thinking-in-graphql/','a85'),
+        path: '/relay.ko.dev/docs/v10.0.1/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/thinking-in-graphql/','de6'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.0.1/thinking-in-relay/','305'),
+        path: '/relay.ko.dev/docs/v10.0.1/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/thinking-in-relay/','147'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/type-emission/',
-        component: ComponentCreator('/docs/v10.0.1/type-emission/','d1a'),
+        path: '/relay.ko.dev/docs/v10.0.1/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/type-emission/','4aa'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       },
       {
-        path: '/docs/v10.0.1/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.0.1/upgrading-setvariables/','e6b'),
+        path: '/relay.ko.dev/docs/v10.0.1/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/upgrading-setvariables/','1a9'),
         exact: true
       },
       {
-        path: '/docs/v10.0.1/videos/',
-        component: ComponentCreator('/docs/v10.0.1/videos/','961'),
+        path: '/relay.ko.dev/docs/v10.0.1/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.0.1/videos/','b85'),
         exact: true,
         'sidebar': "version-v10.0.1/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.1.0/',
-    component: ComponentCreator('/docs/v10.1.0/','833'),
+    path: '/relay.ko.dev/docs/v10.1.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/','ecd'),
     routes: [
       {
-        path: '/docs/v10.1.0/',
-        component: ComponentCreator('/docs/v10.1.0/','80a'),
+        path: '/relay.ko.dev/docs/v10.1.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/','e41'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.0/api-cheatsheet/','5c8'),
+        path: '/relay.ko.dev/docs/v10.1.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/api-cheatsheet/','424'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/architecture-overview/',
-        component: ComponentCreator('/docs/v10.1.0/architecture-overview/','bfb'),
+        path: '/relay.ko.dev/docs/v10.1.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/architecture-overview/','f31'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.1.0/community-learning-resources/','ad7'),
+        path: '/relay.ko.dev/docs/v10.1.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/community-learning-resources/','b39'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.0/compatibility-cheatsheet/','3aa'),
+        path: '/relay.ko.dev/docs/v10.1.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/compatibility-cheatsheet/','cdd'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.1.0/compiler-architecture/','078'),
+        path: '/relay.ko.dev/docs/v10.1.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/compiler-architecture/','c15'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.1.0/conversion-playbook/','783'),
+        path: '/relay.ko.dev/docs/v10.1.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/conversion-playbook/','567'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.1.0/conversion-scripts/','cff'),
+        path: '/relay.ko.dev/docs/v10.1.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/conversion-scripts/','3a3'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/converting-mutations/',
-        component: ComponentCreator('/docs/v10.1.0/converting-mutations/','ddd'),
+        path: '/relay.ko.dev/docs/v10.1.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/converting-mutations/','98d'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/fetch-query/',
-        component: ComponentCreator('/docs/v10.1.0/fetch-query/','fc4'),
+        path: '/relay.ko.dev/docs/v10.1.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/fetch-query/','ba7'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/fragment-container/',
-        component: ComponentCreator('/docs/v10.1.0/fragment-container/','d9c'),
+        path: '/relay.ko.dev/docs/v10.1.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/fragment-container/','823'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.1.0/graphql-in-relay/','eac'),
+        path: '/relay.ko.dev/docs/v10.1.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/graphql-in-relay/','b05'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.1.0/graphql-server-specification/','b5f'),
+        path: '/relay.ko.dev/docs/v10.1.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/graphql-server-specification/','d9c'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.1.0/installation-and-setup/','951'),
+        path: '/relay.ko.dev/docs/v10.1.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/installation-and-setup/','6bb'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/local-state-management/',
-        component: ComponentCreator('/docs/v10.1.0/local-state-management/','3c5'),
+        path: '/relay.ko.dev/docs/v10.1.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/local-state-management/','4fd'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/migration-setup/',
-        component: ComponentCreator('/docs/v10.1.0/migration-setup/','899'),
+        path: '/relay.ko.dev/docs/v10.1.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/migration-setup/','815'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/mutations/',
-        component: ComponentCreator('/docs/v10.1.0/mutations/','507'),
+        path: '/relay.ko.dev/docs/v10.1.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/mutations/','ff5'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/network-layer/',
-        component: ComponentCreator('/docs/v10.1.0/network-layer/','798'),
+        path: '/relay.ko.dev/docs/v10.1.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/network-layer/','94d'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.1.0/new-in-relay-modern/','dd8'),
+        path: '/relay.ko.dev/docs/v10.1.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/new-in-relay-modern/','6bb'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/pagination-container/',
-        component: ComponentCreator('/docs/v10.1.0/pagination-container/','48f'),
+        path: '/relay.ko.dev/docs/v10.1.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/pagination-container/','cb3'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/persisted-queries/',
-        component: ComponentCreator('/docs/v10.1.0/persisted-queries/','a23'),
+        path: '/relay.ko.dev/docs/v10.1.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/persisted-queries/','87a'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/prerequisites/',
-        component: ComponentCreator('/docs/v10.1.0/prerequisites/','b2a'),
+        path: '/relay.ko.dev/docs/v10.1.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/prerequisites/','ebe'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/query-renderer/',
-        component: ComponentCreator('/docs/v10.1.0/query-renderer/','1da'),
+        path: '/relay.ko.dev/docs/v10.1.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/query-renderer/','d0e'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.1.0/quick-start-guide/','359'),
+        path: '/relay.ko.dev/docs/v10.1.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/quick-start-guide/','8f7'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/refetch-container/',
-        component: ComponentCreator('/docs/v10.1.0/refetch-container/','9d3'),
+        path: '/relay.ko.dev/docs/v10.1.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/refetch-container/','842'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/relay-compat/',
-        component: ComponentCreator('/docs/v10.1.0/relay-compat/','cd7'),
+        path: '/relay.ko.dev/docs/v10.1.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/relay-compat/','d34'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/relay-debugging/',
-        component: ComponentCreator('/docs/v10.1.0/relay-debugging/','981'),
+        path: '/relay.ko.dev/docs/v10.1.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/relay-debugging/','6d5'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/relay-environment/',
-        component: ComponentCreator('/docs/v10.1.0/relay-environment/','68b'),
+        path: '/relay.ko.dev/docs/v10.1.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/relay-environment/','946'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/relay-store/',
-        component: ComponentCreator('/docs/v10.1.0/relay-store/','68e'),
+        path: '/relay.ko.dev/docs/v10.1.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/relay-store/','07b'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/routing/',
-        component: ComponentCreator('/docs/v10.1.0/routing/','b96'),
+        path: '/relay.ko.dev/docs/v10.1.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/routing/','13c'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.1.0/runtime-architecture/','f90'),
+        path: '/relay.ko.dev/docs/v10.1.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/runtime-architecture/','f2d'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/subscriptions/',
-        component: ComponentCreator('/docs/v10.1.0/subscriptions/','6ab'),
+        path: '/relay.ko.dev/docs/v10.1.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/subscriptions/','290'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.1.0/testing-relay-components/','77f'),
+        path: '/relay.ko.dev/docs/v10.1.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/testing-relay-components/','99d'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.1.0/thinking-in-graphql/','9fe'),
+        path: '/relay.ko.dev/docs/v10.1.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/thinking-in-graphql/','f99'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.1.0/thinking-in-relay/','93d'),
+        path: '/relay.ko.dev/docs/v10.1.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/thinking-in-relay/','ba7'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/type-emission/',
-        component: ComponentCreator('/docs/v10.1.0/type-emission/','983'),
+        path: '/relay.ko.dev/docs/v10.1.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/type-emission/','12f'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       },
       {
-        path: '/docs/v10.1.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.1.0/upgrading-setvariables/','4a9'),
+        path: '/relay.ko.dev/docs/v10.1.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/upgrading-setvariables/','a2b'),
         exact: true
       },
       {
-        path: '/docs/v10.1.0/videos/',
-        component: ComponentCreator('/docs/v10.1.0/videos/','e1f'),
+        path: '/relay.ko.dev/docs/v10.1.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.0/videos/','dae'),
         exact: true,
         'sidebar': "version-v10.1.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.1.1/',
-    component: ComponentCreator('/docs/v10.1.1/','c56'),
+    path: '/relay.ko.dev/docs/v10.1.1/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/','718'),
     routes: [
       {
-        path: '/docs/v10.1.1/',
-        component: ComponentCreator('/docs/v10.1.1/','826'),
+        path: '/relay.ko.dev/docs/v10.1.1/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/','57f'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.1/api-cheatsheet/','503'),
+        path: '/relay.ko.dev/docs/v10.1.1/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/api-cheatsheet/','681'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/architecture-overview/',
-        component: ComponentCreator('/docs/v10.1.1/architecture-overview/','080'),
+        path: '/relay.ko.dev/docs/v10.1.1/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/architecture-overview/','851'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.1.1/community-learning-resources/','bf2'),
+        path: '/relay.ko.dev/docs/v10.1.1/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/community-learning-resources/','a4b'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.1/compatibility-cheatsheet/','b5f'),
+        path: '/relay.ko.dev/docs/v10.1.1/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/compatibility-cheatsheet/','0ce'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.1.1/compiler-architecture/','a19'),
+        path: '/relay.ko.dev/docs/v10.1.1/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/compiler-architecture/','15f'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.1.1/conversion-playbook/','86e'),
+        path: '/relay.ko.dev/docs/v10.1.1/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/conversion-playbook/','dab'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.1.1/conversion-scripts/','f36'),
+        path: '/relay.ko.dev/docs/v10.1.1/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/conversion-scripts/','33c'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/converting-mutations/',
-        component: ComponentCreator('/docs/v10.1.1/converting-mutations/','28a'),
+        path: '/relay.ko.dev/docs/v10.1.1/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/converting-mutations/','9c0'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/fetch-query/',
-        component: ComponentCreator('/docs/v10.1.1/fetch-query/','21a'),
+        path: '/relay.ko.dev/docs/v10.1.1/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/fetch-query/','ce5'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/fragment-container/',
-        component: ComponentCreator('/docs/v10.1.1/fragment-container/','0ec'),
+        path: '/relay.ko.dev/docs/v10.1.1/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/fragment-container/','44d'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.1.1/graphql-in-relay/','b41'),
+        path: '/relay.ko.dev/docs/v10.1.1/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/graphql-in-relay/','03b'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.1.1/graphql-server-specification/','b98'),
+        path: '/relay.ko.dev/docs/v10.1.1/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/graphql-server-specification/','548'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.1.1/installation-and-setup/','1fc'),
+        path: '/relay.ko.dev/docs/v10.1.1/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/installation-and-setup/','b98'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/local-state-management/',
-        component: ComponentCreator('/docs/v10.1.1/local-state-management/','414'),
+        path: '/relay.ko.dev/docs/v10.1.1/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/local-state-management/','fda'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/migration-setup/',
-        component: ComponentCreator('/docs/v10.1.1/migration-setup/','11f'),
+        path: '/relay.ko.dev/docs/v10.1.1/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/migration-setup/','95d'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/mutations/',
-        component: ComponentCreator('/docs/v10.1.1/mutations/','0c7'),
+        path: '/relay.ko.dev/docs/v10.1.1/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/mutations/','799'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/network-layer/',
-        component: ComponentCreator('/docs/v10.1.1/network-layer/','9cb'),
+        path: '/relay.ko.dev/docs/v10.1.1/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/network-layer/','bba'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.1.1/new-in-relay-modern/','80c'),
+        path: '/relay.ko.dev/docs/v10.1.1/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/new-in-relay-modern/','c23'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/pagination-container/',
-        component: ComponentCreator('/docs/v10.1.1/pagination-container/','4ed'),
+        path: '/relay.ko.dev/docs/v10.1.1/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/pagination-container/','9e2'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/persisted-queries/',
-        component: ComponentCreator('/docs/v10.1.1/persisted-queries/','c83'),
+        path: '/relay.ko.dev/docs/v10.1.1/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/persisted-queries/','df9'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/prerequisites/',
-        component: ComponentCreator('/docs/v10.1.1/prerequisites/','187'),
+        path: '/relay.ko.dev/docs/v10.1.1/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/prerequisites/','00d'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/query-renderer/',
-        component: ComponentCreator('/docs/v10.1.1/query-renderer/','9cd'),
+        path: '/relay.ko.dev/docs/v10.1.1/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/query-renderer/','78f'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.1.1/quick-start-guide/','3a3'),
+        path: '/relay.ko.dev/docs/v10.1.1/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/quick-start-guide/','205'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/refetch-container/',
-        component: ComponentCreator('/docs/v10.1.1/refetch-container/','bfa'),
+        path: '/relay.ko.dev/docs/v10.1.1/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/refetch-container/','784'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/relay-compat/',
-        component: ComponentCreator('/docs/v10.1.1/relay-compat/','11e'),
+        path: '/relay.ko.dev/docs/v10.1.1/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/relay-compat/','1bd'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/relay-debugging/',
-        component: ComponentCreator('/docs/v10.1.1/relay-debugging/','a40'),
+        path: '/relay.ko.dev/docs/v10.1.1/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/relay-debugging/','24b'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/relay-environment/',
-        component: ComponentCreator('/docs/v10.1.1/relay-environment/','18b'),
+        path: '/relay.ko.dev/docs/v10.1.1/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/relay-environment/','f27'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/relay-store/',
-        component: ComponentCreator('/docs/v10.1.1/relay-store/','9ea'),
+        path: '/relay.ko.dev/docs/v10.1.1/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/relay-store/','2c3'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/routing/',
-        component: ComponentCreator('/docs/v10.1.1/routing/','aac'),
+        path: '/relay.ko.dev/docs/v10.1.1/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/routing/','9c9'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.1.1/runtime-architecture/','a06'),
+        path: '/relay.ko.dev/docs/v10.1.1/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/runtime-architecture/','070'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/subscriptions/',
-        component: ComponentCreator('/docs/v10.1.1/subscriptions/','9d7'),
+        path: '/relay.ko.dev/docs/v10.1.1/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/subscriptions/','2c9'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.1.1/testing-relay-components/','fdd'),
+        path: '/relay.ko.dev/docs/v10.1.1/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/testing-relay-components/','80f'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.1.1/thinking-in-graphql/','c03'),
+        path: '/relay.ko.dev/docs/v10.1.1/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/thinking-in-graphql/','5b6'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.1.1/thinking-in-relay/','864'),
+        path: '/relay.ko.dev/docs/v10.1.1/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/thinking-in-relay/','5de'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/type-emission/',
-        component: ComponentCreator('/docs/v10.1.1/type-emission/','b8a'),
+        path: '/relay.ko.dev/docs/v10.1.1/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/type-emission/','780'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       },
       {
-        path: '/docs/v10.1.1/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.1.1/upgrading-setvariables/','bbd'),
+        path: '/relay.ko.dev/docs/v10.1.1/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/upgrading-setvariables/','982'),
         exact: true
       },
       {
-        path: '/docs/v10.1.1/videos/',
-        component: ComponentCreator('/docs/v10.1.1/videos/','0b5'),
+        path: '/relay.ko.dev/docs/v10.1.1/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.1/videos/','6df'),
         exact: true,
         'sidebar': "version-v10.1.1/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.1.2/',
-    component: ComponentCreator('/docs/v10.1.2/','08c'),
+    path: '/relay.ko.dev/docs/v10.1.2/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/','7d3'),
     routes: [
       {
-        path: '/docs/v10.1.2/',
-        component: ComponentCreator('/docs/v10.1.2/','2a5'),
+        path: '/relay.ko.dev/docs/v10.1.2/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/','424'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.2/api-cheatsheet/','3a9'),
+        path: '/relay.ko.dev/docs/v10.1.2/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/api-cheatsheet/','435'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/architecture-overview/',
-        component: ComponentCreator('/docs/v10.1.2/architecture-overview/','aca'),
+        path: '/relay.ko.dev/docs/v10.1.2/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/architecture-overview/','75e'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.1.2/community-learning-resources/','9cb'),
+        path: '/relay.ko.dev/docs/v10.1.2/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/community-learning-resources/','ad9'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.2/compatibility-cheatsheet/','9fd'),
+        path: '/relay.ko.dev/docs/v10.1.2/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/compatibility-cheatsheet/','c8e'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.1.2/compiler-architecture/','ded'),
+        path: '/relay.ko.dev/docs/v10.1.2/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/compiler-architecture/','8f0'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.1.2/conversion-playbook/','f81'),
+        path: '/relay.ko.dev/docs/v10.1.2/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/conversion-playbook/','40d'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.1.2/conversion-scripts/','f01'),
+        path: '/relay.ko.dev/docs/v10.1.2/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/conversion-scripts/','3d7'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/converting-mutations/',
-        component: ComponentCreator('/docs/v10.1.2/converting-mutations/','a77'),
+        path: '/relay.ko.dev/docs/v10.1.2/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/converting-mutations/','890'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/fetch-query/',
-        component: ComponentCreator('/docs/v10.1.2/fetch-query/','150'),
+        path: '/relay.ko.dev/docs/v10.1.2/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/fetch-query/','ed9'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/fragment-container/',
-        component: ComponentCreator('/docs/v10.1.2/fragment-container/','045'),
+        path: '/relay.ko.dev/docs/v10.1.2/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/fragment-container/','f46'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.1.2/graphql-in-relay/','738'),
+        path: '/relay.ko.dev/docs/v10.1.2/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/graphql-in-relay/','b76'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.1.2/graphql-server-specification/','57d'),
+        path: '/relay.ko.dev/docs/v10.1.2/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/graphql-server-specification/','fb0'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.1.2/installation-and-setup/','553'),
+        path: '/relay.ko.dev/docs/v10.1.2/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/installation-and-setup/','284'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/local-state-management/',
-        component: ComponentCreator('/docs/v10.1.2/local-state-management/','00f'),
+        path: '/relay.ko.dev/docs/v10.1.2/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/local-state-management/','ae5'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/migration-setup/',
-        component: ComponentCreator('/docs/v10.1.2/migration-setup/','e94'),
+        path: '/relay.ko.dev/docs/v10.1.2/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/migration-setup/','d87'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/mutations/',
-        component: ComponentCreator('/docs/v10.1.2/mutations/','063'),
+        path: '/relay.ko.dev/docs/v10.1.2/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/mutations/','678'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/network-layer/',
-        component: ComponentCreator('/docs/v10.1.2/network-layer/','531'),
+        path: '/relay.ko.dev/docs/v10.1.2/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/network-layer/','912'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.1.2/new-in-relay-modern/','896'),
+        path: '/relay.ko.dev/docs/v10.1.2/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/new-in-relay-modern/','511'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/pagination-container/',
-        component: ComponentCreator('/docs/v10.1.2/pagination-container/','ce0'),
+        path: '/relay.ko.dev/docs/v10.1.2/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/pagination-container/','a13'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/persisted-queries/',
-        component: ComponentCreator('/docs/v10.1.2/persisted-queries/','08b'),
+        path: '/relay.ko.dev/docs/v10.1.2/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/persisted-queries/','4de'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/prerequisites/',
-        component: ComponentCreator('/docs/v10.1.2/prerequisites/','e8c'),
+        path: '/relay.ko.dev/docs/v10.1.2/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/prerequisites/','dc1'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/query-renderer/',
-        component: ComponentCreator('/docs/v10.1.2/query-renderer/','a05'),
+        path: '/relay.ko.dev/docs/v10.1.2/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/query-renderer/','c9e'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.1.2/quick-start-guide/','8c5'),
+        path: '/relay.ko.dev/docs/v10.1.2/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/quick-start-guide/','777'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/refetch-container/',
-        component: ComponentCreator('/docs/v10.1.2/refetch-container/','fe1'),
+        path: '/relay.ko.dev/docs/v10.1.2/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/refetch-container/','b83'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/relay-compat/',
-        component: ComponentCreator('/docs/v10.1.2/relay-compat/','d6b'),
+        path: '/relay.ko.dev/docs/v10.1.2/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/relay-compat/','c79'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/relay-debugging/',
-        component: ComponentCreator('/docs/v10.1.2/relay-debugging/','410'),
+        path: '/relay.ko.dev/docs/v10.1.2/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/relay-debugging/','1a4'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/relay-environment/',
-        component: ComponentCreator('/docs/v10.1.2/relay-environment/','e5b'),
+        path: '/relay.ko.dev/docs/v10.1.2/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/relay-environment/','27a'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/relay-store/',
-        component: ComponentCreator('/docs/v10.1.2/relay-store/','ce7'),
+        path: '/relay.ko.dev/docs/v10.1.2/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/relay-store/','bf2'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/routing/',
-        component: ComponentCreator('/docs/v10.1.2/routing/','d08'),
+        path: '/relay.ko.dev/docs/v10.1.2/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/routing/','0ad'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.1.2/runtime-architecture/','c9a'),
+        path: '/relay.ko.dev/docs/v10.1.2/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/runtime-architecture/','3a1'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/subscriptions/',
-        component: ComponentCreator('/docs/v10.1.2/subscriptions/','b6a'),
+        path: '/relay.ko.dev/docs/v10.1.2/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/subscriptions/','046'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.1.2/testing-relay-components/','b1e'),
+        path: '/relay.ko.dev/docs/v10.1.2/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/testing-relay-components/','7bc'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.1.2/thinking-in-graphql/','1e6'),
+        path: '/relay.ko.dev/docs/v10.1.2/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/thinking-in-graphql/','e96'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.1.2/thinking-in-relay/','df7'),
+        path: '/relay.ko.dev/docs/v10.1.2/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/thinking-in-relay/','286'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/type-emission/',
-        component: ComponentCreator('/docs/v10.1.2/type-emission/','1bc'),
+        path: '/relay.ko.dev/docs/v10.1.2/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/type-emission/','a94'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       },
       {
-        path: '/docs/v10.1.2/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.1.2/upgrading-setvariables/','202'),
+        path: '/relay.ko.dev/docs/v10.1.2/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/upgrading-setvariables/','6cb'),
         exact: true
       },
       {
-        path: '/docs/v10.1.2/videos/',
-        component: ComponentCreator('/docs/v10.1.2/videos/','cc4'),
+        path: '/relay.ko.dev/docs/v10.1.2/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.2/videos/','68b'),
         exact: true,
         'sidebar': "version-v10.1.2/docs"
       }
     ]
   },
   {
-    path: '/docs/v10.1.3/',
-    component: ComponentCreator('/docs/v10.1.3/','da6'),
+    path: '/relay.ko.dev/docs/v10.1.3/',
+    component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/','22e'),
     routes: [
       {
-        path: '/docs/v10.1.3/',
-        component: ComponentCreator('/docs/v10.1.3/','013'),
+        path: '/relay.ko.dev/docs/v10.1.3/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/','4f2'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/api-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.3/api-cheatsheet/','9a9'),
+        path: '/relay.ko.dev/docs/v10.1.3/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/api-cheatsheet/','abb'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/architecture-overview/',
-        component: ComponentCreator('/docs/v10.1.3/architecture-overview/','3c3'),
+        path: '/relay.ko.dev/docs/v10.1.3/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/architecture-overview/','8b6'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/community-learning-resources/',
-        component: ComponentCreator('/docs/v10.1.3/community-learning-resources/','ba7'),
+        path: '/relay.ko.dev/docs/v10.1.3/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/community-learning-resources/','d5b'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v10.1.3/compatibility-cheatsheet/','df2'),
+        path: '/relay.ko.dev/docs/v10.1.3/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/compatibility-cheatsheet/','b6e'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/compiler-architecture/',
-        component: ComponentCreator('/docs/v10.1.3/compiler-architecture/','042'),
+        path: '/relay.ko.dev/docs/v10.1.3/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/compiler-architecture/','2b8'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/conversion-playbook/',
-        component: ComponentCreator('/docs/v10.1.3/conversion-playbook/','d21'),
+        path: '/relay.ko.dev/docs/v10.1.3/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/conversion-playbook/','839'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/conversion-scripts/',
-        component: ComponentCreator('/docs/v10.1.3/conversion-scripts/','e36'),
+        path: '/relay.ko.dev/docs/v10.1.3/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/conversion-scripts/','adf'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/converting-mutations/',
-        component: ComponentCreator('/docs/v10.1.3/converting-mutations/','36e'),
+        path: '/relay.ko.dev/docs/v10.1.3/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/converting-mutations/','4a3'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/fetch-query/',
-        component: ComponentCreator('/docs/v10.1.3/fetch-query/','bba'),
+        path: '/relay.ko.dev/docs/v10.1.3/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/fetch-query/','79c'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/fragment-container/',
-        component: ComponentCreator('/docs/v10.1.3/fragment-container/','350'),
+        path: '/relay.ko.dev/docs/v10.1.3/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/fragment-container/','d49'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/graphql-in-relay/',
-        component: ComponentCreator('/docs/v10.1.3/graphql-in-relay/','003'),
+        path: '/relay.ko.dev/docs/v10.1.3/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/graphql-in-relay/','854'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/graphql-server-specification/',
-        component: ComponentCreator('/docs/v10.1.3/graphql-server-specification/','7cb'),
+        path: '/relay.ko.dev/docs/v10.1.3/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/graphql-server-specification/','5fc'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/installation-and-setup/',
-        component: ComponentCreator('/docs/v10.1.3/installation-and-setup/','6b7'),
+        path: '/relay.ko.dev/docs/v10.1.3/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/installation-and-setup/','2fa'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/local-state-management/',
-        component: ComponentCreator('/docs/v10.1.3/local-state-management/','bbc'),
+        path: '/relay.ko.dev/docs/v10.1.3/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/local-state-management/','1b3'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/migration-setup/',
-        component: ComponentCreator('/docs/v10.1.3/migration-setup/','986'),
+        path: '/relay.ko.dev/docs/v10.1.3/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/migration-setup/','0a7'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/mutations/',
-        component: ComponentCreator('/docs/v10.1.3/mutations/','c7e'),
+        path: '/relay.ko.dev/docs/v10.1.3/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/mutations/','3da'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/network-layer/',
-        component: ComponentCreator('/docs/v10.1.3/network-layer/','289'),
+        path: '/relay.ko.dev/docs/v10.1.3/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/network-layer/','628'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v10.1.3/new-in-relay-modern/','e09'),
+        path: '/relay.ko.dev/docs/v10.1.3/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/new-in-relay-modern/','a90'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/pagination-container/',
-        component: ComponentCreator('/docs/v10.1.3/pagination-container/','cc8'),
+        path: '/relay.ko.dev/docs/v10.1.3/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/pagination-container/','898'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/persisted-queries/',
-        component: ComponentCreator('/docs/v10.1.3/persisted-queries/','c70'),
+        path: '/relay.ko.dev/docs/v10.1.3/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/persisted-queries/','410'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/prerequisites/',
-        component: ComponentCreator('/docs/v10.1.3/prerequisites/','f29'),
+        path: '/relay.ko.dev/docs/v10.1.3/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/prerequisites/','ea9'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/query-renderer/',
-        component: ComponentCreator('/docs/v10.1.3/query-renderer/','c8f'),
+        path: '/relay.ko.dev/docs/v10.1.3/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/query-renderer/','a27'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/quick-start-guide/',
-        component: ComponentCreator('/docs/v10.1.3/quick-start-guide/','8ed'),
+        path: '/relay.ko.dev/docs/v10.1.3/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/quick-start-guide/','66c'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/refetch-container/',
-        component: ComponentCreator('/docs/v10.1.3/refetch-container/','242'),
+        path: '/relay.ko.dev/docs/v10.1.3/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/refetch-container/','c1f'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/relay-compat/',
-        component: ComponentCreator('/docs/v10.1.3/relay-compat/','b8f'),
+        path: '/relay.ko.dev/docs/v10.1.3/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/relay-compat/','9ed'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/relay-debugging/',
-        component: ComponentCreator('/docs/v10.1.3/relay-debugging/','0cb'),
+        path: '/relay.ko.dev/docs/v10.1.3/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/relay-debugging/','a95'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/relay-environment/',
-        component: ComponentCreator('/docs/v10.1.3/relay-environment/','664'),
+        path: '/relay.ko.dev/docs/v10.1.3/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/relay-environment/','594'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/relay-store/',
-        component: ComponentCreator('/docs/v10.1.3/relay-store/','473'),
+        path: '/relay.ko.dev/docs/v10.1.3/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/relay-store/','cc1'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/routing/',
-        component: ComponentCreator('/docs/v10.1.3/routing/','914'),
+        path: '/relay.ko.dev/docs/v10.1.3/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/routing/','bc5'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/runtime-architecture/',
-        component: ComponentCreator('/docs/v10.1.3/runtime-architecture/','1f3'),
+        path: '/relay.ko.dev/docs/v10.1.3/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/runtime-architecture/','b36'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/subscriptions/',
-        component: ComponentCreator('/docs/v10.1.3/subscriptions/','e51'),
+        path: '/relay.ko.dev/docs/v10.1.3/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/subscriptions/','eb3'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/testing-relay-components/',
-        component: ComponentCreator('/docs/v10.1.3/testing-relay-components/','76a'),
+        path: '/relay.ko.dev/docs/v10.1.3/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/testing-relay-components/','db2'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v10.1.3/thinking-in-graphql/','52b'),
+        path: '/relay.ko.dev/docs/v10.1.3/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/thinking-in-graphql/','96e'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/thinking-in-relay/',
-        component: ComponentCreator('/docs/v10.1.3/thinking-in-relay/','9fd'),
+        path: '/relay.ko.dev/docs/v10.1.3/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/thinking-in-relay/','b70'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/type-emission/',
-        component: ComponentCreator('/docs/v10.1.3/type-emission/','450'),
+        path: '/relay.ko.dev/docs/v10.1.3/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/type-emission/','6a5'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       },
       {
-        path: '/docs/v10.1.3/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v10.1.3/upgrading-setvariables/','7ba'),
+        path: '/relay.ko.dev/docs/v10.1.3/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/upgrading-setvariables/','c88'),
         exact: true
       },
       {
-        path: '/docs/v10.1.3/videos/',
-        component: ComponentCreator('/docs/v10.1.3/videos/','353'),
+        path: '/relay.ko.dev/docs/v10.1.3/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v10.1.3/videos/','b9f'),
         exact: true,
         'sidebar': "version-v10.1.3/docs"
       }
     ]
   },
   {
-    path: '/docs/v11.0.0/',
-    component: ComponentCreator('/docs/v11.0.0/','f1b'),
+    path: '/relay.ko.dev/docs/v11.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/','69e'),
     routes: [
       {
-        path: '/docs/v11.0.0/',
-        component: ComponentCreator('/docs/v11.0.0/','edf'),
+        path: '/relay.ko.dev/docs/v11.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/','168'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/commit-mutation/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/commit-mutation/','32b'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/commit-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/commit-mutation/','780'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/entrypoint-container/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/entrypoint-container/','cb7'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/entrypoint-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/entrypoint-container/','7a8'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/fetch-query/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/fetch-query/','c2b'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/fetch-query/','1f1'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/graphql-and-directives/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/graphql-and-directives/','986'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/graphql-and-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/graphql-and-directives/','0f7'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/legacy-apis/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/legacy-apis/','0b1'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/legacy-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/legacy-apis/','753'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/load-entrypoint/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/load-entrypoint/','bb8'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/load-entrypoint/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/load-entrypoint/','baa'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/load-query/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/load-query/','6e2'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/load-query/','55b'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/relay-environment-provider/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/relay-environment-provider/','49b'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/relay-environment-provider/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/relay-environment-provider/','59a'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/request-subscription/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/request-subscription/','ad2'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/request-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/request-subscription/','6d9'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/store/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/store/','f65'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/store/','9f3'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/CacheConfig/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/CacheConfig/','75c'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/CacheConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/CacheConfig/','e21'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/Disposable/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/Disposable/','345'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/Disposable/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/Disposable/','af3'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/GraphQLSubscriptionConfig/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/GraphQLSubscriptionConfig/','8cf'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/GraphQLSubscriptionConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/GraphQLSubscriptionConfig/','7df'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/MutationConfig/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/MutationConfig/','bca'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/MutationConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/MutationConfig/','619'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/SelectorStoreUpdater/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/SelectorStoreUpdater/','950'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/SelectorStoreUpdater/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/SelectorStoreUpdater/','733'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/types/UploadableMap/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/types/UploadableMap/','e78'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/types/UploadableMap/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/types/UploadableMap/','fbb'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-entrypoint-loader/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-entrypoint-loader/','224'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-entrypoint-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-entrypoint-loader/','4e7'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-fragment/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-fragment/','008'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-fragment/','1fe'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-lazy-load-query/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-lazy-load-query/','79c'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-lazy-load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-lazy-load-query/','e2b'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-mutation/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-mutation/','388'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-mutation/','ebf'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-pagination-fragment/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-pagination-fragment/','f26'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-pagination-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-pagination-fragment/','1e2'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-preloaded-query/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-preloaded-query/','5b1'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-preloaded-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-preloaded-query/','711'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-query-loader/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-query-loader/','729'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-query-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-query-loader/','8ca'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-refetchable-fragment/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-refetchable-fragment/','1e6'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-refetchable-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-refetchable-fragment/','395'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-relay-environment/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-relay-environment/','490'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-relay-environment/','fb6'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/api-reference/use-subscription/',
-        component: ComponentCreator('/docs/v11.0.0/api-reference/use-subscription/','f7c'),
+        path: '/relay.ko.dev/docs/v11.0.0/api-reference/use-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/api-reference/use-subscription/','155'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v11.0.0/community-learning-resources/','709'),
+        path: '/relay.ko.dev/docs/v11.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/community-learning-resources/','f7a'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/debugging/declarative-mutation-directives/',
-        component: ComponentCreator('/docs/v11.0.0/debugging/declarative-mutation-directives/','6bc'),
+        path: '/relay.ko.dev/docs/v11.0.0/debugging/declarative-mutation-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/debugging/declarative-mutation-directives/','ede'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/debugging/inconsistent-typename-error/',
-        component: ComponentCreator('/docs/v11.0.0/debugging/inconsistent-typename-error/','eb7'),
+        path: '/relay.ko.dev/docs/v11.0.0/debugging/inconsistent-typename-error/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/debugging/inconsistent-typename-error/','11b'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/debugging/relay-devtools/',
-        component: ComponentCreator('/docs/v11.0.0/debugging/relay-devtools/','ed5'),
+        path: '/relay.ko.dev/docs/v11.0.0/debugging/relay-devtools/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/debugging/relay-devtools/','dab'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/getting-started/installation-and-setup/',
-        component: ComponentCreator('/docs/v11.0.0/getting-started/installation-and-setup/','f5e'),
+        path: '/relay.ko.dev/docs/v11.0.0/getting-started/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/getting-started/installation-and-setup/','2a7'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/getting-started/prerequisites/',
-        component: ComponentCreator('/docs/v11.0.0/getting-started/prerequisites/','2f8'),
+        path: '/relay.ko.dev/docs/v11.0.0/getting-started/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/getting-started/prerequisites/','04b'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/getting-started/step-by-step-guide/',
-        component: ComponentCreator('/docs/v11.0.0/getting-started/step-by-step-guide/','251'),
+        path: '/relay.ko.dev/docs/v11.0.0/getting-started/step-by-step-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/getting-started/step-by-step-guide/','080'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/glossary/',
-        component: ComponentCreator('/docs/v11.0.0/glossary/','839'),
+        path: '/relay.ko.dev/docs/v11.0.0/glossary/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/glossary/','05d'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/','6dc'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/','891'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/accessing-data-without-react/prefetching-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/accessing-data-without-react/prefetching-queries/','9c5'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/prefetching-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/prefetching-queries/','26b'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-fragments/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-fragments/','b5d'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-fragments/','45e'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-queries/','0e4'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/reading-queries/','3b5'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/guided-tour/accessing-data-without-react/retaining-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/accessing-data-without-react/retaining-queries/','7e1'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/retaining-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/retaining-queries/','d74'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/','c4e'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/','249'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/advanced-pagination/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/advanced-pagination/','0a5'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/advanced-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/advanced-pagination/','9ce'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/connections/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/connections/','af9'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/connections/','107'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/pagination/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/pagination/','43d'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/pagination/','b03'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/refetching-connections/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/refetching-connections/','70f'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/refetching-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/refetching-connections/','6c4'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/rendering-connections/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/rendering-connections/','266'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/rendering-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/rendering-connections/','b8c'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/streaming-pagination/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/streaming-pagination/','3d7'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/streaming-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/streaming-pagination/','3f4'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/list-data/updating-connections/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/list-data/updating-connections/','8a8'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/updating-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/list-data/updating-connections/','1b1'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/','8ed'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/','1d3'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/OssAvoidSuspenseNote/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/OssAvoidSuspenseNote/','5a5'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/OssAvoidSuspenseNote/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/OssAvoidSuspenseNote/','5b1'),
         exact: true
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/refetching-fragments-with-different-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/refetching-fragments-with-different-data/','d7d'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refetching-fragments-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refetching-fragments-with-different-data/','cd0'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/','f35'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refetching-queries-with-different-data/','5b1'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/','79a'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-fragments/','b6c'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/refetching/refreshing-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/refetching/refreshing-queries/','777'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/refetching/refreshing-queries/','a40'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/environment/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/environment/','418'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/environment/','3d7'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/error-states/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/error-states/','736'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/error-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/error-states/','b1c'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/fragments/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/fragments/','ed7'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/fragments/','b2c'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/loading-states/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/loading-states/','90f'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/loading-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/loading-states/','8d5'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/queries/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/queries/','30e'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/queries/','926'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/rendering/variables/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/rendering/variables/','761'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/variables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/rendering/variables/','124'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/','563'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/','525'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/availability-of-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/availability-of-data/','823'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/availability-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/availability-of-data/','65e'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/fetch-policies/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/fetch-policies/','0ab'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/fetch-policies/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/fetch-policies/','365'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/','009'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/','9dc'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/presence-of-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/presence-of-data/','edf'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/presence-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/presence-of-data/','7e4'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/','ecc'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/','268'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/','7c7'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/reusing-cached-data/staleness-of-data/','9a3'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/updating-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/updating-data/','a9e'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/','f82'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/updating-data/client-only-data/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/updating-data/client-only-data/','a8a'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/client-only-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/client-only-data/','1c5'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/updating-data/graphql-mutations/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/updating-data/graphql-mutations/','e81'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/graphql-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/graphql-mutations/','369'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/updating-data/graphql-subscriptions/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/updating-data/graphql-subscriptions/','016'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/graphql-subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/graphql-subscriptions/','432'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/updating-data/local-data-updates/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/updating-data/local-data-updates/','f8e'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/local-data-updates/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/updating-data/local-data-updates/','a49'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guided-tour/workflow/',
-        component: ComponentCreator('/docs/v11.0.0/guided-tour/workflow/','265'),
+        path: '/relay.ko.dev/docs/v11.0.0/guided-tour/workflow/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guided-tour/workflow/','74e'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/client-schema-extensions/',
-        component: ComponentCreator('/docs/v11.0.0/guides/client-schema-extensions/','6a9'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/client-schema-extensions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/client-schema-extensions/','58e'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/compiler/',
-        component: ComponentCreator('/docs/v11.0.0/guides/compiler/','2cf'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/compiler/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/compiler/','230'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/graphql-server-specification/',
-        component: ComponentCreator('/docs/v11.0.0/guides/graphql-server-specification/','10e'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/graphql-server-specification/','b08'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/network-layer/',
-        component: ComponentCreator('/docs/v11.0.0/guides/network-layer/','3d0'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/network-layer/','158'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/persisted-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guides/persisted-queries/','29b'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/persisted-queries/','eed'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/testing-relay-components/',
-        component: ComponentCreator('/docs/v11.0.0/guides/testing-relay-components/','a6a'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/testing-relay-components/','305'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/testing-relay-with-preloaded-queries/',
-        component: ComponentCreator('/docs/v11.0.0/guides/testing-relay-with-preloaded-queries/','1ef'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/testing-relay-with-preloaded-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/testing-relay-with-preloaded-queries/','7ad'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/guides/type-emission/',
-        component: ComponentCreator('/docs/v11.0.0/guides/type-emission/','08b'),
+        path: '/relay.ko.dev/docs/v11.0.0/guides/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/guides/type-emission/','47d'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/migration-and-compatibility/',
-        component: ComponentCreator('/docs/v11.0.0/migration-and-compatibility/','cd5'),
+        path: '/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/','033'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
-        component: ComponentCreator('/docs/v11.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','28c'),
+        path: '/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','05e'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/migration-and-compatibility/suspense-compatibility/',
-        component: ComponentCreator('/docs/v11.0.0/migration-and-compatibility/suspense-compatibility/','00e'),
+        path: '/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/suspense-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/migration-and-compatibility/suspense-compatibility/','07c'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/architecture-overview/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/architecture-overview/','55d'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/architecture-overview/','1fa'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/compiler-architecture/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/compiler-architecture/','65c'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/compiler-architecture/','cff'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/runtime-architecture/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/runtime-architecture/','7a8'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/runtime-architecture/','627'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/','293'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-graphql/','a27'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/thinking-in-relay/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/thinking-in-relay/','a78'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/thinking-in-relay/','63a'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       },
       {
-        path: '/docs/v11.0.0/principles-and-architecture/videos/',
-        component: ComponentCreator('/docs/v11.0.0/principles-and-architecture/videos/','6e1'),
+        path: '/relay.ko.dev/docs/v11.0.0/principles-and-architecture/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v11.0.0/principles-and-architecture/videos/','fb0'),
         exact: true,
         'sidebar': "version-v11.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v12.0.0/',
-    component: ComponentCreator('/docs/v12.0.0/','031'),
+    path: '/relay.ko.dev/docs/v12.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/','edb'),
     routes: [
       {
-        path: '/docs/v12.0.0/',
-        component: ComponentCreator('/docs/v12.0.0/','9f8'),
+        path: '/relay.ko.dev/docs/v12.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/','678'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/commit-mutation/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/commit-mutation/','c6a'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/commit-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/commit-mutation/','ea6'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/entrypoint-container/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/entrypoint-container/','27e'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/entrypoint-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/entrypoint-container/','99c'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/fetch-query/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/fetch-query/','9d2'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/fetch-query/','e6b'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/graphql-and-directives/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/graphql-and-directives/','6fc'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/graphql-and-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/graphql-and-directives/','99e'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/legacy-apis/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/legacy-apis/','98d'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/legacy-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/legacy-apis/','727'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/load-entrypoint/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/load-entrypoint/','621'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/load-entrypoint/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/load-entrypoint/','575'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/load-query/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/load-query/','a94'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/load-query/','772'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/relay-environment-provider/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/relay-environment-provider/','221'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/relay-environment-provider/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/relay-environment-provider/','28c'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/request-subscription/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/request-subscription/','07b'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/request-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/request-subscription/','f97'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/store/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/store/','e80'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/store/','0e2'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/CacheConfig/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/CacheConfig/','c69'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/CacheConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/CacheConfig/','3c3'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/Disposable/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/Disposable/','4a5'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/Disposable/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/Disposable/','558'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/GraphQLSubscriptionConfig/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/GraphQLSubscriptionConfig/','34d'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/GraphQLSubscriptionConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/GraphQLSubscriptionConfig/','82f'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/MutationConfig/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/MutationConfig/','ea4'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/MutationConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/MutationConfig/','84c'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/SelectorStoreUpdater/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/SelectorStoreUpdater/','296'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/SelectorStoreUpdater/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/SelectorStoreUpdater/','8ce'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/types/UploadableMap/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/types/UploadableMap/','7ee'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/types/UploadableMap/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/types/UploadableMap/','529'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-entrypoint-loader/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-entrypoint-loader/','934'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-entrypoint-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-entrypoint-loader/','d03'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-fragment/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-fragment/','ad0'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-fragment/','aff'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-lazy-load-query/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-lazy-load-query/','358'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-lazy-load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-lazy-load-query/','13f'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-mutation/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-mutation/','47b'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-mutation/','2e6'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-pagination-fragment/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-pagination-fragment/','176'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-pagination-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-pagination-fragment/','20d'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-preloaded-query/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-preloaded-query/','cf7'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-preloaded-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-preloaded-query/','d18'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-query-loader/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-query-loader/','e24'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-query-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-query-loader/','583'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-refetchable-fragment/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-refetchable-fragment/','74b'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-refetchable-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-refetchable-fragment/','4e9'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-relay-environment/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-relay-environment/','a4e'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-relay-environment/','1d8'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/api-reference/use-subscription/',
-        component: ComponentCreator('/docs/v12.0.0/api-reference/use-subscription/','efd'),
+        path: '/relay.ko.dev/docs/v12.0.0/api-reference/use-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/api-reference/use-subscription/','305'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v12.0.0/community-learning-resources/','f96'),
+        path: '/relay.ko.dev/docs/v12.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/community-learning-resources/','bd5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/debugging/declarative-mutation-directives/',
-        component: ComponentCreator('/docs/v12.0.0/debugging/declarative-mutation-directives/','966'),
+        path: '/relay.ko.dev/docs/v12.0.0/debugging/declarative-mutation-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/debugging/declarative-mutation-directives/','077'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/debugging/inconsistent-typename-error/',
-        component: ComponentCreator('/docs/v12.0.0/debugging/inconsistent-typename-error/','317'),
+        path: '/relay.ko.dev/docs/v12.0.0/debugging/inconsistent-typename-error/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/debugging/inconsistent-typename-error/','d71'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/debugging/relay-devtools/',
-        component: ComponentCreator('/docs/v12.0.0/debugging/relay-devtools/','ede'),
+        path: '/relay.ko.dev/docs/v12.0.0/debugging/relay-devtools/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/debugging/relay-devtools/','069'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/getting-started/installation-and-setup/',
-        component: ComponentCreator('/docs/v12.0.0/getting-started/installation-and-setup/','216'),
+        path: '/relay.ko.dev/docs/v12.0.0/getting-started/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/getting-started/installation-and-setup/','150'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/getting-started/prerequisites/',
-        component: ComponentCreator('/docs/v12.0.0/getting-started/prerequisites/','c5b'),
+        path: '/relay.ko.dev/docs/v12.0.0/getting-started/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/getting-started/prerequisites/','d08'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/getting-started/step-by-step-guide/',
-        component: ComponentCreator('/docs/v12.0.0/getting-started/step-by-step-guide/','157'),
+        path: '/relay.ko.dev/docs/v12.0.0/getting-started/step-by-step-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/getting-started/step-by-step-guide/','d0a'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/glossary/',
-        component: ComponentCreator('/docs/v12.0.0/glossary/','ac6'),
+        path: '/relay.ko.dev/docs/v12.0.0/glossary/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/glossary/','dff'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/','739'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/','bd5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/accessing-data-without-react/prefetching-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/accessing-data-without-react/prefetching-queries/','016'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/prefetching-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/prefetching-queries/','5b5'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-fragments/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-fragments/','421'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-fragments/','099'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-queries/','5c7'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/reading-queries/','c99'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/guided-tour/accessing-data-without-react/retaining-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/accessing-data-without-react/retaining-queries/','010'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/retaining-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/retaining-queries/','0eb'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/','706'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/accessing-data-without-react/subscribing-to-queries/','7b1'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/advanced-pagination/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/advanced-pagination/','3c9'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/advanced-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/advanced-pagination/','ef5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/connections/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/connections/','b0a'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/connections/','38a'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/pagination/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/pagination/','a76'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/pagination/','a70'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/refetching-connections/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/refetching-connections/','8c8'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/refetching-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/refetching-connections/','c18'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/rendering-connections/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/rendering-connections/','bae'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/rendering-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/rendering-connections/','632'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/streaming-pagination/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/streaming-pagination/','ff4'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/streaming-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/streaming-pagination/','b3b'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/list-data/updating-connections/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/list-data/updating-connections/','238'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/updating-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/list-data/updating-connections/','b10'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/','be0'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/','de7'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/OssAvoidSuspenseNote/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/OssAvoidSuspenseNote/','2b2'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/OssAvoidSuspenseNote/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/OssAvoidSuspenseNote/','c6b'),
         exact: true
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data/','234'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refetching-fragments-with-different-data/','4b0'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/refetching-queries-with-different-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/refetching-queries-with-different-data/','01b'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refetching-queries-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refetching-queries-with-different-data/','39f'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/refreshing-fragments/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/refreshing-fragments/','6f3'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refreshing-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refreshing-fragments/','223'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/refetching/refreshing-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/refetching/refreshing-queries/','c11'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refreshing-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/refetching/refreshing-queries/','838'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/environment/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/environment/','ce7'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/environment/','5b5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/error-states/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/error-states/','cb4'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/error-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/error-states/','ed7'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/fragments/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/fragments/','91f'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/fragments/','579'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/loading-states/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/loading-states/','ffe'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/loading-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/loading-states/','001'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/queries/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/queries/','c8b'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/queries/','dd3'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/rendering/variables/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/rendering/variables/','287'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/variables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/rendering/variables/','cc9'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/','bbd'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/','5e1'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/','794'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/availability-of-data/','969'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/','fda'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/fetch-policies/','ed6'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/','b5a'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/filling-in-missing-data/','6a5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/presence-of-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/presence-of-data/','446'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/presence-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/presence-of-data/','bbb'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/','1cc'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/rendering-partially-cached-data/','45d'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/reusing-cached-data/staleness-of-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/reusing-cached-data/staleness-of-data/','698'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/staleness-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/reusing-cached-data/staleness-of-data/','6b5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/updating-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/updating-data/','6b6'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/','27f'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/updating-data/client-only-data/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/updating-data/client-only-data/','813'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/client-only-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/client-only-data/','440'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/updating-data/graphql-mutations/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/updating-data/graphql-mutations/','d04'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/graphql-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/graphql-mutations/','290'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/','1a8'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/graphql-subscriptions/','cef'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/updating-data/local-data-updates/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/updating-data/local-data-updates/','d68'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/local-data-updates/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/updating-data/local-data-updates/','d5e'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guided-tour/workflow/',
-        component: ComponentCreator('/docs/v12.0.0/guided-tour/workflow/','2f6'),
+        path: '/relay.ko.dev/docs/v12.0.0/guided-tour/workflow/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guided-tour/workflow/','d8e'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/client-schema-extensions/',
-        component: ComponentCreator('/docs/v12.0.0/guides/client-schema-extensions/','2bb'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/client-schema-extensions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/client-schema-extensions/','178'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/compiler/',
-        component: ComponentCreator('/docs/v12.0.0/guides/compiler/','d2c'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/compiler/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/compiler/','cc5'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/graphql-server-specification/',
-        component: ComponentCreator('/docs/v12.0.0/guides/graphql-server-specification/','b72'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/graphql-server-specification/','79a'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/network-layer/',
-        component: ComponentCreator('/docs/v12.0.0/guides/network-layer/','39c'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/network-layer/','93a'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/persisted-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guides/persisted-queries/','df1'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/persisted-queries/','3cd'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/testing-relay-components/',
-        component: ComponentCreator('/docs/v12.0.0/guides/testing-relay-components/','505'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/testing-relay-components/','56f'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/testing-relay-with-preloaded-queries/',
-        component: ComponentCreator('/docs/v12.0.0/guides/testing-relay-with-preloaded-queries/','4fc'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/testing-relay-with-preloaded-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/testing-relay-with-preloaded-queries/','d32'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/guides/type-emission/',
-        component: ComponentCreator('/docs/v12.0.0/guides/type-emission/','8a4'),
+        path: '/relay.ko.dev/docs/v12.0.0/guides/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/guides/type-emission/','669'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/migration-and-compatibility/',
-        component: ComponentCreator('/docs/v12.0.0/migration-and-compatibility/','bbd'),
+        path: '/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/','f87'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
-        component: ComponentCreator('/docs/v12.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','1e0'),
+        path: '/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','ff0'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/migration-and-compatibility/suspense-compatibility/',
-        component: ComponentCreator('/docs/v12.0.0/migration-and-compatibility/suspense-compatibility/','ba1'),
+        path: '/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/suspense-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/migration-and-compatibility/suspense-compatibility/','fae'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/architecture-overview/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/architecture-overview/','6bc'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/architecture-overview/','342'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/compiler-architecture/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/compiler-architecture/','68a'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/compiler-architecture/','33f'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/runtime-architecture/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/runtime-architecture/','f18'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/runtime-architecture/','0f3'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/thinking-in-graphql/','2d2'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/thinking-in-graphql/','217'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/thinking-in-relay/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/thinking-in-relay/','de4'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/thinking-in-relay/','755'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       },
       {
-        path: '/docs/v12.0.0/principles-and-architecture/videos/',
-        component: ComponentCreator('/docs/v12.0.0/principles-and-architecture/videos/','28e'),
+        path: '/relay.ko.dev/docs/v12.0.0/principles-and-architecture/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v12.0.0/principles-and-architecture/videos/','5bd'),
         exact: true,
         'sidebar': "version-v12.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v2.0.0/',
-    component: ComponentCreator('/docs/v2.0.0/','df7'),
+    path: '/relay.ko.dev/docs/v2.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/','613'),
     routes: [
       {
-        path: '/docs/v2.0.0/',
-        component: ComponentCreator('/docs/v2.0.0/','1d2'),
+        path: '/relay.ko.dev/docs/v2.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/','73e'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v2.0.0/api-cheatsheet/','b90'),
+        path: '/relay.ko.dev/docs/v2.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/api-cheatsheet/','ba4'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v2.0.0/architecture-overview/','062'),
+        path: '/relay.ko.dev/docs/v2.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/architecture-overview/','651'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v2.0.0/community-learning-resources/','c44'),
+        path: '/relay.ko.dev/docs/v2.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/community-learning-resources/','8a9'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v2.0.0/compatibility-cheatsheet/','998'),
+        path: '/relay.ko.dev/docs/v2.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/compatibility-cheatsheet/','604'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v2.0.0/compiler-architecture/','a7c'),
+        path: '/relay.ko.dev/docs/v2.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/compiler-architecture/','bb5'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v2.0.0/conversion-playbook/','b8d'),
+        path: '/relay.ko.dev/docs/v2.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/conversion-playbook/','46c'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v2.0.0/conversion-scripts/','917'),
+        path: '/relay.ko.dev/docs/v2.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/conversion-scripts/','100'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v2.0.0/converting-mutations/','2fc'),
+        path: '/relay.ko.dev/docs/v2.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/converting-mutations/','eb4'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v2.0.0/fetch-query/','1b1'),
+        path: '/relay.ko.dev/docs/v2.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/fetch-query/','43c'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v2.0.0/fragment-container/','998'),
+        path: '/relay.ko.dev/docs/v2.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/fragment-container/','35e'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v2.0.0/graphql-in-relay/','144'),
+        path: '/relay.ko.dev/docs/v2.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/graphql-in-relay/','c77'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v2.0.0/graphql-server-specification/','12e'),
+        path: '/relay.ko.dev/docs/v2.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/graphql-server-specification/','98b'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v2.0.0/installation-and-setup/','bde'),
+        path: '/relay.ko.dev/docs/v2.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/installation-and-setup/','c5a'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v2.0.0/local-state-management/','142'),
+        path: '/relay.ko.dev/docs/v2.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/local-state-management/','d81'),
         exact: true
       },
       {
-        path: '/docs/v2.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v2.0.0/migration-setup/','674'),
+        path: '/relay.ko.dev/docs/v2.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/migration-setup/','9b4'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/mutations/',
-        component: ComponentCreator('/docs/v2.0.0/mutations/','b62'),
+        path: '/relay.ko.dev/docs/v2.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/mutations/','0a6'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/network-layer/',
-        component: ComponentCreator('/docs/v2.0.0/network-layer/','8fe'),
+        path: '/relay.ko.dev/docs/v2.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/network-layer/','18c'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v2.0.0/new-in-relay-modern/','808'),
+        path: '/relay.ko.dev/docs/v2.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/new-in-relay-modern/','302'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v2.0.0/pagination-container/','6f5'),
+        path: '/relay.ko.dev/docs/v2.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/pagination-container/','556'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v2.0.0/persisted-queries/','06b'),
+        path: '/relay.ko.dev/docs/v2.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/persisted-queries/','43f'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v2.0.0/prerequisites/','e11'),
+        path: '/relay.ko.dev/docs/v2.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/prerequisites/','b1d'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v2.0.0/query-renderer/','a89'),
+        path: '/relay.ko.dev/docs/v2.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/query-renderer/','edd'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v2.0.0/quick-start-guide/','613'),
+        path: '/relay.ko.dev/docs/v2.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/quick-start-guide/','920'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v2.0.0/refetch-container/','90d'),
+        path: '/relay.ko.dev/docs/v2.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/refetch-container/','3b7'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v2.0.0/relay-compat/','228'),
+        path: '/relay.ko.dev/docs/v2.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/relay-compat/','886'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v2.0.0/relay-debugging/','174'),
+        path: '/relay.ko.dev/docs/v2.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/relay-debugging/','186'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v2.0.0/relay-environment/','fd1'),
+        path: '/relay.ko.dev/docs/v2.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/relay-environment/','3ab'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/relay-store/',
-        component: ComponentCreator('/docs/v2.0.0/relay-store/','3f2'),
+        path: '/relay.ko.dev/docs/v2.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/relay-store/','09d'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/routing/',
-        component: ComponentCreator('/docs/v2.0.0/routing/','b96'),
+        path: '/relay.ko.dev/docs/v2.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/routing/','28a'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v2.0.0/runtime-architecture/','db6'),
+        path: '/relay.ko.dev/docs/v2.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/runtime-architecture/','418'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v2.0.0/subscriptions/','2c3'),
+        path: '/relay.ko.dev/docs/v2.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/subscriptions/','fab'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v2.0.0/testing-relay-components/','ff0'),
+        path: '/relay.ko.dev/docs/v2.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/testing-relay-components/','12c'),
         exact: true
       },
       {
-        path: '/docs/v2.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v2.0.0/thinking-in-graphql/','ff7'),
+        path: '/relay.ko.dev/docs/v2.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/thinking-in-graphql/','bd3'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v2.0.0/thinking-in-relay/','55b'),
+        path: '/relay.ko.dev/docs/v2.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/thinking-in-relay/','4a3'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/type-emission/',
-        component: ComponentCreator('/docs/v2.0.0/type-emission/','332'),
+        path: '/relay.ko.dev/docs/v2.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/type-emission/','0fa'),
         exact: true
       },
       {
-        path: '/docs/v2.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v2.0.0/upgrading-setvariables/','0f8'),
+        path: '/relay.ko.dev/docs/v2.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/upgrading-setvariables/','d99'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       },
       {
-        path: '/docs/v2.0.0/videos/',
-        component: ComponentCreator('/docs/v2.0.0/videos/','8e9'),
+        path: '/relay.ko.dev/docs/v2.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v2.0.0/videos/','444'),
         exact: true,
         'sidebar': "version-v2.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v3.0.0/',
-    component: ComponentCreator('/docs/v3.0.0/','773'),
+    path: '/relay.ko.dev/docs/v3.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/','a67'),
     routes: [
       {
-        path: '/docs/v3.0.0/',
-        component: ComponentCreator('/docs/v3.0.0/','b3e'),
+        path: '/relay.ko.dev/docs/v3.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/','87d'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v3.0.0/api-cheatsheet/','536'),
+        path: '/relay.ko.dev/docs/v3.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/api-cheatsheet/','e7f'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v3.0.0/architecture-overview/','d47'),
+        path: '/relay.ko.dev/docs/v3.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/architecture-overview/','0ee'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v3.0.0/community-learning-resources/','c81'),
+        path: '/relay.ko.dev/docs/v3.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/community-learning-resources/','d76'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v3.0.0/compatibility-cheatsheet/','24e'),
+        path: '/relay.ko.dev/docs/v3.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/compatibility-cheatsheet/','b57'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v3.0.0/compiler-architecture/','870'),
+        path: '/relay.ko.dev/docs/v3.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/compiler-architecture/','abc'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v3.0.0/conversion-playbook/','6e2'),
+        path: '/relay.ko.dev/docs/v3.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/conversion-playbook/','396'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v3.0.0/conversion-scripts/','820'),
+        path: '/relay.ko.dev/docs/v3.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/conversion-scripts/','380'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v3.0.0/converting-mutations/','c0e'),
+        path: '/relay.ko.dev/docs/v3.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/converting-mutations/','07d'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v3.0.0/fetch-query/','2bc'),
+        path: '/relay.ko.dev/docs/v3.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/fetch-query/','6ad'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v3.0.0/fragment-container/','935'),
+        path: '/relay.ko.dev/docs/v3.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/fragment-container/','930'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v3.0.0/graphql-in-relay/','5a5'),
+        path: '/relay.ko.dev/docs/v3.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/graphql-in-relay/','361'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v3.0.0/graphql-server-specification/','06e'),
+        path: '/relay.ko.dev/docs/v3.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/graphql-server-specification/','6eb'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v3.0.0/installation-and-setup/','05c'),
+        path: '/relay.ko.dev/docs/v3.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/installation-and-setup/','79e'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v3.0.0/local-state-management/','1ef'),
+        path: '/relay.ko.dev/docs/v3.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/local-state-management/','7e1'),
         exact: true
       },
       {
-        path: '/docs/v3.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v3.0.0/migration-setup/','9b5'),
+        path: '/relay.ko.dev/docs/v3.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/migration-setup/','8ae'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/mutations/',
-        component: ComponentCreator('/docs/v3.0.0/mutations/','160'),
+        path: '/relay.ko.dev/docs/v3.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/mutations/','976'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/network-layer/',
-        component: ComponentCreator('/docs/v3.0.0/network-layer/','119'),
+        path: '/relay.ko.dev/docs/v3.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/network-layer/','1c0'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v3.0.0/new-in-relay-modern/','d87'),
+        path: '/relay.ko.dev/docs/v3.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/new-in-relay-modern/','461'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v3.0.0/pagination-container/','982'),
+        path: '/relay.ko.dev/docs/v3.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/pagination-container/','e83'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v3.0.0/persisted-queries/','248'),
+        path: '/relay.ko.dev/docs/v3.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/persisted-queries/','45f'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v3.0.0/prerequisites/','961'),
+        path: '/relay.ko.dev/docs/v3.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/prerequisites/','f30'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v3.0.0/query-renderer/','85e'),
+        path: '/relay.ko.dev/docs/v3.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/query-renderer/','ece'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v3.0.0/quick-start-guide/','681'),
+        path: '/relay.ko.dev/docs/v3.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/quick-start-guide/','67d'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v3.0.0/refetch-container/','c96'),
+        path: '/relay.ko.dev/docs/v3.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/refetch-container/','ca7'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v3.0.0/relay-compat/','82c'),
+        path: '/relay.ko.dev/docs/v3.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/relay-compat/','9bd'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v3.0.0/relay-debugging/','420'),
+        path: '/relay.ko.dev/docs/v3.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/relay-debugging/','4f7'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v3.0.0/relay-environment/','83d'),
+        path: '/relay.ko.dev/docs/v3.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/relay-environment/','11f'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/relay-store/',
-        component: ComponentCreator('/docs/v3.0.0/relay-store/','806'),
+        path: '/relay.ko.dev/docs/v3.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/relay-store/','0dc'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/routing/',
-        component: ComponentCreator('/docs/v3.0.0/routing/','036'),
+        path: '/relay.ko.dev/docs/v3.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/routing/','f5e'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v3.0.0/runtime-architecture/','3eb'),
+        path: '/relay.ko.dev/docs/v3.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/runtime-architecture/','a35'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v3.0.0/subscriptions/','4f5'),
+        path: '/relay.ko.dev/docs/v3.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/subscriptions/','cfe'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v3.0.0/testing-relay-components/','ad3'),
+        path: '/relay.ko.dev/docs/v3.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/testing-relay-components/','770'),
         exact: true
       },
       {
-        path: '/docs/v3.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v3.0.0/thinking-in-graphql/','70f'),
+        path: '/relay.ko.dev/docs/v3.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/thinking-in-graphql/','83d'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v3.0.0/thinking-in-relay/','b8a'),
+        path: '/relay.ko.dev/docs/v3.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/thinking-in-relay/','58c'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/type-emission/',
-        component: ComponentCreator('/docs/v3.0.0/type-emission/','5db'),
+        path: '/relay.ko.dev/docs/v3.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/type-emission/','190'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v3.0.0/upgrading-setvariables/','6c8'),
+        path: '/relay.ko.dev/docs/v3.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/upgrading-setvariables/','33f'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       },
       {
-        path: '/docs/v3.0.0/videos/',
-        component: ComponentCreator('/docs/v3.0.0/videos/','575'),
+        path: '/relay.ko.dev/docs/v3.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v3.0.0/videos/','1d1'),
         exact: true,
         'sidebar': "version-v3.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v4.0.0/',
-    component: ComponentCreator('/docs/v4.0.0/','704'),
+    path: '/relay.ko.dev/docs/v4.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/','a87'),
     routes: [
       {
-        path: '/docs/v4.0.0/',
-        component: ComponentCreator('/docs/v4.0.0/','2ec'),
+        path: '/relay.ko.dev/docs/v4.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/','dfb'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v4.0.0/api-cheatsheet/','585'),
+        path: '/relay.ko.dev/docs/v4.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/api-cheatsheet/','6cf'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v4.0.0/architecture-overview/','764'),
+        path: '/relay.ko.dev/docs/v4.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/architecture-overview/','38e'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v4.0.0/community-learning-resources/','218'),
+        path: '/relay.ko.dev/docs/v4.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/community-learning-resources/','64b'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v4.0.0/compatibility-cheatsheet/','45d'),
+        path: '/relay.ko.dev/docs/v4.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/compatibility-cheatsheet/','db8'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v4.0.0/compiler-architecture/','b7f'),
+        path: '/relay.ko.dev/docs/v4.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/compiler-architecture/','e43'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v4.0.0/conversion-playbook/','214'),
+        path: '/relay.ko.dev/docs/v4.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/conversion-playbook/','d53'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v4.0.0/conversion-scripts/','525'),
+        path: '/relay.ko.dev/docs/v4.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/conversion-scripts/','604'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v4.0.0/converting-mutations/','2b3'),
+        path: '/relay.ko.dev/docs/v4.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/converting-mutations/','6a8'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v4.0.0/fetch-query/','856'),
+        path: '/relay.ko.dev/docs/v4.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/fetch-query/','819'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v4.0.0/fragment-container/','221'),
+        path: '/relay.ko.dev/docs/v4.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/fragment-container/','b84'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v4.0.0/graphql-in-relay/','56d'),
+        path: '/relay.ko.dev/docs/v4.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/graphql-in-relay/','1d8'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v4.0.0/graphql-server-specification/','7ba'),
+        path: '/relay.ko.dev/docs/v4.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/graphql-server-specification/','cfb'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v4.0.0/installation-and-setup/','5da'),
+        path: '/relay.ko.dev/docs/v4.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/installation-and-setup/','ba0'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v4.0.0/local-state-management/','902'),
+        path: '/relay.ko.dev/docs/v4.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/local-state-management/','9ac'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v4.0.0/migration-setup/','1a2'),
+        path: '/relay.ko.dev/docs/v4.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/migration-setup/','7bb'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/mutations/',
-        component: ComponentCreator('/docs/v4.0.0/mutations/','81f'),
+        path: '/relay.ko.dev/docs/v4.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/mutations/','454'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/network-layer/',
-        component: ComponentCreator('/docs/v4.0.0/network-layer/','661'),
+        path: '/relay.ko.dev/docs/v4.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/network-layer/','ec1'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v4.0.0/new-in-relay-modern/','90f'),
+        path: '/relay.ko.dev/docs/v4.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/new-in-relay-modern/','819'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v4.0.0/pagination-container/','ff7'),
+        path: '/relay.ko.dev/docs/v4.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/pagination-container/','ba2'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v4.0.0/persisted-queries/','5ff'),
+        path: '/relay.ko.dev/docs/v4.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/persisted-queries/','f9b'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v4.0.0/prerequisites/','dd4'),
+        path: '/relay.ko.dev/docs/v4.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/prerequisites/','aca'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v4.0.0/query-renderer/','b27'),
+        path: '/relay.ko.dev/docs/v4.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/query-renderer/','a33'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v4.0.0/quick-start-guide/','bc4'),
+        path: '/relay.ko.dev/docs/v4.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/quick-start-guide/','160'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v4.0.0/refetch-container/','bb8'),
+        path: '/relay.ko.dev/docs/v4.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/refetch-container/','8e5'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v4.0.0/relay-compat/','fed'),
+        path: '/relay.ko.dev/docs/v4.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/relay-compat/','5ed'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v4.0.0/relay-debugging/','d5e'),
+        path: '/relay.ko.dev/docs/v4.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/relay-debugging/','a70'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v4.0.0/relay-environment/','f9c'),
+        path: '/relay.ko.dev/docs/v4.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/relay-environment/','e6e'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/relay-store/',
-        component: ComponentCreator('/docs/v4.0.0/relay-store/','93b'),
+        path: '/relay.ko.dev/docs/v4.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/relay-store/','78a'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/routing/',
-        component: ComponentCreator('/docs/v4.0.0/routing/','aa0'),
+        path: '/relay.ko.dev/docs/v4.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/routing/','7bb'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v4.0.0/runtime-architecture/','634'),
+        path: '/relay.ko.dev/docs/v4.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/runtime-architecture/','1e6'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v4.0.0/subscriptions/','1f2'),
+        path: '/relay.ko.dev/docs/v4.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/subscriptions/','f09'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v4.0.0/testing-relay-components/','7f4'),
+        path: '/relay.ko.dev/docs/v4.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/testing-relay-components/','2b1'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v4.0.0/thinking-in-graphql/','ea2'),
+        path: '/relay.ko.dev/docs/v4.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/thinking-in-graphql/','950'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v4.0.0/thinking-in-relay/','f8c'),
+        path: '/relay.ko.dev/docs/v4.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/thinking-in-relay/','435'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/type-emission/',
-        component: ComponentCreator('/docs/v4.0.0/type-emission/','eb7'),
+        path: '/relay.ko.dev/docs/v4.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/type-emission/','ba1'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       },
       {
-        path: '/docs/v4.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v4.0.0/upgrading-setvariables/','967'),
+        path: '/relay.ko.dev/docs/v4.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/upgrading-setvariables/','06e'),
         exact: true
       },
       {
-        path: '/docs/v4.0.0/videos/',
-        component: ComponentCreator('/docs/v4.0.0/videos/','e88'),
+        path: '/relay.ko.dev/docs/v4.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v4.0.0/videos/','36d'),
         exact: true,
         'sidebar': "version-v4.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v5.0.0/',
-    component: ComponentCreator('/docs/v5.0.0/','07f'),
+    path: '/relay.ko.dev/docs/v5.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/','fba'),
     routes: [
       {
-        path: '/docs/v5.0.0/',
-        component: ComponentCreator('/docs/v5.0.0/','b6e'),
+        path: '/relay.ko.dev/docs/v5.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/','d62'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v5.0.0/api-cheatsheet/','aec'),
+        path: '/relay.ko.dev/docs/v5.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/api-cheatsheet/','001'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v5.0.0/architecture-overview/','8ac'),
+        path: '/relay.ko.dev/docs/v5.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/architecture-overview/','cee'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v5.0.0/community-learning-resources/','243'),
+        path: '/relay.ko.dev/docs/v5.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/community-learning-resources/','383'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v5.0.0/compatibility-cheatsheet/','795'),
+        path: '/relay.ko.dev/docs/v5.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/compatibility-cheatsheet/','6c8'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v5.0.0/compiler-architecture/','c12'),
+        path: '/relay.ko.dev/docs/v5.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/compiler-architecture/','e63'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v5.0.0/conversion-playbook/','c15'),
+        path: '/relay.ko.dev/docs/v5.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/conversion-playbook/','ff1'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v5.0.0/conversion-scripts/','1c3'),
+        path: '/relay.ko.dev/docs/v5.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/conversion-scripts/','918'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v5.0.0/converting-mutations/','d9a'),
+        path: '/relay.ko.dev/docs/v5.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/converting-mutations/','bb9'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v5.0.0/fetch-query/','d11'),
+        path: '/relay.ko.dev/docs/v5.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/fetch-query/','277'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v5.0.0/fragment-container/','44e'),
+        path: '/relay.ko.dev/docs/v5.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/fragment-container/','e00'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v5.0.0/graphql-in-relay/','09b'),
+        path: '/relay.ko.dev/docs/v5.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/graphql-in-relay/','7d1'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v5.0.0/graphql-server-specification/','e45'),
+        path: '/relay.ko.dev/docs/v5.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/graphql-server-specification/','6bf'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v5.0.0/installation-and-setup/','0cb'),
+        path: '/relay.ko.dev/docs/v5.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/installation-and-setup/','8f4'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v5.0.0/local-state-management/','914'),
+        path: '/relay.ko.dev/docs/v5.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/local-state-management/','786'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v5.0.0/migration-setup/','ba5'),
+        path: '/relay.ko.dev/docs/v5.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/migration-setup/','cfb'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/mutations/',
-        component: ComponentCreator('/docs/v5.0.0/mutations/','4e8'),
+        path: '/relay.ko.dev/docs/v5.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/mutations/','557'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/network-layer/',
-        component: ComponentCreator('/docs/v5.0.0/network-layer/','dee'),
+        path: '/relay.ko.dev/docs/v5.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/network-layer/','7db'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v5.0.0/new-in-relay-modern/','a02'),
+        path: '/relay.ko.dev/docs/v5.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/new-in-relay-modern/','ee1'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v5.0.0/pagination-container/','12d'),
+        path: '/relay.ko.dev/docs/v5.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/pagination-container/','a6a'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v5.0.0/persisted-queries/','b07'),
+        path: '/relay.ko.dev/docs/v5.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/persisted-queries/','6d8'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v5.0.0/prerequisites/','109'),
+        path: '/relay.ko.dev/docs/v5.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/prerequisites/','51c'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v5.0.0/query-renderer/','43d'),
+        path: '/relay.ko.dev/docs/v5.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/query-renderer/','896'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v5.0.0/quick-start-guide/','e03'),
+        path: '/relay.ko.dev/docs/v5.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/quick-start-guide/','d54'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v5.0.0/refetch-container/','489'),
+        path: '/relay.ko.dev/docs/v5.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/refetch-container/','606'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v5.0.0/relay-compat/','94b'),
+        path: '/relay.ko.dev/docs/v5.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/relay-compat/','540'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v5.0.0/relay-debugging/','c4f'),
+        path: '/relay.ko.dev/docs/v5.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/relay-debugging/','22c'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v5.0.0/relay-environment/','396'),
+        path: '/relay.ko.dev/docs/v5.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/relay-environment/','2d4'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/relay-store/',
-        component: ComponentCreator('/docs/v5.0.0/relay-store/','f9a'),
+        path: '/relay.ko.dev/docs/v5.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/relay-store/','4b1'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/routing/',
-        component: ComponentCreator('/docs/v5.0.0/routing/','b2e'),
+        path: '/relay.ko.dev/docs/v5.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/routing/','5ff'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v5.0.0/runtime-architecture/','f52'),
+        path: '/relay.ko.dev/docs/v5.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/runtime-architecture/','c75'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v5.0.0/subscriptions/','f41'),
+        path: '/relay.ko.dev/docs/v5.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/subscriptions/','749'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v5.0.0/testing-relay-components/','6ff'),
+        path: '/relay.ko.dev/docs/v5.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/testing-relay-components/','4f4'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v5.0.0/thinking-in-graphql/','e1e'),
+        path: '/relay.ko.dev/docs/v5.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/thinking-in-graphql/','43b'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v5.0.0/thinking-in-relay/','f2b'),
+        path: '/relay.ko.dev/docs/v5.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/thinking-in-relay/','0ff'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/type-emission/',
-        component: ComponentCreator('/docs/v5.0.0/type-emission/','5f8'),
+        path: '/relay.ko.dev/docs/v5.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/type-emission/','38c'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       },
       {
-        path: '/docs/v5.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v5.0.0/upgrading-setvariables/','81e'),
+        path: '/relay.ko.dev/docs/v5.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/upgrading-setvariables/','213'),
         exact: true
       },
       {
-        path: '/docs/v5.0.0/videos/',
-        component: ComponentCreator('/docs/v5.0.0/videos/','3d3'),
+        path: '/relay.ko.dev/docs/v5.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v5.0.0/videos/','20d'),
         exact: true,
         'sidebar': "version-v5.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v6.0.0/',
-    component: ComponentCreator('/docs/v6.0.0/','8e0'),
+    path: '/relay.ko.dev/docs/v6.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/','dc7'),
     routes: [
       {
-        path: '/docs/v6.0.0/',
-        component: ComponentCreator('/docs/v6.0.0/','4b4'),
+        path: '/relay.ko.dev/docs/v6.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/','7e9'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v6.0.0/api-cheatsheet/','82d'),
+        path: '/relay.ko.dev/docs/v6.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/api-cheatsheet/','9a8'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v6.0.0/architecture-overview/','467'),
+        path: '/relay.ko.dev/docs/v6.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/architecture-overview/','6b3'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v6.0.0/community-learning-resources/','717'),
+        path: '/relay.ko.dev/docs/v6.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/community-learning-resources/','bc5'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v6.0.0/compatibility-cheatsheet/','367'),
+        path: '/relay.ko.dev/docs/v6.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/compatibility-cheatsheet/','7b2'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v6.0.0/compiler-architecture/','2de'),
+        path: '/relay.ko.dev/docs/v6.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/compiler-architecture/','8fe'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v6.0.0/conversion-playbook/','322'),
+        path: '/relay.ko.dev/docs/v6.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/conversion-playbook/','b21'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v6.0.0/conversion-scripts/','aac'),
+        path: '/relay.ko.dev/docs/v6.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/conversion-scripts/','316'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v6.0.0/converting-mutations/','5ab'),
+        path: '/relay.ko.dev/docs/v6.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/converting-mutations/','3ba'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v6.0.0/fetch-query/','440'),
+        path: '/relay.ko.dev/docs/v6.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/fetch-query/','d47'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v6.0.0/fragment-container/','d90'),
+        path: '/relay.ko.dev/docs/v6.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/fragment-container/','1d6'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v6.0.0/graphql-in-relay/','2da'),
+        path: '/relay.ko.dev/docs/v6.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/graphql-in-relay/','bd6'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v6.0.0/graphql-server-specification/','ec6'),
+        path: '/relay.ko.dev/docs/v6.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/graphql-server-specification/','a2b'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v6.0.0/installation-and-setup/','0c6'),
+        path: '/relay.ko.dev/docs/v6.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/installation-and-setup/','3f5'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v6.0.0/local-state-management/','2e1'),
+        path: '/relay.ko.dev/docs/v6.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/local-state-management/','bf6'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v6.0.0/migration-setup/','e6e'),
+        path: '/relay.ko.dev/docs/v6.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/migration-setup/','ff2'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/mutations/',
-        component: ComponentCreator('/docs/v6.0.0/mutations/','1fa'),
+        path: '/relay.ko.dev/docs/v6.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/mutations/','178'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/network-layer/',
-        component: ComponentCreator('/docs/v6.0.0/network-layer/','046'),
+        path: '/relay.ko.dev/docs/v6.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/network-layer/','b19'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v6.0.0/new-in-relay-modern/','c08'),
+        path: '/relay.ko.dev/docs/v6.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/new-in-relay-modern/','f38'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v6.0.0/pagination-container/','844'),
+        path: '/relay.ko.dev/docs/v6.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/pagination-container/','14d'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v6.0.0/persisted-queries/','976'),
+        path: '/relay.ko.dev/docs/v6.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/persisted-queries/','296'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v6.0.0/prerequisites/','c65'),
+        path: '/relay.ko.dev/docs/v6.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/prerequisites/','77e'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v6.0.0/query-renderer/','100'),
+        path: '/relay.ko.dev/docs/v6.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/query-renderer/','602'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v6.0.0/quick-start-guide/','322'),
+        path: '/relay.ko.dev/docs/v6.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/quick-start-guide/','9b0'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v6.0.0/refetch-container/','a99'),
+        path: '/relay.ko.dev/docs/v6.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/refetch-container/','330'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v6.0.0/relay-compat/','74c'),
+        path: '/relay.ko.dev/docs/v6.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/relay-compat/','13b'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v6.0.0/relay-debugging/','8cb'),
+        path: '/relay.ko.dev/docs/v6.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/relay-debugging/','5f5'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v6.0.0/relay-environment/','779'),
+        path: '/relay.ko.dev/docs/v6.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/relay-environment/','2ff'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/relay-store/',
-        component: ComponentCreator('/docs/v6.0.0/relay-store/','7f4'),
+        path: '/relay.ko.dev/docs/v6.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/relay-store/','543'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/routing/',
-        component: ComponentCreator('/docs/v6.0.0/routing/','efb'),
+        path: '/relay.ko.dev/docs/v6.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/routing/','9a4'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v6.0.0/runtime-architecture/','ea7'),
+        path: '/relay.ko.dev/docs/v6.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/runtime-architecture/','764'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v6.0.0/subscriptions/','b85'),
+        path: '/relay.ko.dev/docs/v6.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/subscriptions/','2ef'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v6.0.0/testing-relay-components/','485'),
+        path: '/relay.ko.dev/docs/v6.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/testing-relay-components/','bde'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v6.0.0/thinking-in-graphql/','892'),
+        path: '/relay.ko.dev/docs/v6.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/thinking-in-graphql/','78c'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v6.0.0/thinking-in-relay/','57e'),
+        path: '/relay.ko.dev/docs/v6.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/thinking-in-relay/','c92'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/type-emission/',
-        component: ComponentCreator('/docs/v6.0.0/type-emission/','b33'),
+        path: '/relay.ko.dev/docs/v6.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/type-emission/','789'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       },
       {
-        path: '/docs/v6.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v6.0.0/upgrading-setvariables/','850'),
+        path: '/relay.ko.dev/docs/v6.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/upgrading-setvariables/','8eb'),
         exact: true
       },
       {
-        path: '/docs/v6.0.0/videos/',
-        component: ComponentCreator('/docs/v6.0.0/videos/','260'),
+        path: '/relay.ko.dev/docs/v6.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v6.0.0/videos/','57e'),
         exact: true,
         'sidebar': "version-v6.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v7.0.0/',
-    component: ComponentCreator('/docs/v7.0.0/','f57'),
+    path: '/relay.ko.dev/docs/v7.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/','7ca'),
     routes: [
       {
-        path: '/docs/v7.0.0/',
-        component: ComponentCreator('/docs/v7.0.0/','83e'),
+        path: '/relay.ko.dev/docs/v7.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/','223'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v7.0.0/api-cheatsheet/','e7a'),
+        path: '/relay.ko.dev/docs/v7.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/api-cheatsheet/','43b'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v7.0.0/architecture-overview/','d80'),
+        path: '/relay.ko.dev/docs/v7.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/architecture-overview/','dc8'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v7.0.0/community-learning-resources/','36b'),
+        path: '/relay.ko.dev/docs/v7.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/community-learning-resources/','4e3'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v7.0.0/compatibility-cheatsheet/','7c9'),
+        path: '/relay.ko.dev/docs/v7.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/compatibility-cheatsheet/','93f'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v7.0.0/compiler-architecture/','211'),
+        path: '/relay.ko.dev/docs/v7.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/compiler-architecture/','dbb'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v7.0.0/conversion-playbook/','d9e'),
+        path: '/relay.ko.dev/docs/v7.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/conversion-playbook/','61c'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v7.0.0/conversion-scripts/','de3'),
+        path: '/relay.ko.dev/docs/v7.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/conversion-scripts/','c6b'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v7.0.0/converting-mutations/','12f'),
+        path: '/relay.ko.dev/docs/v7.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/converting-mutations/','3ca'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v7.0.0/fetch-query/','4ef'),
+        path: '/relay.ko.dev/docs/v7.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/fetch-query/','0e3'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v7.0.0/fragment-container/','1f4'),
+        path: '/relay.ko.dev/docs/v7.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/fragment-container/','df9'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v7.0.0/graphql-in-relay/','d2f'),
+        path: '/relay.ko.dev/docs/v7.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/graphql-in-relay/','6bc'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v7.0.0/graphql-server-specification/','7fa'),
+        path: '/relay.ko.dev/docs/v7.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/graphql-server-specification/','454'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v7.0.0/installation-and-setup/','734'),
+        path: '/relay.ko.dev/docs/v7.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/installation-and-setup/','88e'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v7.0.0/local-state-management/','2f6'),
+        path: '/relay.ko.dev/docs/v7.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/local-state-management/','8d8'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v7.0.0/migration-setup/','ffd'),
+        path: '/relay.ko.dev/docs/v7.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/migration-setup/','1cb'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/mutations/',
-        component: ComponentCreator('/docs/v7.0.0/mutations/','ca8'),
+        path: '/relay.ko.dev/docs/v7.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/mutations/','fc8'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/network-layer/',
-        component: ComponentCreator('/docs/v7.0.0/network-layer/','971'),
+        path: '/relay.ko.dev/docs/v7.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/network-layer/','e7e'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v7.0.0/new-in-relay-modern/','81f'),
+        path: '/relay.ko.dev/docs/v7.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/new-in-relay-modern/','b2c'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v7.0.0/pagination-container/','935'),
+        path: '/relay.ko.dev/docs/v7.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/pagination-container/','cb1'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v7.0.0/persisted-queries/','9bc'),
+        path: '/relay.ko.dev/docs/v7.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/persisted-queries/','81f'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v7.0.0/prerequisites/','c0f'),
+        path: '/relay.ko.dev/docs/v7.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/prerequisites/','973'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v7.0.0/query-renderer/','25d'),
+        path: '/relay.ko.dev/docs/v7.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/query-renderer/','0f7'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v7.0.0/quick-start-guide/','3d9'),
+        path: '/relay.ko.dev/docs/v7.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/quick-start-guide/','3e4'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v7.0.0/refetch-container/','ee3'),
+        path: '/relay.ko.dev/docs/v7.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/refetch-container/','de2'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v7.0.0/relay-compat/','053'),
+        path: '/relay.ko.dev/docs/v7.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/relay-compat/','f79'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v7.0.0/relay-debugging/','2d2'),
+        path: '/relay.ko.dev/docs/v7.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/relay-debugging/','1f8'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v7.0.0/relay-environment/','0d9'),
+        path: '/relay.ko.dev/docs/v7.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/relay-environment/','103'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/relay-store/',
-        component: ComponentCreator('/docs/v7.0.0/relay-store/','d81'),
+        path: '/relay.ko.dev/docs/v7.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/relay-store/','f02'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/routing/',
-        component: ComponentCreator('/docs/v7.0.0/routing/','12c'),
+        path: '/relay.ko.dev/docs/v7.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/routing/','395'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v7.0.0/runtime-architecture/','a0f'),
+        path: '/relay.ko.dev/docs/v7.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/runtime-architecture/','c79'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v7.0.0/subscriptions/','c11'),
+        path: '/relay.ko.dev/docs/v7.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/subscriptions/','872'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v7.0.0/testing-relay-components/','e0a'),
+        path: '/relay.ko.dev/docs/v7.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/testing-relay-components/','746'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v7.0.0/thinking-in-graphql/','ec8'),
+        path: '/relay.ko.dev/docs/v7.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/thinking-in-graphql/','f0f'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v7.0.0/thinking-in-relay/','344'),
+        path: '/relay.ko.dev/docs/v7.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/thinking-in-relay/','8ea'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/type-emission/',
-        component: ComponentCreator('/docs/v7.0.0/type-emission/','686'),
+        path: '/relay.ko.dev/docs/v7.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/type-emission/','4d1'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       },
       {
-        path: '/docs/v7.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v7.0.0/upgrading-setvariables/','3c0'),
+        path: '/relay.ko.dev/docs/v7.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/upgrading-setvariables/','6b7'),
         exact: true
       },
       {
-        path: '/docs/v7.0.0/videos/',
-        component: ComponentCreator('/docs/v7.0.0/videos/','96f'),
+        path: '/relay.ko.dev/docs/v7.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.0.0/videos/','812'),
         exact: true,
         'sidebar': "version-v7.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v7.1.0/',
-    component: ComponentCreator('/docs/v7.1.0/','4a8'),
+    path: '/relay.ko.dev/docs/v7.1.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/','e5f'),
     routes: [
       {
-        path: '/docs/v7.1.0/',
-        component: ComponentCreator('/docs/v7.1.0/','223'),
+        path: '/relay.ko.dev/docs/v7.1.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/','9d6'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v7.1.0/api-cheatsheet/','bc4'),
+        path: '/relay.ko.dev/docs/v7.1.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/api-cheatsheet/','871'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/architecture-overview/',
-        component: ComponentCreator('/docs/v7.1.0/architecture-overview/','fe1'),
+        path: '/relay.ko.dev/docs/v7.1.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/architecture-overview/','944'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v7.1.0/community-learning-resources/','533'),
+        path: '/relay.ko.dev/docs/v7.1.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/community-learning-resources/','dd2'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v7.1.0/compatibility-cheatsheet/','55c'),
+        path: '/relay.ko.dev/docs/v7.1.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/compatibility-cheatsheet/','17c'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v7.1.0/compiler-architecture/','323'),
+        path: '/relay.ko.dev/docs/v7.1.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/compiler-architecture/','b72'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v7.1.0/conversion-playbook/','3b7'),
+        path: '/relay.ko.dev/docs/v7.1.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/conversion-playbook/','670'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v7.1.0/conversion-scripts/','752'),
+        path: '/relay.ko.dev/docs/v7.1.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/conversion-scripts/','5a2'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/converting-mutations/',
-        component: ComponentCreator('/docs/v7.1.0/converting-mutations/','e44'),
+        path: '/relay.ko.dev/docs/v7.1.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/converting-mutations/','dfd'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/fetch-query/',
-        component: ComponentCreator('/docs/v7.1.0/fetch-query/','1ef'),
+        path: '/relay.ko.dev/docs/v7.1.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/fetch-query/','247'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/fragment-container/',
-        component: ComponentCreator('/docs/v7.1.0/fragment-container/','ac1'),
+        path: '/relay.ko.dev/docs/v7.1.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/fragment-container/','91a'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v7.1.0/graphql-in-relay/','c8e'),
+        path: '/relay.ko.dev/docs/v7.1.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/graphql-in-relay/','620'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v7.1.0/graphql-server-specification/','384'),
+        path: '/relay.ko.dev/docs/v7.1.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/graphql-server-specification/','5ba'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v7.1.0/installation-and-setup/','d32'),
+        path: '/relay.ko.dev/docs/v7.1.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/installation-and-setup/','f23'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/local-state-management/',
-        component: ComponentCreator('/docs/v7.1.0/local-state-management/','90c'),
+        path: '/relay.ko.dev/docs/v7.1.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/local-state-management/','768'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/migration-setup/',
-        component: ComponentCreator('/docs/v7.1.0/migration-setup/','f84'),
+        path: '/relay.ko.dev/docs/v7.1.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/migration-setup/','fe0'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/mutations/',
-        component: ComponentCreator('/docs/v7.1.0/mutations/','507'),
+        path: '/relay.ko.dev/docs/v7.1.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/mutations/','57a'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/network-layer/',
-        component: ComponentCreator('/docs/v7.1.0/network-layer/','617'),
+        path: '/relay.ko.dev/docs/v7.1.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/network-layer/','e63'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v7.1.0/new-in-relay-modern/','f30'),
+        path: '/relay.ko.dev/docs/v7.1.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/new-in-relay-modern/','1f8'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/pagination-container/',
-        component: ComponentCreator('/docs/v7.1.0/pagination-container/','419'),
+        path: '/relay.ko.dev/docs/v7.1.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/pagination-container/','25f'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/persisted-queries/',
-        component: ComponentCreator('/docs/v7.1.0/persisted-queries/','9d0'),
+        path: '/relay.ko.dev/docs/v7.1.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/persisted-queries/','953'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/prerequisites/',
-        component: ComponentCreator('/docs/v7.1.0/prerequisites/','b17'),
+        path: '/relay.ko.dev/docs/v7.1.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/prerequisites/','874'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/query-renderer/',
-        component: ComponentCreator('/docs/v7.1.0/query-renderer/','83e'),
+        path: '/relay.ko.dev/docs/v7.1.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/query-renderer/','164'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v7.1.0/quick-start-guide/','2de'),
+        path: '/relay.ko.dev/docs/v7.1.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/quick-start-guide/','f45'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/refetch-container/',
-        component: ComponentCreator('/docs/v7.1.0/refetch-container/','79d'),
+        path: '/relay.ko.dev/docs/v7.1.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/refetch-container/','5cb'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/relay-compat/',
-        component: ComponentCreator('/docs/v7.1.0/relay-compat/','821'),
+        path: '/relay.ko.dev/docs/v7.1.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/relay-compat/','7f0'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/relay-debugging/',
-        component: ComponentCreator('/docs/v7.1.0/relay-debugging/','b2e'),
+        path: '/relay.ko.dev/docs/v7.1.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/relay-debugging/','53f'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/relay-environment/',
-        component: ComponentCreator('/docs/v7.1.0/relay-environment/','419'),
+        path: '/relay.ko.dev/docs/v7.1.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/relay-environment/','c71'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/relay-store/',
-        component: ComponentCreator('/docs/v7.1.0/relay-store/','1b0'),
+        path: '/relay.ko.dev/docs/v7.1.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/relay-store/','87e'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/routing/',
-        component: ComponentCreator('/docs/v7.1.0/routing/','f32'),
+        path: '/relay.ko.dev/docs/v7.1.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/routing/','ca5'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v7.1.0/runtime-architecture/','3dc'),
+        path: '/relay.ko.dev/docs/v7.1.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/runtime-architecture/','c9e'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/subscriptions/',
-        component: ComponentCreator('/docs/v7.1.0/subscriptions/','f97'),
+        path: '/relay.ko.dev/docs/v7.1.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/subscriptions/','a9b'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v7.1.0/testing-relay-components/','5bf'),
+        path: '/relay.ko.dev/docs/v7.1.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/testing-relay-components/','426'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v7.1.0/thinking-in-graphql/','7bd'),
+        path: '/relay.ko.dev/docs/v7.1.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/thinking-in-graphql/','308'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v7.1.0/thinking-in-relay/','247'),
+        path: '/relay.ko.dev/docs/v7.1.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/thinking-in-relay/','091'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/type-emission/',
-        component: ComponentCreator('/docs/v7.1.0/type-emission/','136'),
+        path: '/relay.ko.dev/docs/v7.1.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/type-emission/','5be'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       },
       {
-        path: '/docs/v7.1.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v7.1.0/upgrading-setvariables/','d1a'),
+        path: '/relay.ko.dev/docs/v7.1.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/upgrading-setvariables/','222'),
         exact: true
       },
       {
-        path: '/docs/v7.1.0/videos/',
-        component: ComponentCreator('/docs/v7.1.0/videos/','70a'),
+        path: '/relay.ko.dev/docs/v7.1.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v7.1.0/videos/','a70'),
         exact: true,
         'sidebar': "version-v7.1.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v8.0.0/',
-    component: ComponentCreator('/docs/v8.0.0/','ccd'),
+    path: '/relay.ko.dev/docs/v8.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/','b32'),
     routes: [
       {
-        path: '/docs/v8.0.0/',
-        component: ComponentCreator('/docs/v8.0.0/','c0b'),
+        path: '/relay.ko.dev/docs/v8.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/','f73'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v8.0.0/api-cheatsheet/','602'),
+        path: '/relay.ko.dev/docs/v8.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/api-cheatsheet/','9c0'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v8.0.0/architecture-overview/','818'),
+        path: '/relay.ko.dev/docs/v8.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/architecture-overview/','ad6'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v8.0.0/community-learning-resources/','b3d'),
+        path: '/relay.ko.dev/docs/v8.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/community-learning-resources/','934'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v8.0.0/compatibility-cheatsheet/','513'),
+        path: '/relay.ko.dev/docs/v8.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/compatibility-cheatsheet/','446'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v8.0.0/compiler-architecture/','a8e'),
+        path: '/relay.ko.dev/docs/v8.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/compiler-architecture/','81b'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v8.0.0/conversion-playbook/','2e8'),
+        path: '/relay.ko.dev/docs/v8.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/conversion-playbook/','f2a'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v8.0.0/conversion-scripts/','d9b'),
+        path: '/relay.ko.dev/docs/v8.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/conversion-scripts/','d3d'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v8.0.0/converting-mutations/','287'),
+        path: '/relay.ko.dev/docs/v8.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/converting-mutations/','1fa'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v8.0.0/fetch-query/','a1f'),
+        path: '/relay.ko.dev/docs/v8.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/fetch-query/','46c'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v8.0.0/fragment-container/','aea'),
+        path: '/relay.ko.dev/docs/v8.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/fragment-container/','01f'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v8.0.0/graphql-in-relay/','e8c'),
+        path: '/relay.ko.dev/docs/v8.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/graphql-in-relay/','05d'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v8.0.0/graphql-server-specification/','533'),
+        path: '/relay.ko.dev/docs/v8.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/graphql-server-specification/','331'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v8.0.0/installation-and-setup/','5cb'),
+        path: '/relay.ko.dev/docs/v8.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/installation-and-setup/','828'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v8.0.0/local-state-management/','9c3'),
+        path: '/relay.ko.dev/docs/v8.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/local-state-management/','ef6'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v8.0.0/migration-setup/','d55'),
+        path: '/relay.ko.dev/docs/v8.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/migration-setup/','a33'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/mutations/',
-        component: ComponentCreator('/docs/v8.0.0/mutations/','adc'),
+        path: '/relay.ko.dev/docs/v8.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/mutations/','e6d'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/network-layer/',
-        component: ComponentCreator('/docs/v8.0.0/network-layer/','507'),
+        path: '/relay.ko.dev/docs/v8.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/network-layer/','5c6'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v8.0.0/new-in-relay-modern/','c24'),
+        path: '/relay.ko.dev/docs/v8.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/new-in-relay-modern/','7f9'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v8.0.0/pagination-container/','5bf'),
+        path: '/relay.ko.dev/docs/v8.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/pagination-container/','38f'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v8.0.0/persisted-queries/','aad'),
+        path: '/relay.ko.dev/docs/v8.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/persisted-queries/','305'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v8.0.0/prerequisites/','085'),
+        path: '/relay.ko.dev/docs/v8.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/prerequisites/','9f6'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v8.0.0/query-renderer/','b9a'),
+        path: '/relay.ko.dev/docs/v8.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/query-renderer/','ad9'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v8.0.0/quick-start-guide/','b60'),
+        path: '/relay.ko.dev/docs/v8.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/quick-start-guide/','482'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v8.0.0/refetch-container/','81c'),
+        path: '/relay.ko.dev/docs/v8.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/refetch-container/','558'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v8.0.0/relay-compat/','200'),
+        path: '/relay.ko.dev/docs/v8.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/relay-compat/','e18'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v8.0.0/relay-debugging/','d6e'),
+        path: '/relay.ko.dev/docs/v8.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/relay-debugging/','61d'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v8.0.0/relay-environment/','172'),
+        path: '/relay.ko.dev/docs/v8.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/relay-environment/','a6b'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/relay-store/',
-        component: ComponentCreator('/docs/v8.0.0/relay-store/','40e'),
+        path: '/relay.ko.dev/docs/v8.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/relay-store/','692'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/routing/',
-        component: ComponentCreator('/docs/v8.0.0/routing/','235'),
+        path: '/relay.ko.dev/docs/v8.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/routing/','bbe'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v8.0.0/runtime-architecture/','c9a'),
+        path: '/relay.ko.dev/docs/v8.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/runtime-architecture/','f61'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v8.0.0/subscriptions/','275'),
+        path: '/relay.ko.dev/docs/v8.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/subscriptions/','a65'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v8.0.0/testing-relay-components/','c1c'),
+        path: '/relay.ko.dev/docs/v8.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/testing-relay-components/','0e3'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v8.0.0/thinking-in-graphql/','a3e'),
+        path: '/relay.ko.dev/docs/v8.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/thinking-in-graphql/','77b'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v8.0.0/thinking-in-relay/','e16'),
+        path: '/relay.ko.dev/docs/v8.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/thinking-in-relay/','4a0'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/type-emission/',
-        component: ComponentCreator('/docs/v8.0.0/type-emission/','085'),
+        path: '/relay.ko.dev/docs/v8.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/type-emission/','404'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       },
       {
-        path: '/docs/v8.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v8.0.0/upgrading-setvariables/','137'),
+        path: '/relay.ko.dev/docs/v8.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/upgrading-setvariables/','f74'),
         exact: true
       },
       {
-        path: '/docs/v8.0.0/videos/',
-        component: ComponentCreator('/docs/v8.0.0/videos/','c94'),
+        path: '/relay.ko.dev/docs/v8.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v8.0.0/videos/','291'),
         exact: true,
         'sidebar': "version-v8.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v9.0.0/',
-    component: ComponentCreator('/docs/v9.0.0/','840'),
+    path: '/relay.ko.dev/docs/v9.0.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/','361'),
     routes: [
       {
-        path: '/docs/v9.0.0/',
-        component: ComponentCreator('/docs/v9.0.0/','e49'),
+        path: '/relay.ko.dev/docs/v9.0.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/','19d'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v9.0.0/api-cheatsheet/','6b2'),
+        path: '/relay.ko.dev/docs/v9.0.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/api-cheatsheet/','8e4'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/architecture-overview/',
-        component: ComponentCreator('/docs/v9.0.0/architecture-overview/','750'),
+        path: '/relay.ko.dev/docs/v9.0.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/architecture-overview/','32f'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v9.0.0/community-learning-resources/','57c'),
+        path: '/relay.ko.dev/docs/v9.0.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/community-learning-resources/','826'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v9.0.0/compatibility-cheatsheet/','1c6'),
+        path: '/relay.ko.dev/docs/v9.0.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/compatibility-cheatsheet/','20e'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v9.0.0/compiler-architecture/','302'),
+        path: '/relay.ko.dev/docs/v9.0.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/compiler-architecture/','f0b'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v9.0.0/conversion-playbook/','d98'),
+        path: '/relay.ko.dev/docs/v9.0.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/conversion-playbook/','7bd'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v9.0.0/conversion-scripts/','06e'),
+        path: '/relay.ko.dev/docs/v9.0.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/conversion-scripts/','877'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/converting-mutations/',
-        component: ComponentCreator('/docs/v9.0.0/converting-mutations/','d25'),
+        path: '/relay.ko.dev/docs/v9.0.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/converting-mutations/','13c'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/fetch-query/',
-        component: ComponentCreator('/docs/v9.0.0/fetch-query/','444'),
+        path: '/relay.ko.dev/docs/v9.0.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/fetch-query/','1a6'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/fragment-container/',
-        component: ComponentCreator('/docs/v9.0.0/fragment-container/','1b2'),
+        path: '/relay.ko.dev/docs/v9.0.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/fragment-container/','c21'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v9.0.0/graphql-in-relay/','7b3'),
+        path: '/relay.ko.dev/docs/v9.0.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/graphql-in-relay/','c51'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v9.0.0/graphql-server-specification/','60f'),
+        path: '/relay.ko.dev/docs/v9.0.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/graphql-server-specification/','e73'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v9.0.0/installation-and-setup/','e4e'),
+        path: '/relay.ko.dev/docs/v9.0.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/installation-and-setup/','522'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/local-state-management/',
-        component: ComponentCreator('/docs/v9.0.0/local-state-management/','4ac'),
+        path: '/relay.ko.dev/docs/v9.0.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/local-state-management/','cdb'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/migration-setup/',
-        component: ComponentCreator('/docs/v9.0.0/migration-setup/','f6f'),
+        path: '/relay.ko.dev/docs/v9.0.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/migration-setup/','1a0'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/mutations/',
-        component: ComponentCreator('/docs/v9.0.0/mutations/','529'),
+        path: '/relay.ko.dev/docs/v9.0.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/mutations/','af1'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/network-layer/',
-        component: ComponentCreator('/docs/v9.0.0/network-layer/','111'),
+        path: '/relay.ko.dev/docs/v9.0.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/network-layer/','136'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v9.0.0/new-in-relay-modern/','913'),
+        path: '/relay.ko.dev/docs/v9.0.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/new-in-relay-modern/','042'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/pagination-container/',
-        component: ComponentCreator('/docs/v9.0.0/pagination-container/','514'),
+        path: '/relay.ko.dev/docs/v9.0.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/pagination-container/','e09'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/persisted-queries/',
-        component: ComponentCreator('/docs/v9.0.0/persisted-queries/','593'),
+        path: '/relay.ko.dev/docs/v9.0.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/persisted-queries/','c02'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/prerequisites/',
-        component: ComponentCreator('/docs/v9.0.0/prerequisites/','80c'),
+        path: '/relay.ko.dev/docs/v9.0.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/prerequisites/','3a3'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/query-renderer/',
-        component: ComponentCreator('/docs/v9.0.0/query-renderer/','b0e'),
+        path: '/relay.ko.dev/docs/v9.0.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/query-renderer/','d53'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v9.0.0/quick-start-guide/','c16'),
+        path: '/relay.ko.dev/docs/v9.0.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/quick-start-guide/','04e'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/refetch-container/',
-        component: ComponentCreator('/docs/v9.0.0/refetch-container/','b88'),
+        path: '/relay.ko.dev/docs/v9.0.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/refetch-container/','170'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/relay-compat/',
-        component: ComponentCreator('/docs/v9.0.0/relay-compat/','ccb'),
+        path: '/relay.ko.dev/docs/v9.0.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/relay-compat/','02c'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/relay-debugging/',
-        component: ComponentCreator('/docs/v9.0.0/relay-debugging/','09f'),
+        path: '/relay.ko.dev/docs/v9.0.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/relay-debugging/','536'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/relay-environment/',
-        component: ComponentCreator('/docs/v9.0.0/relay-environment/','3b0'),
+        path: '/relay.ko.dev/docs/v9.0.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/relay-environment/','784'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/relay-store/',
-        component: ComponentCreator('/docs/v9.0.0/relay-store/','2ee'),
+        path: '/relay.ko.dev/docs/v9.0.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/relay-store/','a73'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/routing/',
-        component: ComponentCreator('/docs/v9.0.0/routing/','b70'),
+        path: '/relay.ko.dev/docs/v9.0.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/routing/','af0'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v9.0.0/runtime-architecture/','440'),
+        path: '/relay.ko.dev/docs/v9.0.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/runtime-architecture/','5f7'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/subscriptions/',
-        component: ComponentCreator('/docs/v9.0.0/subscriptions/','b5a'),
+        path: '/relay.ko.dev/docs/v9.0.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/subscriptions/','412'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v9.0.0/testing-relay-components/','72f'),
+        path: '/relay.ko.dev/docs/v9.0.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/testing-relay-components/','dd9'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v9.0.0/thinking-in-graphql/','96b'),
+        path: '/relay.ko.dev/docs/v9.0.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/thinking-in-graphql/','db5'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v9.0.0/thinking-in-relay/','cb3'),
+        path: '/relay.ko.dev/docs/v9.0.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/thinking-in-relay/','bfa'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/type-emission/',
-        component: ComponentCreator('/docs/v9.0.0/type-emission/','a25'),
+        path: '/relay.ko.dev/docs/v9.0.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/type-emission/','ec4'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       },
       {
-        path: '/docs/v9.0.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v9.0.0/upgrading-setvariables/','d0e'),
+        path: '/relay.ko.dev/docs/v9.0.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/upgrading-setvariables/','77a'),
         exact: true
       },
       {
-        path: '/docs/v9.0.0/videos/',
-        component: ComponentCreator('/docs/v9.0.0/videos/','0ff'),
+        path: '/relay.ko.dev/docs/v9.0.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.0.0/videos/','2eb'),
         exact: true,
         'sidebar': "version-v9.0.0/docs"
       }
     ]
   },
   {
-    path: '/docs/v9.1.0/',
-    component: ComponentCreator('/docs/v9.1.0/','2c2'),
+    path: '/relay.ko.dev/docs/v9.1.0/',
+    component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/','395'),
     routes: [
       {
-        path: '/docs/v9.1.0/',
-        component: ComponentCreator('/docs/v9.1.0/','62c'),
+        path: '/relay.ko.dev/docs/v9.1.0/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/','1d6'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/api-cheatsheet/',
-        component: ComponentCreator('/docs/v9.1.0/api-cheatsheet/','57e'),
+        path: '/relay.ko.dev/docs/v9.1.0/api-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/api-cheatsheet/','8a9'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/architecture-overview/',
-        component: ComponentCreator('/docs/v9.1.0/architecture-overview/','737'),
+        path: '/relay.ko.dev/docs/v9.1.0/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/architecture-overview/','992'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/community-learning-resources/',
-        component: ComponentCreator('/docs/v9.1.0/community-learning-resources/','7a7'),
+        path: '/relay.ko.dev/docs/v9.1.0/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/community-learning-resources/','010'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/compatibility-cheatsheet/',
-        component: ComponentCreator('/docs/v9.1.0/compatibility-cheatsheet/','2df'),
+        path: '/relay.ko.dev/docs/v9.1.0/compatibility-cheatsheet/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/compatibility-cheatsheet/','dad'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/compiler-architecture/',
-        component: ComponentCreator('/docs/v9.1.0/compiler-architecture/','c67'),
+        path: '/relay.ko.dev/docs/v9.1.0/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/compiler-architecture/','c51'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/conversion-playbook/',
-        component: ComponentCreator('/docs/v9.1.0/conversion-playbook/','2ed'),
+        path: '/relay.ko.dev/docs/v9.1.0/conversion-playbook/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/conversion-playbook/','59c'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/conversion-scripts/',
-        component: ComponentCreator('/docs/v9.1.0/conversion-scripts/','155'),
+        path: '/relay.ko.dev/docs/v9.1.0/conversion-scripts/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/conversion-scripts/','f75'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/converting-mutations/',
-        component: ComponentCreator('/docs/v9.1.0/converting-mutations/','5a4'),
+        path: '/relay.ko.dev/docs/v9.1.0/converting-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/converting-mutations/','4d0'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/fetch-query/',
-        component: ComponentCreator('/docs/v9.1.0/fetch-query/','242'),
+        path: '/relay.ko.dev/docs/v9.1.0/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/fetch-query/','e7a'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/fragment-container/',
-        component: ComponentCreator('/docs/v9.1.0/fragment-container/','3b6'),
+        path: '/relay.ko.dev/docs/v9.1.0/fragment-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/fragment-container/','b6b'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/graphql-in-relay/',
-        component: ComponentCreator('/docs/v9.1.0/graphql-in-relay/','4a8'),
+        path: '/relay.ko.dev/docs/v9.1.0/graphql-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/graphql-in-relay/','788'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/graphql-server-specification/',
-        component: ComponentCreator('/docs/v9.1.0/graphql-server-specification/','3d7'),
+        path: '/relay.ko.dev/docs/v9.1.0/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/graphql-server-specification/','5e6'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/installation-and-setup/',
-        component: ComponentCreator('/docs/v9.1.0/installation-and-setup/','ead'),
+        path: '/relay.ko.dev/docs/v9.1.0/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/installation-and-setup/','f45'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/local-state-management/',
-        component: ComponentCreator('/docs/v9.1.0/local-state-management/','d39'),
+        path: '/relay.ko.dev/docs/v9.1.0/local-state-management/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/local-state-management/','211'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/migration-setup/',
-        component: ComponentCreator('/docs/v9.1.0/migration-setup/','3c1'),
+        path: '/relay.ko.dev/docs/v9.1.0/migration-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/migration-setup/','4e8'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/mutations/',
-        component: ComponentCreator('/docs/v9.1.0/mutations/','076'),
+        path: '/relay.ko.dev/docs/v9.1.0/mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/mutations/','998'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/network-layer/',
-        component: ComponentCreator('/docs/v9.1.0/network-layer/','bf3'),
+        path: '/relay.ko.dev/docs/v9.1.0/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/network-layer/','20c'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/new-in-relay-modern/',
-        component: ComponentCreator('/docs/v9.1.0/new-in-relay-modern/','c20'),
+        path: '/relay.ko.dev/docs/v9.1.0/new-in-relay-modern/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/new-in-relay-modern/','cc7'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/pagination-container/',
-        component: ComponentCreator('/docs/v9.1.0/pagination-container/','772'),
+        path: '/relay.ko.dev/docs/v9.1.0/pagination-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/pagination-container/','d27'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/persisted-queries/',
-        component: ComponentCreator('/docs/v9.1.0/persisted-queries/','936'),
+        path: '/relay.ko.dev/docs/v9.1.0/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/persisted-queries/','8e0'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/prerequisites/',
-        component: ComponentCreator('/docs/v9.1.0/prerequisites/','019'),
+        path: '/relay.ko.dev/docs/v9.1.0/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/prerequisites/','68f'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/query-renderer/',
-        component: ComponentCreator('/docs/v9.1.0/query-renderer/','ed6'),
+        path: '/relay.ko.dev/docs/v9.1.0/query-renderer/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/query-renderer/','b7c'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/quick-start-guide/',
-        component: ComponentCreator('/docs/v9.1.0/quick-start-guide/','fb7'),
+        path: '/relay.ko.dev/docs/v9.1.0/quick-start-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/quick-start-guide/','ba0'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/refetch-container/',
-        component: ComponentCreator('/docs/v9.1.0/refetch-container/','b67'),
+        path: '/relay.ko.dev/docs/v9.1.0/refetch-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/refetch-container/','39c'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/relay-compat/',
-        component: ComponentCreator('/docs/v9.1.0/relay-compat/','f13'),
+        path: '/relay.ko.dev/docs/v9.1.0/relay-compat/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/relay-compat/','18e'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/relay-debugging/',
-        component: ComponentCreator('/docs/v9.1.0/relay-debugging/','7bb'),
+        path: '/relay.ko.dev/docs/v9.1.0/relay-debugging/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/relay-debugging/','8cd'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/relay-environment/',
-        component: ComponentCreator('/docs/v9.1.0/relay-environment/','ff9'),
+        path: '/relay.ko.dev/docs/v9.1.0/relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/relay-environment/','054'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/relay-store/',
-        component: ComponentCreator('/docs/v9.1.0/relay-store/','8e5'),
+        path: '/relay.ko.dev/docs/v9.1.0/relay-store/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/relay-store/','c5d'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/routing/',
-        component: ComponentCreator('/docs/v9.1.0/routing/','82a'),
+        path: '/relay.ko.dev/docs/v9.1.0/routing/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/routing/','76c'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/runtime-architecture/',
-        component: ComponentCreator('/docs/v9.1.0/runtime-architecture/','449'),
+        path: '/relay.ko.dev/docs/v9.1.0/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/runtime-architecture/','c30'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/subscriptions/',
-        component: ComponentCreator('/docs/v9.1.0/subscriptions/','c83'),
+        path: '/relay.ko.dev/docs/v9.1.0/subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/subscriptions/','97b'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/testing-relay-components/',
-        component: ComponentCreator('/docs/v9.1.0/testing-relay-components/','6bf'),
+        path: '/relay.ko.dev/docs/v9.1.0/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/testing-relay-components/','5de'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/thinking-in-graphql/',
-        component: ComponentCreator('/docs/v9.1.0/thinking-in-graphql/','bdc'),
+        path: '/relay.ko.dev/docs/v9.1.0/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/thinking-in-graphql/','cff'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/thinking-in-relay/',
-        component: ComponentCreator('/docs/v9.1.0/thinking-in-relay/','ec7'),
+        path: '/relay.ko.dev/docs/v9.1.0/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/thinking-in-relay/','fc1'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/type-emission/',
-        component: ComponentCreator('/docs/v9.1.0/type-emission/','b5f'),
+        path: '/relay.ko.dev/docs/v9.1.0/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/type-emission/','009'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       },
       {
-        path: '/docs/v9.1.0/upgrading-setvariables/',
-        component: ComponentCreator('/docs/v9.1.0/upgrading-setvariables/','275'),
+        path: '/relay.ko.dev/docs/v9.1.0/upgrading-setvariables/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/upgrading-setvariables/','f17'),
         exact: true
       },
       {
-        path: '/docs/v9.1.0/videos/',
-        component: ComponentCreator('/docs/v9.1.0/videos/','90f'),
+        path: '/relay.ko.dev/docs/v9.1.0/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/v9.1.0/videos/','658'),
         exact: true,
         'sidebar': "version-v9.1.0/docs"
       }
     ]
   },
   {
-    path: '/docs/',
-    component: ComponentCreator('/docs/','4d5'),
+    path: '/relay.ko.dev/docs/',
+    component: ComponentCreator('/relay.ko.dev/docs/','1bf'),
     routes: [
       {
-        path: '/docs/',
-        component: ComponentCreator('/docs/','670'),
+        path: '/relay.ko.dev/docs/',
+        component: ComponentCreator('/relay.ko.dev/docs/','f48'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/commit-mutation/',
-        component: ComponentCreator('/docs/api-reference/commit-mutation/','514'),
+        path: '/relay.ko.dev/docs/api-reference/commit-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/commit-mutation/','b83'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/entrypoint-container/',
-        component: ComponentCreator('/docs/api-reference/entrypoint-container/','0d3'),
+        path: '/relay.ko.dev/docs/api-reference/entrypoint-container/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/entrypoint-container/','9bf'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/fetch-query/',
-        component: ComponentCreator('/docs/api-reference/fetch-query/','270'),
+        path: '/relay.ko.dev/docs/api-reference/fetch-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/fetch-query/','25f'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/graphql-and-directives/',
-        component: ComponentCreator('/docs/api-reference/graphql-and-directives/','076'),
+        path: '/relay.ko.dev/docs/api-reference/graphql-and-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/graphql-and-directives/','7af'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/legacy-apis/',
-        component: ComponentCreator('/docs/api-reference/legacy-apis/','375'),
+        path: '/relay.ko.dev/docs/api-reference/legacy-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/legacy-apis/','bea'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/load-entrypoint/',
-        component: ComponentCreator('/docs/api-reference/load-entrypoint/','b6c'),
+        path: '/relay.ko.dev/docs/api-reference/load-entrypoint/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/load-entrypoint/','44d'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/load-query/',
-        component: ComponentCreator('/docs/api-reference/load-query/','106'),
+        path: '/relay.ko.dev/docs/api-reference/load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/load-query/','ac6'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/relay-environment-provider/',
-        component: ComponentCreator('/docs/api-reference/relay-environment-provider/','c2d'),
+        path: '/relay.ko.dev/docs/api-reference/relay-environment-provider/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/relay-environment-provider/','713'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/request-subscription/',
-        component: ComponentCreator('/docs/api-reference/request-subscription/','fcf'),
+        path: '/relay.ko.dev/docs/api-reference/request-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/request-subscription/','942'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/store/',
-        component: ComponentCreator('/docs/api-reference/store/','bc0'),
+        path: '/relay.ko.dev/docs/api-reference/store/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/store/','dcd'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/types/CacheConfig/',
-        component: ComponentCreator('/docs/api-reference/types/CacheConfig/','941'),
+        path: '/relay.ko.dev/docs/api-reference/types/CacheConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/CacheConfig/','689'),
         exact: true
       },
       {
-        path: '/docs/api-reference/types/Disposable/',
-        component: ComponentCreator('/docs/api-reference/types/Disposable/','c65'),
+        path: '/relay.ko.dev/docs/api-reference/types/Disposable/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/Disposable/','f9b'),
         exact: true
       },
       {
-        path: '/docs/api-reference/types/GraphQLSubscriptionConfig/',
-        component: ComponentCreator('/docs/api-reference/types/GraphQLSubscriptionConfig/','c9e'),
+        path: '/relay.ko.dev/docs/api-reference/types/GraphQLSubscriptionConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/GraphQLSubscriptionConfig/','44f'),
         exact: true
       },
       {
-        path: '/docs/api-reference/types/MutationConfig/',
-        component: ComponentCreator('/docs/api-reference/types/MutationConfig/','326'),
+        path: '/relay.ko.dev/docs/api-reference/types/MutationConfig/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/MutationConfig/','284'),
         exact: true
       },
       {
-        path: '/docs/api-reference/types/SelectorStoreUpdater/',
-        component: ComponentCreator('/docs/api-reference/types/SelectorStoreUpdater/','f99'),
+        path: '/relay.ko.dev/docs/api-reference/types/SelectorStoreUpdater/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/SelectorStoreUpdater/','9a9'),
         exact: true
       },
       {
-        path: '/docs/api-reference/types/UploadableMap/',
-        component: ComponentCreator('/docs/api-reference/types/UploadableMap/','05c'),
+        path: '/relay.ko.dev/docs/api-reference/types/UploadableMap/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/types/UploadableMap/','598'),
         exact: true
       },
       {
-        path: '/docs/api-reference/use-entrypoint-loader/',
-        component: ComponentCreator('/docs/api-reference/use-entrypoint-loader/','433'),
+        path: '/relay.ko.dev/docs/api-reference/use-entrypoint-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-entrypoint-loader/','84e'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-fragment/',
-        component: ComponentCreator('/docs/api-reference/use-fragment/','ec5'),
+        path: '/relay.ko.dev/docs/api-reference/use-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-fragment/','76b'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-lazy-load-query/',
-        component: ComponentCreator('/docs/api-reference/use-lazy-load-query/','76b'),
+        path: '/relay.ko.dev/docs/api-reference/use-lazy-load-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-lazy-load-query/','4c1'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-mutation/',
-        component: ComponentCreator('/docs/api-reference/use-mutation/','46e'),
+        path: '/relay.ko.dev/docs/api-reference/use-mutation/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-mutation/','d69'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-pagination-fragment/',
-        component: ComponentCreator('/docs/api-reference/use-pagination-fragment/','ecd'),
+        path: '/relay.ko.dev/docs/api-reference/use-pagination-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-pagination-fragment/','196'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-preloaded-query/',
-        component: ComponentCreator('/docs/api-reference/use-preloaded-query/','87e'),
+        path: '/relay.ko.dev/docs/api-reference/use-preloaded-query/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-preloaded-query/','95f'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-query-loader/',
-        component: ComponentCreator('/docs/api-reference/use-query-loader/','892'),
+        path: '/relay.ko.dev/docs/api-reference/use-query-loader/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-query-loader/','88c'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-refetchable-fragment/',
-        component: ComponentCreator('/docs/api-reference/use-refetchable-fragment/','2d3'),
+        path: '/relay.ko.dev/docs/api-reference/use-refetchable-fragment/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-refetchable-fragment/','1de'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-relay-environment/',
-        component: ComponentCreator('/docs/api-reference/use-relay-environment/','fcc'),
+        path: '/relay.ko.dev/docs/api-reference/use-relay-environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-relay-environment/','580'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/api-reference/use-subscription/',
-        component: ComponentCreator('/docs/api-reference/use-subscription/','f91'),
+        path: '/relay.ko.dev/docs/api-reference/use-subscription/',
+        component: ComponentCreator('/relay.ko.dev/docs/api-reference/use-subscription/','9ca'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/community-learning-resources/',
-        component: ComponentCreator('/docs/community-learning-resources/','a5e'),
+        path: '/relay.ko.dev/docs/community-learning-resources/',
+        component: ComponentCreator('/relay.ko.dev/docs/community-learning-resources/','a15'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/debugging/declarative-mutation-directives/',
-        component: ComponentCreator('/docs/debugging/declarative-mutation-directives/','c30'),
+        path: '/relay.ko.dev/docs/debugging/declarative-mutation-directives/',
+        component: ComponentCreator('/relay.ko.dev/docs/debugging/declarative-mutation-directives/','0d6'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/debugging/inconsistent-typename-error/',
-        component: ComponentCreator('/docs/debugging/inconsistent-typename-error/','919'),
+        path: '/relay.ko.dev/docs/debugging/inconsistent-typename-error/',
+        component: ComponentCreator('/relay.ko.dev/docs/debugging/inconsistent-typename-error/','2ba'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/debugging/relay-devtools/',
-        component: ComponentCreator('/docs/debugging/relay-devtools/','94b'),
+        path: '/relay.ko.dev/docs/debugging/relay-devtools/',
+        component: ComponentCreator('/relay.ko.dev/docs/debugging/relay-devtools/','db2'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/getting-started/installation-and-setup/',
-        component: ComponentCreator('/docs/getting-started/installation-and-setup/','194'),
+        path: '/relay.ko.dev/docs/getting-started/installation-and-setup/',
+        component: ComponentCreator('/relay.ko.dev/docs/getting-started/installation-and-setup/','38b'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/getting-started/prerequisites/',
-        component: ComponentCreator('/docs/getting-started/prerequisites/','649'),
+        path: '/relay.ko.dev/docs/getting-started/prerequisites/',
+        component: ComponentCreator('/relay.ko.dev/docs/getting-started/prerequisites/','3d9'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/getting-started/step-by-step-guide/',
-        component: ComponentCreator('/docs/getting-started/step-by-step-guide/','1b4'),
+        path: '/relay.ko.dev/docs/getting-started/step-by-step-guide/',
+        component: ComponentCreator('/relay.ko.dev/docs/getting-started/step-by-step-guide/','242'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/glossary/',
-        component: ComponentCreator('/docs/glossary/','157'),
+        path: '/relay.ko.dev/docs/glossary/',
+        component: ComponentCreator('/relay.ko.dev/docs/glossary/','0df'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/',
-        component: ComponentCreator('/docs/guided-tour/','6d4'),
+        path: '/relay.ko.dev/docs/guided-tour/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/','eb9'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/accessing-data-without-react/prefetching-queries/',
-        component: ComponentCreator('/docs/guided-tour/accessing-data-without-react/prefetching-queries/','169'),
+        path: '/relay.ko.dev/docs/guided-tour/accessing-data-without-react/prefetching-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/accessing-data-without-react/prefetching-queries/','99b'),
         exact: true
       },
       {
-        path: '/docs/guided-tour/accessing-data-without-react/reading-fragments/',
-        component: ComponentCreator('/docs/guided-tour/accessing-data-without-react/reading-fragments/','b97'),
+        path: '/relay.ko.dev/docs/guided-tour/accessing-data-without-react/reading-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/accessing-data-without-react/reading-fragments/','cb2'),
         exact: true
       },
       {
-        path: '/docs/guided-tour/accessing-data-without-react/reading-queries/',
-        component: ComponentCreator('/docs/guided-tour/accessing-data-without-react/reading-queries/','33c'),
+        path: '/relay.ko.dev/docs/guided-tour/accessing-data-without-react/reading-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/accessing-data-without-react/reading-queries/','57e'),
         exact: true
       },
       {
-        path: '/docs/guided-tour/accessing-data-without-react/retaining-queries/',
-        component: ComponentCreator('/docs/guided-tour/accessing-data-without-react/retaining-queries/','d06'),
+        path: '/relay.ko.dev/docs/guided-tour/accessing-data-without-react/retaining-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/accessing-data-without-react/retaining-queries/','03b'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/accessing-data-without-react/subscribing-to-queries/',
-        component: ComponentCreator('/docs/guided-tour/accessing-data-without-react/subscribing-to-queries/','9b3'),
+        path: '/relay.ko.dev/docs/guided-tour/accessing-data-without-react/subscribing-to-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/accessing-data-without-react/subscribing-to-queries/','038'),
         exact: true
       },
       {
-        path: '/docs/guided-tour/list-data/advanced-pagination/',
-        component: ComponentCreator('/docs/guided-tour/list-data/advanced-pagination/','691'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/advanced-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/advanced-pagination/','f74'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/connections/',
-        component: ComponentCreator('/docs/guided-tour/list-data/connections/','1ee'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/connections/','d05'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/pagination/',
-        component: ComponentCreator('/docs/guided-tour/list-data/pagination/','c0a'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/pagination/','fdb'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/refetching-connections/',
-        component: ComponentCreator('/docs/guided-tour/list-data/refetching-connections/','5db'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/refetching-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/refetching-connections/','cd4'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/rendering-connections/',
-        component: ComponentCreator('/docs/guided-tour/list-data/rendering-connections/','c5d'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/rendering-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/rendering-connections/','774'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/streaming-pagination/',
-        component: ComponentCreator('/docs/guided-tour/list-data/streaming-pagination/','9bf'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/streaming-pagination/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/streaming-pagination/','548'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/list-data/updating-connections/',
-        component: ComponentCreator('/docs/guided-tour/list-data/updating-connections/','1dd'),
+        path: '/relay.ko.dev/docs/guided-tour/list-data/updating-connections/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/list-data/updating-connections/','7d2'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/refetching/',
-        component: ComponentCreator('/docs/guided-tour/refetching/','33c'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/','3f7'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/refetching/OssAvoidSuspenseNote/',
-        component: ComponentCreator('/docs/guided-tour/refetching/OssAvoidSuspenseNote/','b48'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/OssAvoidSuspenseNote/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/OssAvoidSuspenseNote/','190'),
         exact: true
       },
       {
-        path: '/docs/guided-tour/refetching/refetching-fragments-with-different-data/',
-        component: ComponentCreator('/docs/guided-tour/refetching/refetching-fragments-with-different-data/','65d'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/refetching-fragments-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/refetching-fragments-with-different-data/','160'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/refetching/refetching-queries-with-different-data/',
-        component: ComponentCreator('/docs/guided-tour/refetching/refetching-queries-with-different-data/','93c'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/refetching-queries-with-different-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/refetching-queries-with-different-data/','e5d'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/refetching/refreshing-fragments/',
-        component: ComponentCreator('/docs/guided-tour/refetching/refreshing-fragments/','847'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/refreshing-fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/refreshing-fragments/','bbc'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/refetching/refreshing-queries/',
-        component: ComponentCreator('/docs/guided-tour/refetching/refreshing-queries/','5b5'),
+        path: '/relay.ko.dev/docs/guided-tour/refetching/refreshing-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/refetching/refreshing-queries/','60e'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/environment/',
-        component: ComponentCreator('/docs/guided-tour/rendering/environment/','d6d'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/environment/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/environment/','759'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/error-states/',
-        component: ComponentCreator('/docs/guided-tour/rendering/error-states/','4dd'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/error-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/error-states/','bb4'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/fragments/',
-        component: ComponentCreator('/docs/guided-tour/rendering/fragments/','ffb'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/fragments/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/fragments/','023'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/loading-states/',
-        component: ComponentCreator('/docs/guided-tour/rendering/loading-states/','b92'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/loading-states/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/loading-states/','ea5'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/queries/',
-        component: ComponentCreator('/docs/guided-tour/rendering/queries/','0af'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/queries/','522'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/rendering/variables/',
-        component: ComponentCreator('/docs/guided-tour/rendering/variables/','7f9'),
+        path: '/relay.ko.dev/docs/guided-tour/rendering/variables/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/rendering/variables/','507'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/','7d1'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/','647'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/availability-of-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/availability-of-data/','93b'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/availability-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/availability-of-data/','a6e'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/fetch-policies/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/fetch-policies/','f5d'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/fetch-policies/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/fetch-policies/','197'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/filling-in-missing-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/filling-in-missing-data/','054'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/filling-in-missing-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/filling-in-missing-data/','39a'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/presence-of-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/presence-of-data/','572'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/presence-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/presence-of-data/','a36'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/rendering-partially-cached-data/','f0f'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/rendering-partially-cached-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/rendering-partially-cached-data/','3c6'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/reusing-cached-data/staleness-of-data/',
-        component: ComponentCreator('/docs/guided-tour/reusing-cached-data/staleness-of-data/','795'),
+        path: '/relay.ko.dev/docs/guided-tour/reusing-cached-data/staleness-of-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/reusing-cached-data/staleness-of-data/','ba6'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/updating-data/',
-        component: ComponentCreator('/docs/guided-tour/updating-data/','025'),
+        path: '/relay.ko.dev/docs/guided-tour/updating-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/updating-data/','055'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/updating-data/client-only-data/',
-        component: ComponentCreator('/docs/guided-tour/updating-data/client-only-data/','3dd'),
+        path: '/relay.ko.dev/docs/guided-tour/updating-data/client-only-data/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/updating-data/client-only-data/','431'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/updating-data/graphql-mutations/',
-        component: ComponentCreator('/docs/guided-tour/updating-data/graphql-mutations/','22a'),
+        path: '/relay.ko.dev/docs/guided-tour/updating-data/graphql-mutations/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/updating-data/graphql-mutations/','f66'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/updating-data/graphql-subscriptions/',
-        component: ComponentCreator('/docs/guided-tour/updating-data/graphql-subscriptions/','ec6'),
+        path: '/relay.ko.dev/docs/guided-tour/updating-data/graphql-subscriptions/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/updating-data/graphql-subscriptions/','bb2'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/updating-data/local-data-updates/',
-        component: ComponentCreator('/docs/guided-tour/updating-data/local-data-updates/','15d'),
+        path: '/relay.ko.dev/docs/guided-tour/updating-data/local-data-updates/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/updating-data/local-data-updates/','174'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guided-tour/workflow/',
-        component: ComponentCreator('/docs/guided-tour/workflow/','54a'),
+        path: '/relay.ko.dev/docs/guided-tour/workflow/',
+        component: ComponentCreator('/relay.ko.dev/docs/guided-tour/workflow/','b82'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/client-schema-extensions/',
-        component: ComponentCreator('/docs/guides/client-schema-extensions/','558'),
+        path: '/relay.ko.dev/docs/guides/client-schema-extensions/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/client-schema-extensions/','938'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/compiler/',
-        component: ComponentCreator('/docs/guides/compiler/','c93'),
+        path: '/relay.ko.dev/docs/guides/compiler/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/compiler/','a12'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/graphql-server-specification/',
-        component: ComponentCreator('/docs/guides/graphql-server-specification/','0a5'),
+        path: '/relay.ko.dev/docs/guides/graphql-server-specification/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/graphql-server-specification/','d2a'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/network-layer/',
-        component: ComponentCreator('/docs/guides/network-layer/','e6c'),
+        path: '/relay.ko.dev/docs/guides/network-layer/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/network-layer/','4a7'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/persisted-queries/',
-        component: ComponentCreator('/docs/guides/persisted-queries/','d02'),
+        path: '/relay.ko.dev/docs/guides/persisted-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/persisted-queries/','8aa'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/required-directive/',
-        component: ComponentCreator('/docs/guides/required-directive/','106'),
+        path: '/relay.ko.dev/docs/guides/required-directive/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/required-directive/','34b'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/testing-relay-components/',
-        component: ComponentCreator('/docs/guides/testing-relay-components/','c9f'),
+        path: '/relay.ko.dev/docs/guides/testing-relay-components/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/testing-relay-components/','0b0'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/testing-relay-with-preloaded-queries/',
-        component: ComponentCreator('/docs/guides/testing-relay-with-preloaded-queries/','60b'),
+        path: '/relay.ko.dev/docs/guides/testing-relay-with-preloaded-queries/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/testing-relay-with-preloaded-queries/','cdd'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/guides/type-emission/',
-        component: ComponentCreator('/docs/guides/type-emission/','1b2'),
+        path: '/relay.ko.dev/docs/guides/type-emission/',
+        component: ComponentCreator('/relay.ko.dev/docs/guides/type-emission/','96d'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/migration-and-compatibility/',
-        component: ComponentCreator('/docs/migration-and-compatibility/','a61'),
+        path: '/relay.ko.dev/docs/migration-and-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/migration-and-compatibility/','3b7'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
-        component: ComponentCreator('/docs/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','640'),
+        path: '/relay.ko.dev/docs/migration-and-compatibility/relay-hooks-and-legacy-container-apis/',
+        component: ComponentCreator('/relay.ko.dev/docs/migration-and-compatibility/relay-hooks-and-legacy-container-apis/','b5d'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/migration-and-compatibility/suspense-compatibility/',
-        component: ComponentCreator('/docs/migration-and-compatibility/suspense-compatibility/','759'),
+        path: '/relay.ko.dev/docs/migration-and-compatibility/suspense-compatibility/',
+        component: ComponentCreator('/relay.ko.dev/docs/migration-and-compatibility/suspense-compatibility/','bef'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/architecture-overview/',
-        component: ComponentCreator('/docs/principles-and-architecture/architecture-overview/','a4d'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/architecture-overview/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/architecture-overview/','578'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/compiler-architecture/',
-        component: ComponentCreator('/docs/principles-and-architecture/compiler-architecture/','7c5'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/compiler-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/compiler-architecture/','def'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/runtime-architecture/',
-        component: ComponentCreator('/docs/principles-and-architecture/runtime-architecture/','d77'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/runtime-architecture/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/runtime-architecture/','a0b'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/thinking-in-graphql/',
-        component: ComponentCreator('/docs/principles-and-architecture/thinking-in-graphql/','c80'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/thinking-in-graphql/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/thinking-in-graphql/','667'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/thinking-in-relay/',
-        component: ComponentCreator('/docs/principles-and-architecture/thinking-in-relay/','079'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/thinking-in-relay/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/thinking-in-relay/','efd'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       },
       {
-        path: '/docs/principles-and-architecture/videos/',
-        component: ComponentCreator('/docs/principles-and-architecture/videos/','150'),
+        path: '/relay.ko.dev/docs/principles-and-architecture/videos/',
+        component: ComponentCreator('/relay.ko.dev/docs/principles-and-architecture/videos/','e40'),
         exact: true,
         'sidebar': "version-v13.0.0/docs"
       }
     ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/','deb'),
-    exact: true
   },
   {
     path: '*',

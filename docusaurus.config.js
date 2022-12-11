@@ -16,7 +16,7 @@ module.exports = {
   title: 'Relay.ko',
   tagline: 'The GraphQL client that scales with you.',
   url: 'https://seonjakim.github.io/relay.ko.dev/',
-  baseUrl: '/',
+  baseUrl: '/relay.ko.dev/',
   trailingSlash: true,
   organizationName: 'seonjakim',
   projectName: 'relay.ko',
@@ -209,7 +209,7 @@ module.exports = {
           editUrl: fbContent({
             internal:
               'https://www.internalfb.com/intern/diffusion/FBS/browse/master/xplat/js/RKJSModules/Libraries/Relay/oss/__github__/website/',
-            external: 'https://github.com/facebook/relay/tree/main/website',
+            external: 'https://seonjakim.github.io/relay.ko.dev/',
           }),
 
           path: './docs/',

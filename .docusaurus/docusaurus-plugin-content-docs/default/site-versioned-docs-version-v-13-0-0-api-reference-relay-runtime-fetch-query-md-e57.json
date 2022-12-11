@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v13.0.0/api-reference/relay-runtime/fetch-query.md",
   "sourceDirName": "api-reference/relay-runtime",
   "slug": "/api-reference/fetch-query/",
-  "permalink": "/docs/api-reference/fetch-query/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v13.0.0/api-reference/relay-runtime/fetch-query.md",
+  "permalink": "/relay.ko.dev/docs/api-reference/fetch-query/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v13.0.0/api-reference/relay-runtime/fetch-query.md",
   "tags": [],
   "version": "v13.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1657765317,
+  "formattedLastUpdatedAt": "7/14/2022",
   "frontMatter": {
     "id": "fetch-query",
     "title": "fetchQuery",
@@ -28,10 +28,10 @@
   "sidebar": "version-v13.0.0/docs",
   "previous": {
     "title": "EntryPointContainer",
-    "permalink": "/docs/api-reference/entrypoint-container/"
+    "permalink": "/relay.ko.dev/docs/api-reference/entrypoint-container/"
   },
   "next": {
     "title": "Store",
-    "permalink": "/docs/api-reference/store/"
+    "permalink": "/relay.ko.dev/docs/api-reference/store/"
   }
 }

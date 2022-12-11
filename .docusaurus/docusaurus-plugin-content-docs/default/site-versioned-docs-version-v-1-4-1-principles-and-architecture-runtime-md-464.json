@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v1.4.1/PrinciplesAndArchitecture-Runtime.md",
   "sourceDirName": ".",
   "slug": "/runtime-architecture",
-  "permalink": "/docs/v1.4.1/runtime-architecture",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v1.4.1/PrinciplesAndArchitecture-Runtime.md",
+  "permalink": "/relay.ko.dev/docs/v1.4.1/runtime-architecture",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v1.4.1/PrinciplesAndArchitecture-Runtime.md",
   "tags": [],
   "version": "v1.4.1",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "runtime-architecture",
     "title": "Runtime Architecture",
@@ -22,10 +22,10 @@
   "sidebar": "version-v1.4.1/docs",
   "previous": {
     "title": "Compiler Architecture",
-    "permalink": "/docs/v1.4.1/compiler-architecture"
+    "permalink": "/relay.ko.dev/docs/v1.4.1/compiler-architecture"
   },
   "next": {
     "title": "Videos",
-    "permalink": "/docs/v1.4.1/videos"
+    "permalink": "/relay.ko.dev/docs/v1.4.1/videos"
   }
 }

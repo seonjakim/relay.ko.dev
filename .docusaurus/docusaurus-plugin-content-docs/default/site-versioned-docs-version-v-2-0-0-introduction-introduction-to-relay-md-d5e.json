@@ -7,13 +7,13 @@
   "source": "@site/versioned_docs/version-v2.0.0/Introduction-IntroductionToRelay.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/docs/v2.0.0/",
-  "editUrl": "https://github.com/facebook/relay/tree/main/website/versioned_docs/version-v2.0.0/Introduction-IntroductionToRelay.md",
+  "permalink": "/relay.ko.dev/docs/v2.0.0/",
+  "editUrl": "https://seonjakim.github.io/relay.ko.dev/versioned_docs/version-v2.0.0/Introduction-IntroductionToRelay.md",
   "tags": [],
   "version": "v2.0.0",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055,
-  "formattedLastUpdatedAt": "10/14/2018",
+  "lastUpdatedBy": "김선자",
+  "lastUpdatedAt": 1654051011,
+  "formattedLastUpdatedAt": "6/1/2022",
   "frontMatter": {
     "id": "introduction-to-relay",
     "title": "Introduction to Relay",
@@ -23,6 +23,6 @@
   "sidebar": "version-v2.0.0/docs",
   "next": {
     "title": "Prerequisites",
-    "permalink": "/docs/v2.0.0/prerequisites"
+    "permalink": "/relay.ko.dev/docs/v2.0.0/prerequisites"
   }
 }
